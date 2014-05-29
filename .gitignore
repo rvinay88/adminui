@@ -1,8 +1,37 @@
-
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.zip
+*.vi
+*~
 *.scssc
-.sass-cache
-bower_components
-node_modules
 *.min.css
 *.min.js
+
+# OS or Editor folders
+tmp
+*.DS_Store
+._*
+Thumbs.db
+.cache
+.project
+.settings
+.tmproj
+*.esproj
+nbproject
+*.sublime-project
+*.sublime-workspace
+.idea
+.sass-cache
 minified
+min
+
+# Folders to ignore
+node_modules
+bower_components
+
