@@ -1,0 +1,47 @@
+//////////////////////////
+//Font definitions
+//////////////////////////
+
+$body-copy: 'Open Sans', sans-serif;
+$body-copy-condensed: 'Open Sans Condensed', sans-serif;
+
+$headings: 'Roboto', sans-serif;
+$headings-condensed: 'Roboto Condensed', sans-serif;
+
+//////////////////////////
+//Font sizes
+//////////////////////////
+
+// Modular Scale ---------------------- 12px @ 1:1.618   150px @ 1:1.618   ----------------------
+
+$font-size-regular: 1em; //12.000px
+$font-size-small: 0.697em; //8.36px
+$font-size-medium: 1.618em; //19.416px
+$font-size-large: 2.618em; //31.415px
+$font-size-xlarge: 2.951em; //35.412px
+
+//////////////////////////
+//Styleguide specific
+//////////////////////////
+
+.sg-font-primary {
+  font-family: $body-copy;
+}
+
+.sg-font-primary-condensed {
+  font-family: $body-copy-condensed;
+}
+
+.sg-font-secondary {
+  font-family: $headings;
+}
+
+.sg-font-secondary-condensed {
+  font-family: $headings-condensed;
+}
+
+.sg-anchor {
+  font-family: $headings-condensed;
+  font-weight: 900;
+  font-size: 1.618em;
+}

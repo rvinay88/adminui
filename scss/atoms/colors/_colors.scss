@@ -1,0 +1,168 @@
+$green: #1FAE65;
+
+$green-1 : #32835A;
+$green-2 : #0A713D;
+$green-3 : #52D793;
+$green-4 : #76D7A5;
+
+$blue: #23709E;
+
+$blue-1 : #325D77;
+$blue-2 : #0C4567;
+$blue-3 : #56A2CF;
+$blue-4 : #76AECF;
+
+$red: #F85D2C;
+
+$red-1: #BA6347;
+$red-2: #A1320E;
+$red-3: #FC8660;
+$red-4: #FCA58A;
+
+$yellow: #FF9902;
+
+$yellow-1: #B78335;
+$yellow-2: #9A5C01;
+$yellow-3: #FFA41D;
+$yellow-4: #FFAD32;
+
+$black: #000;
+
+$black-1: lighten($black, 10%);
+$black-2: lighten($black, 20%);
+$black-3: lighten($black, 30%);
+$black-4: lighten($black, 40%);
+
+$white: #FFF;
+$white-1: darken($white, 10%);
+$white-2: darken($white, 20%);
+$white-3: darken($white, 30%);
+$white-4: darken($white, 40%);
+
+$grey: #666;
+
+$grey-1: lighten($black, 10%);
+$grey-2: lighten($black, 20%);
+$grey-3: lighten($black, 30%);
+$grey-4: lighten($black, 40%);
+
+// Styleguide specific colors
+
+.sg-color--green {
+  background: $green;
+}
+.sg-color--green-1 {
+  background: $green-1;
+}
+.sg-color--green-2 {
+  background: $green-2;
+}
+.sg-color--green-3 {
+  background: $green-3;
+}
+.sg-color--green-4 {
+  background: $green-4;
+}
+
+
+.sg-color--black {
+  background: $black;
+}
+.sg-color--black-1 {
+  background: $black-1;
+}
+.sg-color--black-2 {
+  background: $black-2;
+}
+.sg-color--black-3 {
+  background: $black-3;
+}
+.sg-color--black-4 {
+  background: $black-4;
+}
+
+
+
+.sg-color--white {
+  background: $white;
+}
+.sg-color--white-1 {
+  background: $white-1;
+}
+.sg-color--white-2 {
+  background: $white-2;
+}
+.sg-color--white-3 {
+  background: $white-3;
+}
+.sg-color--white-4 {
+  background: $white-4;
+}
+
+
+.sg-color--yellow {
+  background: $yellow;
+}
+.sg-color--yellow-1 {
+  background: $yellow-1;
+}
+.sg-color--yellow-2 {
+  background: $yellow-2;
+}
+.sg-color--yellow-3 {
+  background: $yellow-3;
+}
+.sg-color--yellow-4 {
+  background: $yellow-4;
+}
+
+
+.sg-color--blue {
+  background: $blue;
+}
+.sg-color--blue-1 {
+  background: $blue-1;
+}
+.sg-color--blue-2 {
+  background: $blue-2;
+}
+.sg-color--blue-3 {
+  background: $blue-3;
+}
+.sg-color--blue-4 {
+  background: $blue-4;
+}
+
+
+.sg-color--grey {
+  background: $grey;
+}
+.sg-color--grey-1 {
+  background: $grey-1;
+}
+.sg-color--grey-2 {
+  background: $grey-2;
+}
+.sg-color--grey-3 {
+  background: $grey-3;
+}
+.sg-color--grey-4 {
+  background: $grey-4;
+}
+
+
+.sg-color--red {
+  background: $red;
+}
+.sg-color--red-1 {
+  background: $red-1;
+}
+.sg-color--red-2 {
+  background: $red-2;
+}
+.sg-color--red-3 {
+  background: $red-3;
+}
+.sg-color--red-4 {
+  background: $red-4;
+}

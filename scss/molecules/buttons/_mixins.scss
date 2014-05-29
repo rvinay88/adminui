@@ -1,0 +1,19 @@
+@import 'variables';
+
+/*
+* 1. Remove borders
+* 2. Always have a cursor irrespective of whether link/button/input tag
+*/
+@mixin btn($button-settings) {
+    padding: map-get($button-settings, button-padding);
+
+    cursor: pointer; /* 2 */
+
+    color: $white;
+    border: none; /* 1 */
+    background: map-get($button-settings, button-background);
+  &:hover
+  {
+    background: lighten(map-get($button-settings, button-background), 10%);
+  }
+}
