@@ -1,0 +1,8 @@
+
+*.scssc
+.sass-cache
+bower_components
+node_modules
+*.min.css
+*.min.js
+minified
