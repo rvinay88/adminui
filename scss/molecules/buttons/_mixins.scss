@@ -11,6 +11,7 @@
 
     color: $white;
     border: none; /* 1 */
+
     background: map-get($button-settings, button-background);
   &:hover
   {

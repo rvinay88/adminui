@@ -3,3 +3,11 @@
 .btn {
   @include btn($button-settings);
 }
+
+.btn-info {
+  @include btn($button-info-settings);
+}
+
+.btn-alert {
+  @include btn($button-alert-settings);
+}

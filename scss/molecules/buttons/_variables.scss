@@ -3,5 +3,17 @@
 
 $button-settings: (
   "button-background": $black-1,
-  "button-padding": 1em
+  "button-padding": 0.5em,
+);
+
+$button-info-settings: map-merge($button-settings,
+  ("button-background": $info-color)
+);
+
+$button-success-settings: map-merge($button-settings,
+  ("button-background": $success-color)
+);
+
+$button-alert-settings: map-merge($button-settings,
+  ("button-background": $alert-color)
 );
