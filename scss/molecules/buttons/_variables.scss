@@ -6,6 +6,10 @@ $button-settings: (
   "button-padding": 0.5em,
 );
 
+//////////////////
+//Button colors
+//////////////////
+
 $button-info-settings: map-merge($button-settings,
   ("button-background": $info-color)
 );
@@ -17,3 +21,34 @@ $button-success-settings: map-merge($button-settings,
 $button-alert-settings: map-merge($button-settings,
   ("button-background": $alert-color)
 );
+
+$button-success-settings: map-merge($button-settings,
+  ("button-background": $success-color)
+);
+
+$button-warning-settings: map-merge($button-settings,
+  ("button-background": $warning-color)
+);
+
+//////////////////
+//Button Size variations
+//////////////////
+
+$button-size-variations: (
+  "small": (
+          font-size: 0.9em,
+          padding: 0.5em
+            ),
+  "medium": (
+          font-size: 1em,
+          padding: 1em
+            ),
+  "large": (
+          font-size: 1.2em,
+          padding: 1em 1.6em
+            ),
+  "expand": (
+          width: 100%,
+          padding: 1em
+            )
+)

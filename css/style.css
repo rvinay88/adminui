@@ -672,6 +672,7 @@ img, video {
 * 2. Always have a cursor irrespective of whether link/button/input tag
 */
 .btn {
+  text-decoration: none;
   padding: 0.5em;
   cursor: pointer;
   /* 2 */
@@ -680,9 +681,12 @@ img, video {
   /* 1 */
   background: #1a1a1a; }
   .btn:hover {
+    text-decoration: none; }
+  .btn:hover {
     background: #333333; }
 
 .btn-info {
+  text-decoration: none;
   padding: 0.5em;
   cursor: pointer;
   /* 2 */
@@ -691,9 +695,12 @@ img, video {
   /* 1 */
   background: #23709e; }
   .btn-info:hover {
+    text-decoration: none; }
+  .btn-info:hover {
     background: #2c8ec8; }
 
 .btn-alert {
+  text-decoration: none;
   padding: 0.5em;
   cursor: pointer;
   /* 2 */
@@ -702,7 +709,53 @@ img, video {
   /* 1 */
   background: #f85d2c; }
   .btn-alert:hover {
+    text-decoration: none; }
+  .btn-alert:hover {
     background: #fa835d; }
+
+.btn-success {
+  text-decoration: none;
+  padding: 0.5em;
+  cursor: pointer;
+  /* 2 */
+  color: white;
+  border: none;
+  /* 1 */
+  background: #1fae65; }
+  .btn-success:hover {
+    text-decoration: none; }
+  .btn-success:hover {
+    background: #27d97e; }
+
+.btn-warning {
+  text-decoration: none;
+  padding: 0.5em;
+  cursor: pointer;
+  /* 2 */
+  color: white;
+  border: none;
+  /* 1 */
+  background: #ff9902; }
+  .btn-warning:hover {
+    text-decoration: none; }
+  .btn-warning:hover {
+    background: #ffae35; }
+
+.btn-small {
+  font-size: 0.9em;
+  padding: 0.5em; }
+
+.btn-medium {
+  font-size: 1em;
+  padding: 1em; }
+
+.btn-large {
+  font-size: 1.2em;
+  padding: 1em 1.6em; }
+
+.btn-expand {
+  width: 100%;
+  padding: 1em; }
 
 .sg-h1, .sg-h2, .sg-h3 {
   font-family: "Raleway", sans-serif;

@@ -11,3 +11,16 @@
 .btn-alert {
   @include btn($button-alert-settings);
 }
+
+.btn-success {
+  @include btn($button-success-settings);
+}
+
+.btn-warning {
+  @include btn($button-warning-settings);
+}
+
+@include btn-sizes($button-size-variations, small);
+@include btn-sizes($button-size-variations, medium);
+@include btn-sizes($button-size-variations, large);
+@include btn-sizes($button-size-variations, expand);

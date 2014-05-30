@@ -5,6 +5,8 @@
 * 2. Always have a cursor irrespective of whether link/button/input tag
 */
 @mixin btn($button-settings) {
+
+    @include no-dec;
     padding: map-get($button-settings, button-padding);
 
     cursor: pointer; /* 2 */
@@ -13,8 +15,18 @@
     border: none; /* 1 */
 
     background: map-get($button-settings, button-background);
+
   &:hover
   {
     background: lighten(map-get($button-settings, button-background), 10%);
   }
 }
+
+@mixin btn-sizes($button-size-variations, $size) {
+  $map: map-get($button-size-variations, $size);
+  .btn-#{$size} {
+      @each $property, $value in $map {
+        #{$property}: $value;
+      }
+    }
+  }
