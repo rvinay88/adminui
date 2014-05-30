@@ -1,1 +1,6 @@
 @import "variables";
+
+@mixin thumbnail($thumbnail-settings) {
+  border: 2px solid map-get($thumbnail-settings, thumbnail-border-color);
+  padding: map-get($thumbnail-settings, thumbnail-padding);
+}

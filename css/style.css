@@ -469,6 +469,16 @@ img, video {
   max-width: 100%;
   height: auto; }
 
+/**
+ * Adapted from http://nicolasgallagher.com/micro-clearfix-hack/
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
 .sg-h1, .sg-h2, .sg-h3 {
   font-family: "Raleway", sans-serif;
   font-weight: 900; }
@@ -614,6 +624,16 @@ img, video {
   max-width: 100%;
   height: auto; }
 
+/**
+ * Adapted from http://nicolasgallagher.com/micro-clearfix-hack/
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
 .sg-h1, .sg-h2, .sg-h3 {
   font-family: "Raleway", sans-serif;
   font-weight: 900; }
@@ -749,6 +769,14 @@ h3, .h3 {
 
 small, .text-small {
   font-size: 0.697em; }
+
+.th {
+  border: 2px solid #999999;
+  padding: 0.9em; }
+
+figure {
+  margin: 0;
+  display: inline-block; }
 
 address {
   font-style: normal; }
