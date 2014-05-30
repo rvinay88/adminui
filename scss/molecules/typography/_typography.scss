@@ -1,0 +1,17 @@
+@import "extends";
+
+address {
+  font-style: normal;
+}
+
+blockquote {
+  font-family: $headings;
+  font-size: $font-size-medium;
+  border-left: 2px solid;
+  border-left-color: $grey;
+  padding-left: 1em;
+  p {
+    color: $grey;
+    font-size: $font-size-regular;
+  }
+}
