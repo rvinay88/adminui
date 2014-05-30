@@ -1,1 +1,23 @@
+* {
+  box-sizing: border-box;
+}
 
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
+%vertical-center {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+%clearfix {
+  &:after, &:before {
+    content: "";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}

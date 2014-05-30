@@ -462,21 +462,44 @@ th {
 .sg-color--red-4 {
   background: #fca58a; }
 
+* {
+  box-sizing: border-box; }
+
+img, video {
+  max-width: 100%;
+  height: auto; }
+
+.sg-h1, .sg-h2, .sg-h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 900; }
+
 .sg-font-primary {
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em; }
 
 .sg-font-primary-condensed {
-  font-family: "Open Sans Condensed", sans-serif; }
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 1em; }
 
 .sg-font-secondary {
-  font-family: "Roboto", sans-serif; }
+  font-family: "Raleway", sans-serif;
+  font-size: 2em; }
 
 .sg-font-secondary-condensed {
-  font-family: "Roboto Condensed", sans-serif; }
+  font-family: "Raleway", sans-serif;
+  font-size: 2em; }
+
+.sg-font-supplementary {
+  font-family: "Roboto", sans-serif;
+  font-size: 2em; }
+
+.sg-font-supplementary-condensed {
+  font-family: "Roboto", sans-serif;
+  font-size: 2em; }
 
 .sg-anchor {
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: 900;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
   font-size: 1.618em; }
 
 .sg-color--green {
@@ -584,21 +607,44 @@ th {
 .sg-color--red-4 {
   background: #fca58a; }
 
+* {
+  box-sizing: border-box; }
+
+img, video {
+  max-width: 100%;
+  height: auto; }
+
+.sg-h1, .sg-h2, .sg-h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 900; }
+
 .sg-font-primary {
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em; }
 
 .sg-font-primary-condensed {
-  font-family: "Open Sans Condensed", sans-serif; }
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 1em; }
 
 .sg-font-secondary {
-  font-family: "Roboto", sans-serif; }
+  font-family: "Raleway", sans-serif;
+  font-size: 2em; }
 
 .sg-font-secondary-condensed {
-  font-family: "Roboto Condensed", sans-serif; }
+  font-family: "Raleway", sans-serif;
+  font-size: 2em; }
+
+.sg-font-supplementary {
+  font-family: "Roboto", sans-serif;
+  font-size: 2em; }
+
+.sg-font-supplementary-condensed {
+  font-family: "Roboto", sans-serif;
+  font-size: 2em; }
 
 .sg-anchor {
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: 900;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
   font-size: 1.618em; }
 
 /*
@@ -606,7 +652,7 @@ th {
 * 2. Always have a cursor irrespective of whether link/button/input tag
 */
 .btn {
-  padding: 1em;
+  padding: 0.5em;
   cursor: pointer;
   /* 2 */
   color: white;
@@ -616,21 +662,59 @@ th {
   .btn:hover {
     background: #333333; }
 
+.btn-info {
+  padding: 0.5em;
+  cursor: pointer;
+  /* 2 */
+  color: white;
+  border: none;
+  /* 1 */
+  background: #23709e; }
+  .btn-info:hover {
+    background: #2c8ec8; }
+
+.btn-alert {
+  padding: 0.5em;
+  cursor: pointer;
+  /* 2 */
+  color: white;
+  border: none;
+  /* 1 */
+  background: #f85d2c; }
+  .btn-alert:hover {
+    background: #fa835d; }
+
+.sg-h1, .sg-h2, .sg-h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 900; }
+
 .sg-font-primary {
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em; }
 
 .sg-font-primary-condensed {
-  font-family: "Open Sans Condensed", sans-serif; }
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 1em; }
 
 .sg-font-secondary {
-  font-family: "Roboto", sans-serif; }
+  font-family: "Raleway", sans-serif;
+  font-size: 2em; }
 
 .sg-font-secondary-condensed {
-  font-family: "Roboto Condensed", sans-serif; }
+  font-family: "Raleway", sans-serif;
+  font-size: 2em; }
+
+.sg-font-supplementary {
+  font-family: "Roboto", sans-serif;
+  font-size: 2em; }
+
+.sg-font-supplementary-condensed {
+  font-family: "Roboto", sans-serif;
+  font-size: 2em; }
 
 .sg-anchor {
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: 900;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
   font-size: 1.618em; }
 
 html {
@@ -648,7 +732,7 @@ p {
 
 h1, h2, h3, h4 {
   margin: 1.414em 0 0.5em;
-  font-family: "Open Sans Condensed", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: inherit;
   line-height: 1.2;
   font-weight: 900; }
@@ -665,3 +749,16 @@ h3, .h3 {
 
 small, .text-small {
   font-size: 0.697em; }
+
+address {
+  font-style: normal; }
+
+blockquote {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.618em;
+  border-left: 2px solid;
+  border-left-color: #666666;
+  padding-left: 1em; }
+  blockquote p {
+    color: #666666;
+    font-size: 1em; }

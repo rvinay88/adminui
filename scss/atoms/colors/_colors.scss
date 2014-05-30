@@ -1,3 +1,6 @@
+//////////////////////////
+//Color definitions
+//////////////////////////
 $green: #1FAE65;
 
 $green-1 : #32835A;
@@ -45,6 +48,17 @@ $grey-1: lighten($black, 10%);
 $grey-2: lighten($black, 20%);
 $grey-3: lighten($black, 30%);
 $grey-4: lighten($black, 40%);
+
+//////////////////////////
+//Color variables
+//////////////////////////
+$primary-color: $black-1;
+$base-color: $white;
+
+$alert-color: $red;
+$info-color: $blue;
+$warning-color: $yellow;
+$success-color: $green;
 
 // Styleguide specific colors
 

@@ -69,19 +69,19 @@
 <!DOCTYPE html>
 <head>
 <meta charset="utf-8">
-  <title>Style Guide Boilerplate</title>
+  <title>Admin UI Styleguide</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Style Guide Boilerplate Styles -->
   <link rel="stylesheet" href="css/sg-style.css">
   <!-- Google fonts  -->
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,300,600,700,800|Roboto:400,100,700,900|Open+Sans+Condensed:300,700|Roboto+Condensed:300italic,400,300' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,500,700,900|Open+Sans:300italic,400,300,600,700,800|Roboto:400,100,700,900|Open+Sans+Condensed:300,700|Roboto+Condensed:300italic,400,300' rel='stylesheet' type='text/css'>
   <!-- Replace below stylesheet with your own stylesheet -->
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
 <div id="top" class="sg-header sg-container">
-  <h1 class="sg-logo">STYLE GUIDE <span>BOILERPLATE</span></h1>
+  <h1 class="sg-logo">Admin UI<span> Styleguide</span></h1>
   <form id="js-sg-nav" action=""  method="post" class="sg-nav">
     <select id="js-sg-section-switcher" class="sg-section-switcher" name="sg_section_switcher">
         <option value="">Jump To Section:</option>
@@ -98,7 +98,7 @@
         </optgroup>
     </select>
     <input type="hidden" name="sg_uri" value="<?php echo $_SERVER["SERVER_NAME"].$_SERVER["REQUEST_URI"]; ?>">
-    <button type="submit" class="btn">Go</button>
+    <button type="submit" class="sg-submit-btn">Go</button>
   </form><!--/.sg-nav-->
 </div><!--/.sg-header-->
 
@@ -160,8 +160,10 @@
       <h2 class="sg-h2"><a id="sg-fontStacks" class="sg-anchor">Font Stacks</a></h2>
       <p class="sg-font sg-font-primary">"Open Sans", sans-serif;</p>
       <p class="sg-font sg-font-primary-condensed">"Open Sans Condensed", sans-serif;</p>
-      <p class="sg-font sg-font-secondary">"Roboto", sans-serif;</p>
-      <p class="sg-font sg-font-secondary-condensed">"Roboto condensed", sans-serif;</p>
+      <p class="sg-font sg-font-secondary">"Raleway", sans-serif;</p>
+      <p class="sg-font sg-font-secondary-condensed">"Raleway condensed", sans-serif;</p>
+      <p class="sg-font sg-font-supplementary-condensed">"Roboto", sans-serif;</p>
+      <p class="sg-font sg-font-supplementary-condensed">"Roboto", sans-serif;</p>
       <div class="sg-markup-controls"><a class="sg-btn--top" href="#top">Back to Top</a></div>
     </div><!--/.sg-font-stacks-->
   </div><!--/.sg-info-->

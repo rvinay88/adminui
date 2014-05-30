@@ -5,8 +5,11 @@
 $body-copy: 'Open Sans', sans-serif;
 $body-copy-condensed: 'Open Sans Condensed', sans-serif;
 
-$headings: 'Roboto', sans-serif;
+$headings: 'Raleway', sans-serif;
 $headings-condensed: 'Roboto Condensed', sans-serif;
+
+$supplementary: 'Roboto', sans-serif;
+$supplementary-condensed: 'Roboto', sans-serif;
 
 //////////////////////////
 //Font sizes
@@ -24,24 +27,45 @@ $font-size-xlarge: 2.951em; //35.412px
 //Styleguide specific
 //////////////////////////
 
+.sg-h1, .sg-h2, .sg-h3 {
+  font-family: $headings;
+  font-weight: 900;
+}
+
 .sg-font-primary {
   font-family: $body-copy;
+  font-size: 1em;
 }
 
 .sg-font-primary-condensed {
   font-family: $body-copy-condensed;
+  font-size: 1em;
 }
 
 .sg-font-secondary {
   font-family: $headings;
+  font-size: 2em;
 }
 
 .sg-font-secondary-condensed {
-  font-family: $headings-condensed;
+  font-family: $headings;
+  font-size: 2em;
 }
 
+.sg-font-supplementary {
+  font-family: $supplementary;
+  font-size: 2em;
+}
+
+.sg-font-supplementary-condensed {
+  font-family: $supplementary-condensed;
+  font-size: 2em;
+}
+
+
+
 .sg-anchor {
-  font-family: $headings-condensed;
-  font-weight: 900;
+  font-family: $headings;
+  font-weight: 500;
   font-size: 1.618em;
 }
