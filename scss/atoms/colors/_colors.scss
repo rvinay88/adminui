@@ -69,19 +69,13 @@ $success-color: $green;
  * 3. Invert colors for active/primary - white text on black bg
  */
 @mixin themify($item, $theme) {
-  $text-color: $black;
   $theme-color: $white;
-  $set-text-color: false;
 
   @if ($theme == "primary") {
     $theme-color: $primary-color;
-    $set-text-color: true; /* 3 */
-    $text-color: $white; /* 3 */
   }
   @if ($theme == "active") {
     $theme-color: $primary-color;
-    $set-text-color: true; /* 3 */
-    $text-color: $white; /* 3 */
   }
   @if ($theme == "secondary") {
     $theme-color: $secondary-color;
@@ -105,9 +99,7 @@ $success-color: $green;
   &.#{$theme}{
     @if($item == "bg") {
       background: $theme-color; /* 1 */
-      @if($set-text-color) { /* 3 */
-        color: $text-color;
-      }
+      color: $white; /* 3 */
     }
     @if($item == "text") {
       color: $theme-color; /* 2 */

@@ -44,11 +44,11 @@
   &:last-child {
     border-bottom: map-get($list-group-settings, border); /* 2 */
   }
-  @include themify(bg, active);
-  // @include themify(bg, alert); /* 5 */
-  // @include themify(bg, success); /* 5 */
-  // @include themify(bg, warning); /* 5 */
-  // @include themify(bg, info); /* 5 */
+  @include themify(bg, active); /* 5 */
+  @include themify(bg, alert); /* 5 */
+  @include themify(bg, success); /* 5 */
+  @include themify(bg, warning); /* 5 */
+  @include themify(bg, info); /* 5 */
 }
 
 a.list-group-item {
