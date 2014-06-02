@@ -1233,6 +1233,54 @@ hr.soften {
   background-image: -o-linear-gradient(left, transparent, rgba(0, 0, 0, 0.3), transparent);
   border: 0; }
 
+.sg-h1, .sg-h2, .sg-h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 900; }
+
+.sg-font-primary {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em; }
+
+.sg-font-primary-condensed {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 1em; }
+
+.sg-font-secondary {
+  font-family: "Raleway", sans-serif;
+  font-size: 2em; }
+
+.sg-font-secondary-condensed {
+  font-family: "Raleway", sans-serif;
+  font-size: 2em; }
+
+.sg-font-supplementary {
+  font-family: "Roboto", sans-serif;
+  font-size: 2em; }
+
+.sg-font-supplementary-condensed {
+  font-family: "Roboto", sans-serif;
+  font-size: 2em; }
+
+.sg-anchor {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 1.618em; }
+
+.no-bullet, .horizontal-list, .list-group {
+  list-style: none; }
+
+.horizontal-list > li, .horizontal-element {
+  display: inline-block; }
+
+.list-group-item {
+  padding: 0.9em;
+  border: 1px solid #666666;
+  border-bottom: 0; }
+  .list-group-item:first-child {
+    border-top: 1px solid #666666; }
+  .list-group-item:last-child {
+    border-bottom: 1px solid #666666; }
+
 .th {
   border: 2px solid #999999;
   padding: 0.9em; }
