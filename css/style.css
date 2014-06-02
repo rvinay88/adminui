@@ -757,6 +757,177 @@ img, video {
   width: 100%;
   padding: 1em; }
 
+.sg-color--green {
+  background: #1fae65; }
+
+.sg-color--green-1 {
+  background: #32835a; }
+
+.sg-color--green-2 {
+  background: #0a713d; }
+
+.sg-color--green-3 {
+  background: #52d793; }
+
+.sg-color--green-4 {
+  background: #76d7a5; }
+
+.sg-color--black {
+  background: black; }
+
+.sg-color--black-1 {
+  background: #1a1a1a; }
+
+.sg-color--black-2 {
+  background: #333333; }
+
+.sg-color--black-3 {
+  background: #4d4d4d; }
+
+.sg-color--black-4 {
+  background: #666666; }
+
+.sg-color--white {
+  background: white; }
+
+.sg-color--white-1 {
+  background: #e6e6e6; }
+
+.sg-color--white-2 {
+  background: #cccccc; }
+
+.sg-color--white-3 {
+  background: #b3b3b3; }
+
+.sg-color--white-4 {
+  background: #999999; }
+
+.sg-color--yellow {
+  background: #ff9902; }
+
+.sg-color--yellow-1 {
+  background: #b78335; }
+
+.sg-color--yellow-2 {
+  background: #9a5c01; }
+
+.sg-color--yellow-3 {
+  background: #ffa41d; }
+
+.sg-color--yellow-4 {
+  background: #ffad32; }
+
+.sg-color--blue {
+  background: #23709e; }
+
+.sg-color--blue-1 {
+  background: #325d77; }
+
+.sg-color--blue-2 {
+  background: #0c4567; }
+
+.sg-color--blue-3 {
+  background: #56a2cf; }
+
+.sg-color--blue-4 {
+  background: #76aecf; }
+
+.sg-color--grey {
+  background: #666666; }
+
+.sg-color--grey-1 {
+  background: #1a1a1a; }
+
+.sg-color--grey-2 {
+  background: #333333; }
+
+.sg-color--grey-3 {
+  background: #4d4d4d; }
+
+.sg-color--grey-4 {
+  background: #666666; }
+
+.sg-color--red {
+  background: #f85d2c; }
+
+.sg-color--red-1 {
+  background: #ba6347; }
+
+.sg-color--red-2 {
+  background: #a1320e; }
+
+.sg-color--red-3 {
+  background: #fc8660; }
+
+.sg-color--red-4 {
+  background: #fca58a; }
+
+* {
+  box-sizing: border-box; }
+
+img, video {
+  max-width: 100%;
+  height: auto; }
+
+/**
+ * Adapted from http://nicolasgallagher.com/micro-clearfix-hack/
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.sg-h1, .sg-h2, .sg-h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 900; }
+
+.sg-font-primary {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em; }
+
+.sg-font-primary-condensed {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 1em; }
+
+.sg-font-secondary {
+  font-family: "Raleway", sans-serif;
+  font-size: 2em; }
+
+.sg-font-secondary-condensed {
+  font-family: "Raleway", sans-serif;
+  font-size: 2em; }
+
+.sg-font-supplementary {
+  font-family: "Roboto", sans-serif;
+  font-size: 2em; }
+
+.sg-font-supplementary-condensed {
+  font-family: "Roboto", sans-serif;
+  font-size: 2em; }
+
+.sg-anchor {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 1.618em; }
+
+input:not([type]), input[type="color"], input[type="email"], input[type="number"], input[type="password"], input[type="tel"], input[type="url"], input[type="text"] {
+  background: #e6e6e6;
+  border: 1px solid #b3b3b3;
+  outline: none;
+  padding: 0.45em 0.45em; }
+
+label {
+  display: block;
+  cursor: pointer; }
+
+/* Form group class is used to wrap a label, text input and an error summary
+*
+*/
+.form-group {
+  margin-bottom: 1em; }
+
 .sg-h1, .sg-h2, .sg-h3 {
   font-family: "Raleway", sans-serif;
   font-weight: 900; }
@@ -843,3 +1014,5 @@ blockquote {
   blockquote p {
     color: #666666;
     font-size: 1em; }
+
+/*# sourceMappingURL=style.css.map */
