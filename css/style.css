@@ -913,10 +913,15 @@ img, video {
   font-size: 1.618em; }
 
 input:not([type]), input[type="color"], input[type="email"], input[type="number"], input[type="password"], input[type="tel"], input[type="url"], input[type="text"] {
-  background: #e6e6e6;
+  width: 100%;
+  padding: 0.45em 0.45em;
   border: 1px solid #b3b3b3;
   outline: none;
-  padding: 0.45em 0.45em; }
+  background: #e6e6e6; }
+  input:not([type]):focus, input[type="color"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="tel"]:focus, input[type="url"]:focus, input[type="text"]:focus {
+    border-color: #76aecf; 
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(118,174,207,.6);
+}
 
 label {
   display: block;

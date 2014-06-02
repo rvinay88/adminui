@@ -1,8 +1,13 @@
-@import "variables";
+@import 'variables';
 
 @mixin form-elements($form-settings) {
-  background: map-get($form-settings, background);
-  border: map-get($form-settings, border);
-  outline: none;
-  padding: $global-padding/2 $global-padding/2;
+    width: 100%;
+    padding: $global-padding/2 $global-padding/2;
+
+    border: map-get($form-settings, border);
+    outline: none;
+    background: map-get($form-settings, background);
+    &:focus {
+      border: map-get($form-settings, border-focus);
+    }
 }
