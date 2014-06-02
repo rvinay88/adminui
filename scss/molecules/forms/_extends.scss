@@ -4,9 +4,10 @@ input:not([type]), input[type="color"], input[type="email"], input[type="number"
    @include form-elements($form-settings);
 }
 
-html input[disabled] { //override normalize default
+html input[disabled], textarea[disabled] { //override normalize default
   background: $white-1;
   cursor: not-allowed;
+  color: $grey;
 }
 
 label {
