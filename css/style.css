@@ -1295,6 +1295,8 @@ hr.soften {
  * 4. Deprecated - For linked items, dim background on hover
  * 5. Deprecated States - active, alert, error etc
  * 6. Links in list groups to not have underlines
+ * 7. Links to be black in color
+ * 8. Reset margins when using heading / p tag inside list item
  */
 .list-group-item {
   text-decoration: none;
@@ -1325,6 +1327,8 @@ hr.soften {
 a.list-group-item {
   color: black;
   /* 7 */ }
+  a.list-group-item > h4, a.list-group-item > p {
+    margin: 0; }
 
 .th {
   border: 2px solid #999999;

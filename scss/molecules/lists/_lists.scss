@@ -27,6 +27,8 @@
  * 4. Deprecated - For linked items, dim background on hover
  * 5. Deprecated States - active, alert, error etc
  * 6. Links in list groups to not have underlines
+ * 7. Links to be black in color
+ * 8. Reset margins when using heading / p tag inside list item
  */
 
 .list-group-item {
@@ -51,4 +53,7 @@
 
 a.list-group-item {
   color: $black; /* 7 */
+  > h4, > p {
+    margin: 0;
+  }
 }
