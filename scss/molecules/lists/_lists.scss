@@ -25,9 +25,10 @@
  * 2. Collapse border where 2 borders collide
  * 3. List group items to span full width
  * 4. Deprecated - For linked items, dim background on hover
- * 5. States - active, alert, error etc
+ * 5. Deprecated States - active, alert, error etc
  * 6. Links in list groups to not have underlines
  */
+
 .list-group-item {
   @include no-dec(); /* 6 */
   display: block; /* 3 */
@@ -41,21 +42,13 @@
   &:last-child {
     border-bottom: map-get($list-group-settings, border); /* 2 */
   }
-  &.active {
-    background: $primary-color; /* 5 */
-    color: $white;
-  }
-  &.alert {
-    background: $alert-color;
-  }
-  &.success {
-    background: $success-color;
-  }
-  &.warning {
-    background: $warning-color;
-  }
-  &.info {
-    background: $info-color;
-  }
+  @include themify(bg, active);
+  // @include themify(bg, alert); /* 5 */
+  // @include themify(bg, success); /* 5 */
+  // @include themify(bg, warning); /* 5 */
+  // @include themify(bg, info); /* 5 */
+}
 
+a.list-group-item {
+  color: $black; /* 7 */
 }

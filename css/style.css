@@ -357,6 +357,10 @@ td,
 th {
   padding: 0; }
 
+/* 1. Set background / text to theme color
+ * 2. Returns the corresponding theme color
+ * 3. Invert colors for active/primary - white text on black bg
+ */
 .sg-color--green {
   background: #1fae65; }
 
@@ -518,6 +522,10 @@ img, video {
   font-weight: 500;
   font-size: 1.618em; }
 
+/* 1. Set background / text to theme color
+ * 2. Returns the corresponding theme color
+ * 3. Invert colors for active/primary - white text on black bg
+ */
 .sg-color--green {
   background: #1fae65; }
 
@@ -769,6 +777,10 @@ img, video {
   width: 100%;
   padding: 1em; }
 
+/* 1. Set background / text to theme color
+ * 2. Returns the corresponding theme color
+ * 3. Invert colors for active/primary - white text on black bg
+ */
 .sg-color--green {
   background: #1fae65; }
 
@@ -1061,6 +1073,10 @@ h3, .h3 {
 small, .text-small {
   font-size: 0.697em; }
 
+/* 1. Set background / text to theme color
+ * 2. Returns the corresponding theme color
+ * 3. Invert colors for active/primary - white text on black bg
+ */
 .sg-color--green {
   background: #1fae65; }
 
@@ -1277,7 +1293,7 @@ hr.soften {
  * 2. Collapse border where 2 borders collide
  * 3. List group items to span full width
  * 4. Deprecated - For linked items, dim background on hover
- * 5. States - active, alert, error etc
+ * 5. Deprecated States - active, alert, error etc
  * 6. Links in list groups to not have underlines
  */
 .list-group-item {
@@ -1289,7 +1305,9 @@ hr.soften {
   border: 1px solid #666666;
   /* 1 */
   border-bottom: 0;
-  /* 2 */ }
+  /* 2 */
+  /* 3 */
+  /* 3 */ }
   .list-group-item:hover {
     text-decoration: none; }
   .list-group-item:first-child {
@@ -1300,16 +1318,13 @@ hr.soften {
     /* 2 */ }
   .list-group-item.active {
     background: #1a1a1a;
-    /* 5 */
+    /* 1 */
+    /* 3 */
     color: white; }
-  .list-group-item.alert {
-    background: #f85d2c; }
-  .list-group-item.success {
-    background: #1fae65; }
-  .list-group-item.warning {
-    background: #ff9902; }
-  .list-group-item.info {
-    background: #23709e; }
+
+a.list-group-item {
+  color: black;
+  /* 7 */ }
 
 .th {
   border: 2px solid #999999;
