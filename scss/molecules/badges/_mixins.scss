@@ -1,11 +1,9 @@
 @import "variables";
 
-@mixin badge() {
+@mixin badge($rounded: false) {
   @include no-dec();
 
   padding: 0.3em  0.5em;
-
-  background: $white-2;
 
   font-size: 0.8em;
 }

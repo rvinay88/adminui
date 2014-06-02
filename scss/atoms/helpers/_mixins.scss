@@ -39,6 +39,10 @@ $animation-easing: ease-in-out;
   @if ($theme == "secondary") {
     $theme-color: $secondary-color;
   }
+
+  @if ($theme == "secondary") {
+    $theme-color: $secondary-color;
+  }
   @if ($theme == "alert") {
     $theme-color: $alert-color;
   }
@@ -58,7 +62,12 @@ $animation-easing: ease-in-out;
   &.#{$theme}{
     @if($item == "bg") {
       background: $theme-color; /* 1 */
-      color: $white; /* 3 */
+      @if($theme == "secondary") {
+        color: $black;
+      }
+      @else {
+        color: $white; /* 3 */
+      }
     }
     @if($item == "text") {
       color: $theme-color; /* 2 */

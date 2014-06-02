@@ -2,7 +2,8 @@
 
 .badge {
   @include badge();
-  @include themify(bg, active);
+  @include themify(bg, primary);
+  @include themify(bg, secondary);
   @include themify(bg, alert);
   @include themify(bg, success);
   @include themify(bg, warning);

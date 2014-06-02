@@ -558,15 +558,18 @@ img, video {
 .badge {
   text-decoration: none;
   padding: 0.3em  0.5em;
-  background: #cccccc;
   font-size: 0.8em; }
   .badge:hover {
     text-decoration: none; }
-  .badge.active {
+  .badge.primary {
     background: #1a1a1a;
     /* 1 */
     color: white;
     /* 3 */ }
+  .badge.secondary {
+    background: #cccccc;
+    /* 1 */
+    color: black; }
   .badge.alert {
     background: #f85d2c;
     /* 1 */
