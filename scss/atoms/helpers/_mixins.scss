@@ -1,6 +1,21 @@
+/*
+ * Prevent underline on links. Used for links styled as buttons, where underline is not preferable
+ */
 @mixin no-dec {
   text-decoration: none;
   &:hover {
     text-decoration: none;
   }
+}
+
+/*
+ * Common easing for the entire website
+ */
+
+$animation-properties: all;
+$animation-timing: 0.3s;
+$animation-easing: ease-in-out;
+
+@mixin transition-effect($property: $animation-properties, $timing: $animation-timing, $easing: $animation-easing) {
+  transition: $property $timing $easing;
 }

@@ -1,5 +1,9 @@
 @import 'variables';
 
+/*
+ * 1. Add a blue border on focus
+ * 2. Animate state changes between focus, error etc.
+ */
 @mixin form-elements($form-settings) {
     width: 100%;
     padding: $global-padding/2 $global-padding/2;
@@ -7,7 +11,10 @@
     border: map-get($form-settings, border);
     outline: none;
     background: map-get($form-settings, background);
+
+    @include transition-effect(); /* 2 */
+
     &:focus {
-      border: map-get($form-settings, border-focus);
+      border: map-get($form-settings, border-focus); /* 1 */
     }
 }

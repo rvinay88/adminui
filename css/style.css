@@ -462,6 +462,12 @@ th {
 .sg-color--red-4 {
   background: #fca58a; }
 
+/*
+ * Prevent underline on links. Used for links styled as buttons, where underline is not preferable
+ */
+/*
+ * Common easing for the entire website
+ */
 * {
   box-sizing: border-box; }
 
@@ -617,6 +623,12 @@ img, video {
 .sg-color--red-4 {
   background: #fca58a; }
 
+/*
+ * Prevent underline on links. Used for links styled as buttons, where underline is not preferable
+ */
+/*
+ * Common easing for the entire website
+ */
 * {
   box-sizing: border-box; }
 
@@ -862,6 +874,12 @@ img, video {
 .sg-color--red-4 {
   background: #fca58a; }
 
+/*
+ * Prevent underline on links. Used for links styled as buttons, where underline is not preferable
+ */
+/*
+ * Common easing for the entire website
+ */
 * {
   box-sizing: border-box; }
 
@@ -912,26 +930,69 @@ img, video {
   font-weight: 500;
   font-size: 1.618em; }
 
+/*
+ * 1. Add a blue border on focus
+ * 2. Animate state changes between focus, error etc.
+ */
 input:not([type]), input[type="color"], input[type="email"], input[type="number"], input[type="password"], input[type="tel"], input[type="url"], input[type="text"] {
   width: 100%;
   padding: 0.45em 0.45em;
   border: 1px solid #b3b3b3;
   outline: none;
-  background: #e6e6e6; }
+  background: white;
+  transition: all 0.3s ease-in-out;
+  /* 2 */ }
   input:not([type]):focus, input[type="color"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="tel"]:focus, input[type="url"]:focus, input[type="text"]:focus {
-    border-color: #76aecf; 
-    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(118,174,207,.6);
-}
+    border: 1px solid #23709e;
+    /* 1 */ }
+
+html input[disabled] {
+  background: #e6e6e6;
+  cursor: not-allowed; }
 
 label {
   display: block;
   cursor: pointer; }
 
 /* Form group class is used to wrap a label, text input and an error summary
-*
-*/
+ * .help-text is used to add supplemental information
+ */
 .form-group {
   margin-bottom: 1em; }
+
+.has-error {
+  color: #f85d2c; }
+  .has-error input:not([type]), .has-error input[type="color"], .has-error input[type="email"], .has-error input[type="number"], .has-error input[type="password"], .has-error input[type="tel"], .has-error input[type="url"], .has-error input[type="text"] {
+    border-color: currentcolor; }
+
+.has-success {
+  color: #1fae65; }
+  .has-success input:not([type]), .has-success input[type="color"], .has-success input[type="email"], .has-success input[type="number"], .has-success input[type="password"], .has-success input[type="tel"], .has-success input[type="url"], .has-success input[type="text"] {
+    border-color: currentcolor; }
+
+.has-info {
+  color: #23709e; }
+  .has-info input:not([type]), .has-info input[type="color"], .has-info input[type="email"], .has-info input[type="number"], .has-info input[type="password"], .has-info input[type="tel"], .has-info input[type="url"], .has-info input[type="text"] {
+    border-color: currentcolor; }
+
+.has-warning {
+  color: #ff9902; }
+  .has-warning input:not([type]), .has-warning input[type="color"], .has-warning input[type="email"], .has-warning input[type="number"], .has-warning input[type="password"], .has-warning input[type="tel"], .has-warning input[type="url"], .has-warning input[type="text"] {
+    border-color: currentcolor; }
+
+/*
+ * .help-text
+ * 1. Hidden by default
+ * 2. Display when the form-group has any feedback
+ */
+.help-text {
+  display: none;
+  /* 1 */
+  margin-top: 0;
+  color: currentcolor; }
+  .has-feedback .help-text {
+    display: block;
+    /* 2 */ }
 
 .sg-h1, .sg-h2, .sg-h3 {
   font-family: "Raleway", sans-serif;

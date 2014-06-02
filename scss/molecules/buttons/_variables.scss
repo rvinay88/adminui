@@ -10,6 +10,14 @@ $button-settings: (
 //Button colors
 //////////////////
 
+$button-primary-settings: map-merge($button-settings,
+  ("button-background": $primary-color)
+);
+
+$button-secondary-settings: map-merge($button-settings,
+  ("button-background": $info-color)
+);
+
 $button-info-settings: map-merge($button-settings,
   ("button-background": $info-color)
 );

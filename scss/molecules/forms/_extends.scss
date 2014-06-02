@@ -4,14 +4,60 @@ input:not([type]), input[type="color"], input[type="email"], input[type="number"
    @include form-elements($form-settings);
 }
 
+html input[disabled] { //override normalize default
+  background: $white-1;
+  cursor: not-allowed;
+}
+
 label {
     display: block;
     cursor: pointer;
 }
 
 /* Form group class is used to wrap a label, text input and an error summary
-*
-*/
+ * .help-text is used to add supplemental information
+ */
 .form-group {
   margin-bottom: $global-margin;
 }
+
+.has-error {
+  color: $alert-color;
+  input:not([type]), input[type="color"], input[type="email"], input[type="number"], input[type="password"], input[type="tel"], input[type="url"], input[type="text"] {
+    border-color: currentcolor;
+  }
+}
+.has-success {
+  color: $success-color;
+  input:not([type]), input[type="color"], input[type="email"], input[type="number"], input[type="password"], input[type="tel"], input[type="url"], input[type="text"] {
+    border-color: currentcolor;
+  }
+}
+.has-info {
+  color: $info-color;
+  input:not([type]), input[type="color"], input[type="email"], input[type="number"], input[type="password"], input[type="tel"], input[type="url"], input[type="text"] {
+    border-color: currentcolor;
+  }
+}
+.has-warning {
+  color: $warning-color;
+  input:not([type]), input[type="color"], input[type="email"], input[type="number"], input[type="password"], input[type="tel"], input[type="url"], input[type="text"] {
+    border-color: currentcolor;
+  }
+}
+
+/*
+ * .help-text
+ * 1. Hidden by default
+ * 2. Display when the form-group has any feedback
+ */
+
+.help-text {
+  display: none; /* 1 */
+  margin-top: 0;
+  color: currentcolor;
+  .has-feedback & {
+    display: block; /* 2 */
+  }
+}
+
