@@ -61,52 +61,6 @@ $info-color: $blue;
 $warning-color: $yellow;
 $success-color: $green;
 
-//////////////////////////
-//Theme Mixin
-//////////////////////////
-/* 1. Set background / text to theme color
- * 2. Returns the corresponding theme color
- * 3. Invert colors for active/primary - white text on black bg
- */
-@mixin themify($item, $theme) {
-  $theme-color: $white;
-
-  @if ($theme == "primary") {
-    $theme-color: $primary-color;
-  }
-  @if ($theme == "active") {
-    $theme-color: $primary-color;
-  }
-  @if ($theme == "secondary") {
-    $theme-color: $secondary-color;
-  }
-  @if ($theme == "alert") {
-    $theme-color: $alert-color;
-  }
-  @if ($theme == "info") {
-    $theme-color: $info-color;
-  }
-  @if ($theme == "warning") {
-    $theme-color: $warning-color;
-  }
-  @if ($theme == "success") {
-    $theme-color: $success-color;
-  }
-  @else {
-    @warn ("You called themeify with a theme that is not present")
-  }
-
-  &.#{$theme}{
-    @if($item == "bg") {
-      background: $theme-color; /* 1 */
-      color: $white; /* 3 */
-    }
-    @if($item == "text") {
-      color: $theme-color; /* 2 */
-    }
-  }
-}
-
 // Styleguide specific colors
 
 .sg-color--green {

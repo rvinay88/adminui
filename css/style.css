@@ -357,10 +357,6 @@ td,
 th {
   padding: 0; }
 
-/* 1. Set background / text to theme color
- * 2. Returns the corresponding theme color
- * 3. Invert colors for active/primary - white text on black bg
- */
 .sg-color--green {
   background: #1fae65; }
 
@@ -471,6 +467,10 @@ th {
  */
 /*
  * Common easing for the entire website
+ */
+/* 1. Set background / text to theme color
+ * 2. Returns the corresponding theme color
+ * 3. Invert colors for active/primary - white text on black bg
  */
 * {
   box-sizing: border-box; }
@@ -522,10 +522,72 @@ img, video {
   font-weight: 500;
   font-size: 1.618em; }
 
-/* 1. Set background / text to theme color
- * 2. Returns the corresponding theme color
- * 3. Invert colors for active/primary - white text on black bg
- */
+.sg-h1, .sg-h2, .sg-h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 900; }
+
+.sg-font-primary {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em; }
+
+.sg-font-primary-condensed {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 1em; }
+
+.sg-font-secondary {
+  font-family: "Raleway", sans-serif;
+  font-size: 2em; }
+
+.sg-font-secondary-condensed {
+  font-family: "Raleway", sans-serif;
+  font-size: 2em; }
+
+.sg-font-supplementary {
+  font-family: "Roboto", sans-serif;
+  font-size: 2em; }
+
+.sg-font-supplementary-condensed {
+  font-family: "Roboto", sans-serif;
+  font-size: 2em; }
+
+.sg-anchor {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 1.618em; }
+
+.badge {
+  text-decoration: none;
+  padding: 0.3em  0.5em;
+  background: #cccccc;
+  font-size: 0.8em; }
+  .badge:hover {
+    text-decoration: none; }
+  .badge.active {
+    background: #1a1a1a;
+    /* 1 */
+    color: white;
+    /* 3 */ }
+  .badge.alert {
+    background: #f85d2c;
+    /* 1 */
+    color: white;
+    /* 3 */ }
+  .badge.success {
+    background: #1fae65;
+    /* 1 */
+    color: white;
+    /* 3 */ }
+  .badge.warning {
+    background: #ff9902;
+    /* 1 */
+    color: white;
+    /* 3 */ }
+  .badge.info {
+    background: #23709e;
+    /* 1 */
+    color: white;
+    /* 3 */ }
+
 .sg-color--green {
   background: #1fae65; }
 
@@ -636,6 +698,10 @@ img, video {
  */
 /*
  * Common easing for the entire website
+ */
+/* 1. Set background / text to theme color
+ * 2. Returns the corresponding theme color
+ * 3. Invert colors for active/primary - white text on black bg
  */
 * {
   box-sizing: border-box; }
@@ -777,10 +843,6 @@ img, video {
   width: 100%;
   padding: 1em; }
 
-/* 1. Set background / text to theme color
- * 2. Returns the corresponding theme color
- * 3. Invert colors for active/primary - white text on black bg
- */
 .sg-color--green {
   background: #1fae65; }
 
@@ -891,6 +953,10 @@ img, video {
  */
 /*
  * Common easing for the entire website
+ */
+/* 1. Set background / text to theme color
+ * 2. Returns the corresponding theme color
+ * 3. Invert colors for active/primary - white text on black bg
  */
 * {
   box-sizing: border-box; }
@@ -1073,10 +1139,6 @@ h3, .h3 {
 small, .text-small {
   font-size: 0.697em; }
 
-/* 1. Set background / text to theme color
- * 2. Returns the corresponding theme color
- * 3. Invert colors for active/primary - white text on black bg
- */
 .sg-color--green {
   background: #1fae65; }
 
@@ -1187,6 +1249,10 @@ small, .text-small {
  */
 /*
  * Common easing for the entire website
+ */
+/* 1. Set background / text to theme color
+ * 2. Returns the corresponding theme color
+ * 3. Invert colors for active/primary - white text on black bg
  */
 * {
   box-sizing: border-box; }

@@ -1,1 +1,10 @@
 @import "extends";
+
+.badge {
+  @include badge();
+  @include themify(bg, active);
+  @include themify(bg, alert);
+  @include themify(bg, success);
+  @include themify(bg, warning);
+  @include themify(bg, info);
+}
