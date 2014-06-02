@@ -1272,14 +1272,44 @@ hr.soften {
 .horizontal-list > li, .horizontal-element {
   display: inline-block; }
 
+/*
+ * 1. Add a border around all items
+ * 2. Collapse border where 2 borders collide
+ * 3. List group items to span full width
+ * 4. Deprecated - For linked items, dim background on hover
+ * 5. States - active, alert, error etc
+ * 6. Links in list groups to not have underlines
+ */
 .list-group-item {
+  text-decoration: none;
+  /* 6 */
+  display: block;
+  /* 3 */
   padding: 0.9em;
   border: 1px solid #666666;
-  border-bottom: 0; }
+  /* 1 */
+  border-bottom: 0;
+  /* 2 */ }
+  .list-group-item:hover {
+    text-decoration: none; }
   .list-group-item:first-child {
-    border-top: 1px solid #666666; }
+    border-top: 1px solid #666666;
+    /* 2 */ }
   .list-group-item:last-child {
-    border-bottom: 1px solid #666666; }
+    border-bottom: 1px solid #666666;
+    /* 2 */ }
+  .list-group-item.active {
+    background: #1a1a1a;
+    /* 5 */
+    color: white; }
+  .list-group-item.alert {
+    background: #f85d2c; }
+  .list-group-item.success {
+    background: #1fae65; }
+  .list-group-item.warning {
+    background: #ff9902; }
+  .list-group-item.info {
+    background: #23709e; }
 
 .th {
   border: 2px solid #999999;

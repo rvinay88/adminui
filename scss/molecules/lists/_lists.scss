@@ -20,15 +20,42 @@
   @extend %no-bullet;
 }
 
+/*
+ * 1. Add a border around all items
+ * 2. Collapse border where 2 borders collide
+ * 3. List group items to span full width
+ * 4. Deprecated - For linked items, dim background on hover
+ * 5. States - active, alert, error etc
+ * 6. Links in list groups to not have underlines
+ */
 .list-group-item {
-    padding: $global-padding;
+  @include no-dec(); /* 6 */
+  display: block; /* 3 */
+  padding: $global-padding;
 
-    border: map-get($list-group-settings, border);
-    border-bottom: 0;
-    &:first-child {
-      border-top: 1px solid $grey;
-    }
-    &:last-child {
-      border-bottom: 1px solid $grey;
-    }
+  border: map-get($list-group-settings, border); /* 1 */
+  border-bottom: 0; /* 2 */
+  &:first-child {
+    border-top: map-get($list-group-settings, border); /* 2 */
+  }
+  &:last-child {
+    border-bottom: map-get($list-group-settings, border); /* 2 */
+  }
+  &.active {
+    background: $primary-color; /* 5 */
+    color: $white;
+  }
+  &.alert {
+    background: $alert-color;
+  }
+  &.success {
+    background: $success-color;
+  }
+  &.warning {
+    background: $warning-color;
+  }
+  &.info {
+    background: $info-color;
+  }
+
 }
