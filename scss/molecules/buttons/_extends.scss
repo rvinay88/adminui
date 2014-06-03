@@ -2,23 +2,14 @@
 
 .btn {
   @include btn($button-settings);
+  @include themify($item: bg, $theme: primary, $scope: btn);
+  @include themify($item: bg, $theme: secondary, $scope: btn);
+  @include themify($item: bg, $theme: info, $scope: btn);
+  @include themify($item: bg, $theme: alert, $scope: btn);
+  @include themify($item: bg, $theme: success, $scope: btn);
+  @include themify($item: bg, $theme: warning, $scope: btn);
 }
 
-.btn-info {
-  @include btn($button-info-settings);
-}
-
-.btn-alert {
-  @include btn($button-alert-settings);
-}
-
-.btn-success {
-  @include btn($button-success-settings);
-}
-
-.btn-warning {
-  @include btn($button-warning-settings);
-}
 
 @include btn-sizes($button-size-variations, small);
 @include btn-sizes($button-size-variations, medium);
