@@ -2,10 +2,10 @@
 
 .badge {
   @include badge();
-  @include themify($item: bg, $theme: primary, $scope: badge);
-  // @include themify(bg, secondary);
-  // @include themify(bg, alert);
-  // @include themify(bg, success);
-  // @include themify(bg, warning);
-  // @include themify(bg, info);
+  @include themify($theme: "primary");
+  @include themify($theme: "secondary");
+  @include themify($theme: "alert");
+  @include themify($theme: "info");
+  @include themify($theme: "success");
+  @include themify($theme: "warning");
 }

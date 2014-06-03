@@ -1,5 +1,9 @@
-* {
+*, *:before, *:after {
   box-sizing: border-box;
+}
+
+html, body {
+  @extend %full-height;
 }
 
 img, video {
@@ -10,6 +14,10 @@ img, video {
 %vertical-center {
   display: table-cell;
   vertical-align: middle;
+}
+
+%full-height {
+  height: 100%;
 }
 
 /**

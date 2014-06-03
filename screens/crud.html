@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>runway2street</title>
+  <!-- Google fonts  -->
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,500,700,900|Open+Sans:300italic,400,300,600,700,800|Roboto:400,100,700,900|Open+Sans+Condensed:300,700|Roboto+Condensed:300italic,400,300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="../bower_components/foundation/css/foundation.css">
+  <link rel="stylesheet" href="../bower_components/Font-Awesome/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="//cdn.datatables.net/1.10.0/css/jquery.dataTables.css">
+
+  <script src="../bower_components/foundation/js/vendor/modernizr.js"></script>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header-body">
+    <nav class="top-bar" data-topbar>
+      <ul class="title-area">
+        <li class="name">
+          <h1><a href="#">runway2street</a></h1>
+        </li>
+         <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+      </ul>
+
+      <section class="top-bar-section">
+        <ul class="right">
+
+        </ul>
+        <ul class="left">
+          <li><a href="#">Left Nav Button</a></li>
+          <ul class="dropdown">
+            <li><a href="#">Home</a></li>
+          </ul>
+          <li class="has-dropdown">
+            <a href="#">Dropdown</a>
+            <ul class="dropdown">
+              <li><a href="#">link in dropdown</a></li>
+              <li><a href="#">link in dropdown</a></li>
+              <li><a href="#">link in dropdown</a></li>
+              <li><a href="#">link in dropdown</a></li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+    </nav>
+  </header>
+  <!-- Content -->
+  <div class="content-wrapper">
+    <div class="sidebar">
+      <ul class="side-nav">
+        <li>
+          <a href="#">
+            <i class="fa fa-tachometer"></i>
+            <span>Dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa fa-th-large"></i>
+            Products
+          </a>
+        </li>
+        <li><a href="#">Link 3</a></li>
+        <li><a href="#">Link 4</a></li>
+      </ul>
+    </div>
+    <div class="content-area">
+      <header>
+        <ul class="breadcrumbs">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Designers</a></li>
+          <li><a href="#">TheP.</a></li>
+
+        </ul>
+      </header>
+      <section class="main-content">
+        <table cellpadding="0" cellspacing="0" border="0" class="display dataTable" id="myTable" width="100%" aria-describedby="example_info" style="width: 100%;">
+        <thead>
+          <tr role="row">
+            <th class="sorting_asc" role="columnheader" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Rendering engine: activate to sort column descending" style="width: 172.5px;">S No.</th>
+            <th class="sorting" role="columnheader" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="Browser: activate to sort column ascending">Product Image</th>
+            <th class="sorting" role="columnheader" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="Platform(s): activate to sort column ascending">Product Name</th>
+            <th class="sorting" role="columnheader" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="Engine version: activate to sort column ascending">Price</th>
+            <th class="sorting" role="columnheader" tabindex="0" aria-controls="example" rowspan="1" colspan="1" aria-label="CSS grade: activate to sort column ascending">Info</th>
+          </tr>
+        </thead>
+
+        <tfoot>
+          <tr>
+            <th rowspan="1" colspan="1">S No.</th>
+            <th rowspan="1" colspan="1">Product Image</th>
+            <th rowspan="1" colspan="1">Product Name</th>
+            <th rowspan="1" colspan="1">Price</th>
+            <th rowspan="1" colspan="1">CSS grade</th></tr>
+        </tfoot>
+        <tbody role="alert" aria-live="polite" aria-relevant="all">
+          <tr class="gradeA odd">
+              <td class=" sorting_1">1</td>
+              <td class=" "><img src="http://bo.demo.prestashop.com/img/tmp/product_mini_6_1.jpg?time=1401777048" alt=""></td>
+              <td class=" ">Sleeveless Printed Poplin Top 1</td>
+              <td class="center ">33,483</td>
+              <td class="center ">
+                <input type="submit" class="btn btn-secondary btn-medium" value="Edit">
+              </td>
+          </tr>
+          <tr class="gradeA even">
+              <td class=" sorting_1">2</td>
+              <td class=" "><img src="http://bo.demo.prestashop.com/img/tmp/product_mini_3_1.jpg?time=1401777048" alt=""></td>
+              <td class=" ">Button Down Shirt Dress With Back Cutout 1</td>
+              <td class="center ">45, 433</td>
+              <td class="center ">
+                <input type="submit" class="btn btn-secondary btn-medium" value="Edit">
+              </td>
+          </tr>
+          <tr class="gradeA odd">
+              <td class=" sorting_1">3</td>
+              <td class=" "><img src="http://bo.demo.prestashop.com/img/tmp/product_mini_6_1.jpg?time=1401777048" alt=""></td>
+              <td class=" ">Sleeveless Printed Poplin Top 2</td>
+              <td class="center ">33,483</td>
+              <td class="center ">
+                <input type="submit" class="btn btn-secondary btn-medium" value="Edit">
+              </td>
+          </tr>
+          <tr class="gradeA even">
+              <td class=" sorting_1">4</td>
+              <td class="sorting_1  "><img src="http://bo.demo.prestashop.com/img/tmp/product_mini_3_1.jpg?time=1401777048" alt=""></td>
+              <td class="sorting_1  ">Button Down Shirt Dress With Back Cutout 2</td>
+              <td class="sorting_1 center ">45, 433</td>
+              <td class="sorting_1 center ">
+                <input type="submit" class="btn btn-secondary btn-medium" value="Edit">
+              </td>
+          </tr>
+
+          </tbody>
+        </table>
+      </section>
+
+    </div>
+  </div>
+  <!-- Content -->
+  <script src="../bower_components/foundation/js/vendor/jquery.js"></script>
+  <script src="../bower_components/foundation/js/vendor/fastclick.js"></script>
+  <script src="../bower_components/foundation/js/foundation.min.js"></script>
+  <script src="//cdn.datatables.net/1.10.0/js/jquery.dataTables.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
+  <script>
+    $(document).ready(function(){
+      $('#myTable').dataTable();
+    });
+  </script>
+</body>
+</html>

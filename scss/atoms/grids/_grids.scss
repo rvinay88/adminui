@@ -1,1 +1,28 @@
+@import "../globals";
+// http://sassmeister.com/gist/f13878ea080877ed727c
 
+.sidebar {
+  width: 150px;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0;
+
+  background: #333333;
+  @extend %full-height;
+
+}
+
+.content-wrapper {
+  height: 100%;
+  overflow: visible;
+}
+
+
+.content-area {
+  width: -webkit-calc((((100% - (150px)) / (1))) * 1);
+  width: calc((((100% - (150px)) / (1))) * 1);
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 1em;
+}

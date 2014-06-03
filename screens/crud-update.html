@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>runway2street</title>
+  <!-- Google fonts  -->
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,500,700,900|Open+Sans:300italic,400,300,600,700,800|Roboto:400,100,700,900|Open+Sans+Condensed:300,700|Roboto+Condensed:300italic,400,300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="../bower_components/foundation/css/foundation.css">
+  <link rel="stylesheet" href="../bower_components/Font-Awesome/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="//cdn.datatables.net/1.10.0/css/jquery.dataTables.css">
+
+  <script src="../bower_components/foundation/js/vendor/modernizr.js"></script>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header-body">
+    <nav class="top-bar" data-topbar>
+      <ul class="title-area">
+        <li class="name">
+          <h1><a href="#">runway2street</a></h1>
+        </li>
+         <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+      </ul>
+
+      <section class="top-bar-section">
+        <ul class="right">
+
+        </ul>
+        <ul class="left">
+          <li><a href="#">Left Nav Button</a></li>
+          <ul class="dropdown">
+            <li><a href="#">Home</a></li>
+          </ul>
+          <li class="has-dropdown">
+            <a href="#">Dropdown</a>
+            <ul class="dropdown">
+              <li><a href="#">link in dropdown</a></li>
+              <li><a href="#">link in dropdown</a></li>
+              <li><a href="#">link in dropdown</a></li>
+              <li><a href="#">link in dropdown</a></li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+    </nav>
+  </header>
+  <!-- Content -->
+  <div class="content-wrapper">
+    <div class="sidebar">
+      <ul class="side-nav">
+        <li>
+          <a href="#">
+            <i class="fa fa-tachometer"></i>
+            <span>Dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa fa-th-large"></i>
+            Products
+          </a>
+        </li>
+        <li><a href="#">Link 3</a></li>
+        <li><a href="#">Link 4</a></li>
+      </ul>
+    </div>
+    <div class="content-area">
+      <header>
+        <ul class="breadcrumbs">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Designers</a></li>
+          <li><a href="#">TheP.</a></li>
+          <li><a href="#">Edit</a></li>
+        </ul>
+      </header>
+      <section class="main-content">
+        <div class="large-6 columns">
+          <div class="large-4 columns">
+              <img src="https://5825abcc865e52b361d7-6c645f7f037343c7e349cc379f4554d8.ssl.cf1.rackcdn.com/designer/6/22/products/343/138/long_sleeve_shirt_dress__2__640x960_2.jpg" alt="">
+          </div>
+          <div class="large-8 columns">
+            <label for="">S No</label>
+            <input type="text" value="1">
+            <label for="">Product Name</label>
+            <input type="text" value="Sleeveless Printed Poplin Top 1">
+            <label for="">Price</label>
+            <input type="text" value="33,483">
+            <div class="text-right">
+              <input type="submit" class="btn btn-secondary" value="Cancel" style="margin-right: .5em">
+              <input type="submit" class="btn btn-primary" value="Update">
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </div>
+  <!-- Content -->
+  <script src="../bower_components/foundation/js/vendor/jquery.js"></script>
+  <script src="../bower_components/foundation/js/vendor/fastclick.js"></script>
+  <script src="../bower_components/foundation/js/foundation.min.js"></script>
+  <script src="//cdn.datatables.net/1.10.0/js/jquery.dataTables.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
+  <script>
+    $(document).ready(function(){
+      $('#myTable').dataTable();
+    });
+  </script>
+</body>
+</html>

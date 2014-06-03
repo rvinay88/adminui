@@ -2,14 +2,16 @@
 
 .btn {
   @include btn($button-settings);
-  @include themify($item: bg, $theme: primary, $scope: btn);
-  @include themify($item: bg, $theme: secondary, $scope: btn);
-  @include themify($item: bg, $theme: info, $scope: btn);
-  @include themify($item: bg, $theme: alert, $scope: btn);
-  @include themify($item: bg, $theme: success, $scope: btn);
-  @include themify($item: bg, $theme: warning, $scope: btn);
-}
+  border: none;
+  outline: none;
 
+  @include themify($theme: "primary");
+  @include themify($theme: "secondary");
+  @include themify($theme: "alert");
+  @include themify($theme: "info");
+  @include themify($theme: "success");
+  @include themify($theme: "warning");
+}
 
 @include btn-sizes($button-size-variations, small);
 @include btn-sizes($button-size-variations, medium);
