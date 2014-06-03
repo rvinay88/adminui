@@ -1,5 +1,5 @@
 /* Admin UI for runway2street.com
-*  Author: Vinay Raghu
+*   Author: Vinay Raghu
 */
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 /**
@@ -13,13 +13,15 @@ html {
   -ms-text-size-adjust: 100%;
   /* 2 */
   -webkit-text-size-adjust: 100%;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * Remove default margin.
  */
 body {
-  margin: 0; }
+  margin: 0;
+}
 
 /* HTML5 display definitions
    ========================================================================== */
@@ -40,7 +42,8 @@ main,
 nav,
 section,
 summary {
-  display: block; }
+  display: block;
+}
 
 /**
  * 1. Correct `inline-block` display not defined in IE 8/9.
@@ -53,7 +56,8 @@ video {
   display: inline-block;
   /* 1 */
   vertical-align: baseline;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * Prevent modern browsers from displaying `audio` without controls.
@@ -61,7 +65,8 @@ video {
  */
 audio:not([controls]) {
   display: none;
-  height: 0; }
+  height: 0;
+}
 
 /**
  * Address `[hidden]` styling not present in IE 8/9/10.
@@ -69,7 +74,8 @@ audio:not([controls]) {
  */
 [hidden],
 template {
-  display: none; }
+  display: none;
+}
 
 /* Links
    ========================================================================== */
@@ -77,14 +83,16 @@ template {
  * Remove the gray background color from active links in IE 10.
  */
 a {
-  background: transparent; }
+  background: transparent;
+}
 
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
 a:active,
 a:hover {
-  outline: 0; }
+  outline: 0;
+}
 
 /* Text-level semantics
    ========================================================================== */
@@ -92,20 +100,23 @@ a:hover {
  * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
  */
 abbr[title] {
-  border-bottom: 1px dotted; }
+  border-bottom: 1px dotted;
+}
 
 /**
  * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
  */
 b,
 strong {
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 /**
  * Address styling not present in Safari and Chrome.
  */
 dfn {
-  font-style: italic; }
+  font-style: italic;
+}
 
 /**
  * Address variable `h1` font-size and margin within `section` and `article`
@@ -113,20 +124,23 @@ dfn {
  */
 h1 {
   font-size: 2em;
-  margin: 0.67em 0; }
+  margin: 0.67em 0;
+}
 
 /**
  * Address styling not present in IE 8/9.
  */
 mark {
   background: #ff0;
-  color: #000; }
+  color: #000;
+}
 
 /**
  * Address inconsistent and variable font size in all browsers.
  */
 small {
-  font-size: 80%; }
+  font-size: 80%;
+}
 
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
@@ -136,13 +150,16 @@ sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+}
 
 sup {
-  top: -0.5em; }
+  top: -0.5em;
+}
 
 sub {
-  bottom: -0.25em; }
+  bottom: -0.25em;
+}
 
 /* Embedded content
    ========================================================================== */
@@ -150,13 +167,15 @@ sub {
  * Remove border when inside `a` element in IE 8/9/10.
  */
 img {
-  border: 0; }
+  border: 0;
+}
 
 /**
  * Correct overflow not hidden in IE 9/10/11.
  */
 svg:not(:root) {
-  overflow: hidden; }
+  overflow: hidden;
+}
 
 /* Grouping content
    ========================================================================== */
@@ -164,7 +183,8 @@ svg:not(:root) {
  * Address margin not present in IE 8/9 and Safari.
  */
 figure {
-  margin: 1em 40px; }
+  margin: 1em 40px;
+}
 
 /**
  * Address differences between Firefox and other browsers.
@@ -172,13 +192,15 @@ figure {
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
-  height: 0; }
+  height: 0;
+}
 
 /**
  * Contain overflow in all browsers.
  */
 pre {
-  overflow: auto; }
+  overflow: auto;
+}
 
 /**
  * Address odd `em`-unit font size rendering in all browsers.
@@ -188,7 +210,8 @@ kbd,
 pre,
 samp {
   font-family: monospace, monospace;
-  font-size: 1em; }
+  font-size: 1em;
+}
 
 /* Forms
    ========================================================================== */
@@ -212,13 +235,15 @@ textarea {
   font: inherit;
   /* 2 */
   margin: 0;
-  /* 3 */ }
+  /* 3 */
+}
 
 /**
  * Address `overflow` set to `hidden` in IE 8/9/10/11.
  */
 button {
-  overflow: visible; }
+  overflow: visible;
+}
 
 /**
  * Address inconsistent `text-transform` inheritance for `button` and `select`.
@@ -228,7 +253,8 @@ button {
  */
 button,
 select {
-  text-transform: none; }
+  text-transform: none;
+}
 
 /**
  * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
@@ -244,14 +270,16 @@ input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
   cursor: pointer;
-  /* 3 */ }
+  /* 3 */
+}
 
 /**
  * Re-set default cursor for disabled elements.
  */
 button[disabled],
 html input[disabled] {
-  cursor: default; }
+  cursor: default;
+}
 
 /**
  * Remove inner padding and border in Firefox 4+.
@@ -259,14 +287,16 @@ html input[disabled] {
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 /**
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
 input {
-  line-height: normal; }
+  line-height: normal;
+}
 
 /**
  * It's recommended that you don't attempt to style these elements.
@@ -280,7 +310,8 @@ input[type="radio"] {
   box-sizing: border-box;
   /* 1 */
   padding: 0;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * Fix the cursor style for Chrome's increment/decrement buttons. For certain
@@ -289,7 +320,8 @@ input[type="radio"] {
  */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
-  height: auto; }
+  height: auto;
+}
 
 /**
  * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
@@ -302,7 +334,8 @@ input[type="search"] {
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
   /* 2 */
-  box-sizing: content-box; }
+  box-sizing: content-box;
+}
 
 /**
  * Remove inner padding and search cancel button in Safari and Chrome on OS X.
@@ -311,7 +344,8 @@ input[type="search"] {
  */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none; }
+  -webkit-appearance: none;
+}
 
 /**
  * Define consistent border, margin, and padding.
@@ -319,7 +353,8 @@ input[type="search"]::-webkit-search-decoration {
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em; }
+  padding: 0.35em 0.625em 0.75em;
+}
 
 /**
  * 1. Correct `color` not being inherited in IE 8/9/10/11.
@@ -329,20 +364,23 @@ legend {
   border: 0;
   /* 1 */
   padding: 0;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * Remove default vertical scrollbar in IE 8/9/10/11.
  */
 textarea {
-  overflow: auto; }
+  overflow: auto;
+}
 
 /**
  * Don't inherit the `font-weight` (applied by a rule above).
  * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
  */
 optgroup {
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 /* Tables
    ========================================================================== */
@@ -351,221 +389,309 @@ optgroup {
  */
 table {
   border-collapse: collapse;
-  border-spacing: 0; }
+  border-spacing: 0;
+}
 
 td,
 th {
-  padding: 0; }
+  padding: 0;
+}
 
+/*
+
+Colors
+======
+
+Defines colors for use in the application
+
+*/
 .sg-color--green {
-  background: #1fae65; }
+  background: #1fae65;
+}
 
 .sg-color--green-1 {
-  background: #32835a; }
+  background: #32835a;
+}
 
 .sg-color--green-2 {
-  background: #0a713d; }
+  background: #0a713d;
+}
 
 .sg-color--green-3 {
-  background: #52d793; }
+  background: #52d793;
+}
 
 .sg-color--green-4 {
-  background: #76d7a5; }
+  background: #76d7a5;
+}
 
 .sg-color--black {
-  background: black; }
+  background: black;
+}
 
 .sg-color--black-1 {
-  background: #1a1a1a; }
+  background: #1a1a1a;
+}
 
 .sg-color--black-2 {
-  background: #333333; }
+  background: #333333;
+}
 
 .sg-color--black-3 {
-  background: #4d4d4d; }
+  background: #4d4d4d;
+}
 
 .sg-color--black-4 {
-  background: #666666; }
+  background: #666666;
+}
 
 .sg-color--white {
-  background: white; }
+  background: white;
+}
 
 .sg-color--white-1 {
-  background: #e6e6e6; }
+  background: #e6e6e6;
+}
 
 .sg-color--white-2 {
-  background: #cccccc; }
+  background: #cccccc;
+}
 
 .sg-color--white-3 {
-  background: #b3b3b3; }
+  background: #b3b3b3;
+}
 
 .sg-color--white-4 {
-  background: #999999; }
+  background: #999999;
+}
 
 .sg-color--yellow {
-  background: #ff9902; }
+  background: #ff9902;
+}
 
 .sg-color--yellow-1 {
-  background: #b78335; }
+  background: #b78335;
+}
 
 .sg-color--yellow-2 {
-  background: #9a5c01; }
+  background: #9a5c01;
+}
 
 .sg-color--yellow-3 {
-  background: #ffa41d; }
+  background: #ffa41d;
+}
 
 .sg-color--yellow-4 {
-  background: #ffad32; }
+  background: #ffad32;
+}
 
 .sg-color--blue {
-  background: #23709e; }
+  background: #23709e;
+}
 
 .sg-color--blue-1 {
-  background: #325d77; }
+  background: #325d77;
+}
 
 .sg-color--blue-2 {
-  background: #0c4567; }
+  background: #0c4567;
+}
 
 .sg-color--blue-3 {
-  background: #56a2cf; }
+  background: #56a2cf;
+}
 
 .sg-color--blue-4 {
-  background: #76aecf; }
+  background: #76aecf;
+}
 
 .sg-color--grey {
-  background: #666666; }
+  background: #666666;
+}
 
 .sg-color--grey-1 {
-  background: #1a1a1a; }
+  background: #1a1a1a;
+}
 
 .sg-color--grey-2 {
-  background: #333333; }
+  background: #333333;
+}
 
 .sg-color--grey-3 {
-  background: #4d4d4d; }
+  background: #4d4d4d;
+}
 
 .sg-color--grey-4 {
-  background: #666666; }
+  background: #666666;
+}
 
 .sg-color--red {
-  background: #f85d2c; }
+  background: #f85d2c;
+}
 
 .sg-color--red-1 {
-  background: #ba6347; }
+  background: #ba6347;
+}
 
 .sg-color--red-2 {
-  background: #a1320e; }
+  background: #a1320e;
+}
 
 .sg-color--red-3 {
-  background: #fc8660; }
+  background: #fc8660;
+}
 
 .sg-color--red-4 {
-  background: #fca58a; }
+  background: #fca58a;
+}
 
+/*
+
+Colors
+======
+
+Defines colors for use in the application
+
+*/
 .sg-color--green {
-  background: #1fae65; }
+  background: #1fae65;
+}
 
 .sg-color--green-1 {
-  background: #32835a; }
+  background: #32835a;
+}
 
 .sg-color--green-2 {
-  background: #0a713d; }
+  background: #0a713d;
+}
 
 .sg-color--green-3 {
-  background: #52d793; }
+  background: #52d793;
+}
 
 .sg-color--green-4 {
-  background: #76d7a5; }
+  background: #76d7a5;
+}
 
 .sg-color--black {
-  background: black; }
+  background: black;
+}
 
 .sg-color--black-1 {
-  background: #1a1a1a; }
+  background: #1a1a1a;
+}
 
 .sg-color--black-2 {
-  background: #333333; }
+  background: #333333;
+}
 
 .sg-color--black-3 {
-  background: #4d4d4d; }
+  background: #4d4d4d;
+}
 
 .sg-color--black-4 {
-  background: #666666; }
+  background: #666666;
+}
 
 .sg-color--white {
-  background: white; }
+  background: white;
+}
 
 .sg-color--white-1 {
-  background: #e6e6e6; }
+  background: #e6e6e6;
+}
 
 .sg-color--white-2 {
-  background: #cccccc; }
+  background: #cccccc;
+}
 
 .sg-color--white-3 {
-  background: #b3b3b3; }
+  background: #b3b3b3;
+}
 
 .sg-color--white-4 {
-  background: #999999; }
+  background: #999999;
+}
 
 .sg-color--yellow {
-  background: #ff9902; }
+  background: #ff9902;
+}
 
 .sg-color--yellow-1 {
-  background: #b78335; }
+  background: #b78335;
+}
 
 .sg-color--yellow-2 {
-  background: #9a5c01; }
+  background: #9a5c01;
+}
 
 .sg-color--yellow-3 {
-  background: #ffa41d; }
+  background: #ffa41d;
+}
 
 .sg-color--yellow-4 {
-  background: #ffad32; }
+  background: #ffad32;
+}
 
 .sg-color--blue {
-  background: #23709e; }
+  background: #23709e;
+}
 
 .sg-color--blue-1 {
-  background: #325d77; }
+  background: #325d77;
+}
 
 .sg-color--blue-2 {
-  background: #0c4567; }
+  background: #0c4567;
+}
 
 .sg-color--blue-3 {
-  background: #56a2cf; }
+  background: #56a2cf;
+}
 
 .sg-color--blue-4 {
-  background: #76aecf; }
+  background: #76aecf;
+}
 
 .sg-color--grey {
-  background: #666666; }
+  background: #666666;
+}
 
 .sg-color--grey-1 {
-  background: #1a1a1a; }
+  background: #1a1a1a;
+}
 
 .sg-color--grey-2 {
-  background: #333333; }
+  background: #333333;
+}
 
 .sg-color--grey-3 {
-  background: #4d4d4d; }
+  background: #4d4d4d;
+}
 
 .sg-color--grey-4 {
-  background: #666666; }
+  background: #666666;
+}
 
 .sg-color--red {
-  background: #f85d2c; }
+  background: #f85d2c;
+}
 
 .sg-color--red-1 {
-  background: #ba6347; }
+  background: #ba6347;
+}
 
 .sg-color--red-2 {
-  background: #a1320e; }
+  background: #a1320e;
+}
 
 .sg-color--red-3 {
-  background: #fc8660; }
+  background: #fc8660;
+}
 
 .sg-color--red-4 {
-  background: #fca58a; }
+  background: #fca58a;
+}
 
 /*
  * Prevent underline on links. Used for links styled as buttons, where underline is not preferable
@@ -578,14 +704,17 @@ th {
  * 3. Invert colors for active/primary - white text on black bg
  */
 *, *:before, *:after {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 img, video {
   max-width: 100%;
-  height: auto; }
+  height: auto;
+}
 
 html, body, .sidebar {
-  height: 100%; }
+  height: 100%;
+}
 
 /**
  * Adapted from http://nicolasgallagher.com/micro-clearfix-hack/
@@ -599,47 +728,57 @@ html, body, .sidebar {
  */
 .sg-h1, .sg-h2, .sg-h3 {
   font-family: "Raleway", sans-serif;
-  font-weight: 900; }
+  font-weight: 900;
+}
 
 .sg-font-primary {
   font-family: "Open Sans", sans-serif;
-  font-size: 1em; }
+  font-size: 1em;
+}
 
 .sg-font-primary-condensed {
   font-family: "Open Sans Condensed", sans-serif;
-  font-size: 1em; }
+  font-size: 1em;
+}
 
 .sg-font-secondary {
   font-family: "Raleway", sans-serif;
-  font-size: 2em; }
+  font-size: 2em;
+}
 
 .sg-font-secondary-condensed {
   font-family: "Raleway", sans-serif;
-  font-size: 2em; }
+  font-size: 2em;
+}
 
 .sg-font-supplementary {
   font-family: "Roboto", sans-serif;
-  font-size: 2em; }
+  font-size: 2em;
+}
 
 .sg-font-supplementary-condensed {
   font-family: "Roboto", sans-serif;
-  font-size: 2em; }
+  font-size: 2em;
+}
 
 .sg-anchor {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
-  font-size: 1.618em; }
+  font-size: 1.618em;
+}
 
 .sidebar {
   width: 150px;
   float: left;
   margin-right: -100%;
   margin-left: 0;
-  background: #333333; }
+  background: #333333;
+}
 
 .content-wrapper {
   height: 100%;
-  overflow: visible; }
+  overflow: visible;
+}
 
 .content-area {
   width: -webkit-calc((((100% - (150px)) / (1))) * 1);
@@ -647,7 +786,8 @@ html, body, .sidebar {
   float: right;
   margin-left: 0;
   margin-right: 0;
-  padding: 1em; }
+  padding: 1em;
+}
 
 /*
  * Prevent underline on links. Used for links styled as buttons, where underline is not preferable
@@ -660,14 +800,17 @@ html, body, .sidebar {
  * 3. Invert colors for active/primary - white text on black bg
  */
 *, *:before, *:after {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 img, video {
   max-width: 100%;
-  height: auto; }
+  height: auto;
+}
 
 html, body, .sidebar {
-  height: 100%; }
+  height: 100%;
+}
 
 /**
  * Adapted from http://nicolasgallagher.com/micro-clearfix-hack/
@@ -681,210 +824,292 @@ html, body, .sidebar {
  */
 .sg-h1, .sg-h2, .sg-h3 {
   font-family: "Raleway", sans-serif;
-  font-weight: 900; }
+  font-weight: 900;
+}
 
 .sg-font-primary {
   font-family: "Open Sans", sans-serif;
-  font-size: 1em; }
+  font-size: 1em;
+}
 
 .sg-font-primary-condensed {
   font-family: "Open Sans Condensed", sans-serif;
-  font-size: 1em; }
+  font-size: 1em;
+}
 
 .sg-font-secondary {
   font-family: "Raleway", sans-serif;
-  font-size: 2em; }
+  font-size: 2em;
+}
 
 .sg-font-secondary-condensed {
   font-family: "Raleway", sans-serif;
-  font-size: 2em; }
+  font-size: 2em;
+}
 
 .sg-font-supplementary {
   font-family: "Roboto", sans-serif;
-  font-size: 2em; }
+  font-size: 2em;
+}
 
 .sg-font-supplementary-condensed {
   font-family: "Roboto", sans-serif;
-  font-size: 2em; }
+  font-size: 2em;
+}
 
 .sg-anchor {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
-  font-size: 1.618em; }
+  font-size: 1.618em;
+}
 
+/*
+
+Badges
+======
+
+We have 5 variations of badges
+
+    <span class="badge.badge-primary">
+    <span class="badge.badge-secondary">
+    <span class="badge.badge-alert">
+    <span class="badge.badge-info">
+    <span class="badge.badge-success">
+    <span class="badge.badge-warning">
+
+*/
 .sg-h1, .sg-h2, .sg-h3 {
   font-family: "Raleway", sans-serif;
-  font-weight: 900; }
+  font-weight: 900;
+}
 
 .sg-font-primary {
   font-family: "Open Sans", sans-serif;
-  font-size: 1em; }
+  font-size: 1em;
+}
 
 .sg-font-primary-condensed {
   font-family: "Open Sans Condensed", sans-serif;
-  font-size: 1em; }
+  font-size: 1em;
+}
 
 .sg-font-secondary {
   font-family: "Raleway", sans-serif;
-  font-size: 2em; }
+  font-size: 2em;
+}
 
 .sg-font-secondary-condensed {
   font-family: "Raleway", sans-serif;
-  font-size: 2em; }
+  font-size: 2em;
+}
 
 .sg-font-supplementary {
   font-family: "Roboto", sans-serif;
-  font-size: 2em; }
+  font-size: 2em;
+}
 
 .sg-font-supplementary-condensed {
   font-family: "Roboto", sans-serif;
-  font-size: 2em; }
+  font-size: 2em;
+}
 
 .sg-anchor {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
-  font-size: 1.618em; }
+  font-size: 1.618em;
+}
 
 .badge {
   text-decoration: none;
   padding: 0.3em  0.5em;
-  font-size: 0.8em; }
-  .badge:hover {
-    text-decoration: none; }
-  .badge-primary {
-    background: #1a1a1a;
-    /* 1 */
-    color: white;
-    /* 3 */ }
-  .badge-secondary {
-    background: #cccccc;
-    /* 1 */
-    color: black; }
-  .badge-alert {
-    background: #f85d2c;
-    /* 1 */
-    color: white;
-    /* 3 */ }
-  .badge-info {
-    background: #23709e;
-    /* 1 */
-    color: white;
-    /* 3 */ }
-  .badge-success {
-    background: #1fae65;
-    /* 1 */
-    color: white;
-    /* 3 */ }
-  .badge-warning {
-    background: #ff9902;
-    /* 1 */
-    color: white;
-    /* 3 */ }
+  font-size: 0.8em;
+}
+.badge:hover {
+  text-decoration: none;
+}
+.badge-primary {
+  background: #1a1a1a;
+  /* 1 */
+  color: white;
+  /* 3 */
+}
+.badge-secondary {
+  background: #cccccc;
+  /* 1 */
+  color: black;
+}
+.badge-alert {
+  background: #f85d2c;
+  /* 1 */
+  color: white;
+  /* 3 */
+}
+.badge-info {
+  background: #23709e;
+  /* 1 */
+  color: white;
+  /* 3 */
+}
+.badge-success {
+  background: #1fae65;
+  /* 1 */
+  color: white;
+  /* 3 */
+}
+.badge-warning {
+  background: #ff9902;
+  /* 1 */
+  color: white;
+  /* 3 */
+}
 
+/*
+
+Colors
+======
+
+Defines colors for use in the application
+
+*/
 .sg-color--green {
-  background: #1fae65; }
+  background: #1fae65;
+}
 
 .sg-color--green-1 {
-  background: #32835a; }
+  background: #32835a;
+}
 
 .sg-color--green-2 {
-  background: #0a713d; }
+  background: #0a713d;
+}
 
 .sg-color--green-3 {
-  background: #52d793; }
+  background: #52d793;
+}
 
 .sg-color--green-4 {
-  background: #76d7a5; }
+  background: #76d7a5;
+}
 
 .sg-color--black {
-  background: black; }
+  background: black;
+}
 
 .sg-color--black-1 {
-  background: #1a1a1a; }
+  background: #1a1a1a;
+}
 
 .sg-color--black-2 {
-  background: #333333; }
+  background: #333333;
+}
 
 .sg-color--black-3 {
-  background: #4d4d4d; }
+  background: #4d4d4d;
+}
 
 .sg-color--black-4 {
-  background: #666666; }
+  background: #666666;
+}
 
 .sg-color--white {
-  background: white; }
+  background: white;
+}
 
 .sg-color--white-1 {
-  background: #e6e6e6; }
+  background: #e6e6e6;
+}
 
 .sg-color--white-2 {
-  background: #cccccc; }
+  background: #cccccc;
+}
 
 .sg-color--white-3 {
-  background: #b3b3b3; }
+  background: #b3b3b3;
+}
 
 .sg-color--white-4 {
-  background: #999999; }
+  background: #999999;
+}
 
 .sg-color--yellow {
-  background: #ff9902; }
+  background: #ff9902;
+}
 
 .sg-color--yellow-1 {
-  background: #b78335; }
+  background: #b78335;
+}
 
 .sg-color--yellow-2 {
-  background: #9a5c01; }
+  background: #9a5c01;
+}
 
 .sg-color--yellow-3 {
-  background: #ffa41d; }
+  background: #ffa41d;
+}
 
 .sg-color--yellow-4 {
-  background: #ffad32; }
+  background: #ffad32;
+}
 
 .sg-color--blue {
-  background: #23709e; }
+  background: #23709e;
+}
 
 .sg-color--blue-1 {
-  background: #325d77; }
+  background: #325d77;
+}
 
 .sg-color--blue-2 {
-  background: #0c4567; }
+  background: #0c4567;
+}
 
 .sg-color--blue-3 {
-  background: #56a2cf; }
+  background: #56a2cf;
+}
 
 .sg-color--blue-4 {
-  background: #76aecf; }
+  background: #76aecf;
+}
 
 .sg-color--grey {
-  background: #666666; }
+  background: #666666;
+}
 
 .sg-color--grey-1 {
-  background: #1a1a1a; }
+  background: #1a1a1a;
+}
 
 .sg-color--grey-2 {
-  background: #333333; }
+  background: #333333;
+}
 
 .sg-color--grey-3 {
-  background: #4d4d4d; }
+  background: #4d4d4d;
+}
 
 .sg-color--grey-4 {
-  background: #666666; }
+  background: #666666;
+}
 
 .sg-color--red {
-  background: #f85d2c; }
+  background: #f85d2c;
+}
 
 .sg-color--red-1 {
-  background: #ba6347; }
+  background: #ba6347;
+}
 
 .sg-color--red-2 {
-  background: #a1320e; }
+  background: #a1320e;
+}
 
 .sg-color--red-3 {
-  background: #fc8660; }
+  background: #fc8660;
+}
 
 .sg-color--red-4 {
-  background: #fca58a; }
+  background: #fca58a;
+}
 
 /*
  * Prevent underline on links. Used for links styled as buttons, where underline is not preferable
@@ -897,14 +1122,17 @@ html, body, .sidebar {
  * 3. Invert colors for active/primary - white text on black bg
  */
 *, *:before, *:after {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 img, video {
   max-width: 100%;
-  height: auto; }
+  height: auto;
+}
 
 html, body, .sidebar {
-  height: 100%; }
+  height: 100%;
+}
 
 /**
  * Adapted from http://nicolasgallagher.com/micro-clearfix-hack/
@@ -918,36 +1146,44 @@ html, body, .sidebar {
  */
 .sg-h1, .sg-h2, .sg-h3 {
   font-family: "Raleway", sans-serif;
-  font-weight: 900; }
+  font-weight: 900;
+}
 
 .sg-font-primary {
   font-family: "Open Sans", sans-serif;
-  font-size: 1em; }
+  font-size: 1em;
+}
 
 .sg-font-primary-condensed {
   font-family: "Open Sans Condensed", sans-serif;
-  font-size: 1em; }
+  font-size: 1em;
+}
 
 .sg-font-secondary {
   font-family: "Raleway", sans-serif;
-  font-size: 2em; }
+  font-size: 2em;
+}
 
 .sg-font-secondary-condensed {
   font-family: "Raleway", sans-serif;
-  font-size: 2em; }
+  font-size: 2em;
+}
 
 .sg-font-supplementary {
   font-family: "Roboto", sans-serif;
-  font-size: 2em; }
+  font-size: 2em;
+}
 
 .sg-font-supplementary-condensed {
   font-family: "Roboto", sans-serif;
-  font-size: 2em; }
+  font-size: 2em;
+}
 
 .sg-anchor {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
-  font-size: 1.618em; }
+  font-size: 1.618em;
+}
 
 /*
 * 1. Remove borders
@@ -963,161 +1199,217 @@ html, body, .sidebar {
   /* 1 */
   background: #1a1a1a;
   border: none;
-  outline: none; }
-  .btn:hover {
-    text-decoration: none; }
-  .btn:hover {
-    background: #333333; }
-  .btn-primary {
-    background: #1a1a1a;
-    /* 1 */
-    color: white;
-    /* 3 */ }
-  .btn-secondary {
-    background: #cccccc;
-    /* 1 */
-    color: black; }
-  .btn-alert {
-    background: #f85d2c;
-    /* 1 */
-    color: white;
-    /* 3 */ }
-  .btn-info {
-    background: #23709e;
-    /* 1 */
-    color: white;
-    /* 3 */ }
-  .btn-success {
-    background: #1fae65;
-    /* 1 */
-    color: white;
-    /* 3 */ }
-  .btn-warning {
-    background: #ff9902;
-    /* 1 */
-    color: white;
-    /* 3 */ }
+  outline: none;
+}
+.btn:hover {
+  text-decoration: none;
+}
+.btn:hover {
+  background: #333333;
+}
+.btn-primary {
+  background: #1a1a1a;
+  /* 1 */
+  color: white;
+  /* 3 */
+}
+.btn-secondary {
+  background: #cccccc;
+  /* 1 */
+  color: black;
+}
+.btn-alert {
+  background: #f85d2c;
+  /* 1 */
+  color: white;
+  /* 3 */
+}
+.btn-info {
+  background: #23709e;
+  /* 1 */
+  color: white;
+  /* 3 */
+}
+.btn-success {
+  background: #1fae65;
+  /* 1 */
+  color: white;
+  /* 3 */
+}
+.btn-warning {
+  background: #ff9902;
+  /* 1 */
+  color: white;
+  /* 3 */
+}
 
 .btn-small {
   font-size: 0.9em;
-  padding: 0.5em; }
+  padding: 0.5em;
+}
 
 .btn-medium {
   font-size: 1em;
-  padding: 1em; }
+  padding: 1em;
+}
 
 .btn-large {
   font-size: 1.2em;
-  padding: 1em 1.6em; }
+  padding: 1em 1.6em;
+}
 
 .btn-expand {
   width: 100%;
-  padding: 1em; }
+  padding: 1em;
+}
 
+/*
+
+Colors
+======
+
+Defines colors for use in the application
+
+*/
 .sg-color--green {
-  background: #1fae65; }
+  background: #1fae65;
+}
 
 .sg-color--green-1 {
-  background: #32835a; }
+  background: #32835a;
+}
 
 .sg-color--green-2 {
-  background: #0a713d; }
+  background: #0a713d;
+}
 
 .sg-color--green-3 {
-  background: #52d793; }
+  background: #52d793;
+}
 
 .sg-color--green-4 {
-  background: #76d7a5; }
+  background: #76d7a5;
+}
 
 .sg-color--black {
-  background: black; }
+  background: black;
+}
 
 .sg-color--black-1 {
-  background: #1a1a1a; }
+  background: #1a1a1a;
+}
 
 .sg-color--black-2 {
-  background: #333333; }
+  background: #333333;
+}
 
 .sg-color--black-3 {
-  background: #4d4d4d; }
+  background: #4d4d4d;
+}
 
 .sg-color--black-4 {
-  background: #666666; }
+  background: #666666;
+}
 
 .sg-color--white {
-  background: white; }
+  background: white;
+}
 
 .sg-color--white-1 {
-  background: #e6e6e6; }
+  background: #e6e6e6;
+}
 
 .sg-color--white-2 {
-  background: #cccccc; }
+  background: #cccccc;
+}
 
 .sg-color--white-3 {
-  background: #b3b3b3; }
+  background: #b3b3b3;
+}
 
 .sg-color--white-4 {
-  background: #999999; }
+  background: #999999;
+}
 
 .sg-color--yellow {
-  background: #ff9902; }
+  background: #ff9902;
+}
 
 .sg-color--yellow-1 {
-  background: #b78335; }
+  background: #b78335;
+}
 
 .sg-color--yellow-2 {
-  background: #9a5c01; }
+  background: #9a5c01;
+}
 
 .sg-color--yellow-3 {
-  background: #ffa41d; }
+  background: #ffa41d;
+}
 
 .sg-color--yellow-4 {
-  background: #ffad32; }
+  background: #ffad32;
+}
 
 .sg-color--blue {
-  background: #23709e; }
+  background: #23709e;
+}
 
 .sg-color--blue-1 {
-  background: #325d77; }
+  background: #325d77;
+}
 
 .sg-color--blue-2 {
-  background: #0c4567; }
+  background: #0c4567;
+}
 
 .sg-color--blue-3 {
-  background: #56a2cf; }
+  background: #56a2cf;
+}
 
 .sg-color--blue-4 {
-  background: #76aecf; }
+  background: #76aecf;
+}
 
 .sg-color--grey {
-  background: #666666; }
+  background: #666666;
+}
 
 .sg-color--grey-1 {
-  background: #1a1a1a; }
+  background: #1a1a1a;
+}
 
 .sg-color--grey-2 {
-  background: #333333; }
+  background: #333333;
+}
 
 .sg-color--grey-3 {
-  background: #4d4d4d; }
+  background: #4d4d4d;
+}
 
 .sg-color--grey-4 {
-  background: #666666; }
+  background: #666666;
+}
 
 .sg-color--red {
-  background: #f85d2c; }
+  background: #f85d2c;
+}
 
 .sg-color--red-1 {
-  background: #ba6347; }
+  background: #ba6347;
+}
 
 .sg-color--red-2 {
-  background: #a1320e; }
+  background: #a1320e;
+}
 
 .sg-color--red-3 {
-  background: #fc8660; }
+  background: #fc8660;
+}
 
 .sg-color--red-4 {
-  background: #fca58a; }
+  background: #fca58a;
+}
 
 /*
  * Prevent underline on links. Used for links styled as buttons, where underline is not preferable
@@ -1130,14 +1422,17 @@ html, body, .sidebar {
  * 3. Invert colors for active/primary - white text on black bg
  */
 *, *:before, *:after {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 img, video {
   max-width: 100%;
-  height: auto; }
+  height: auto;
+}
 
 html, body, .sidebar {
-  height: 100%; }
+  height: 100%;
+}
 
 /**
  * Adapted from http://nicolasgallagher.com/micro-clearfix-hack/
@@ -1151,36 +1446,44 @@ html, body, .sidebar {
  */
 .sg-h1, .sg-h2, .sg-h3 {
   font-family: "Raleway", sans-serif;
-  font-weight: 900; }
+  font-weight: 900;
+}
 
 .sg-font-primary {
   font-family: "Open Sans", sans-serif;
-  font-size: 1em; }
+  font-size: 1em;
+}
 
 .sg-font-primary-condensed {
   font-family: "Open Sans Condensed", sans-serif;
-  font-size: 1em; }
+  font-size: 1em;
+}
 
 .sg-font-secondary {
   font-family: "Raleway", sans-serif;
-  font-size: 2em; }
+  font-size: 2em;
+}
 
 .sg-font-secondary-condensed {
   font-family: "Raleway", sans-serif;
-  font-size: 2em; }
+  font-size: 2em;
+}
 
 .sg-font-supplementary {
   font-family: "Roboto", sans-serif;
-  font-size: 2em; }
+  font-size: 2em;
+}
 
 .sg-font-supplementary-condensed {
   font-family: "Roboto", sans-serif;
-  font-size: 2em; }
+  font-size: 2em;
+}
 
 .sg-anchor {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
-  font-size: 1.618em; }
+  font-size: 1.618em;
+}
 
 /*
  * 1. Add a blue border on focus
@@ -1193,45 +1496,58 @@ input:not([type]), input[type="color"], input[type="email"], input[type="number"
   outline: none;
   background: white;
   transition: all 0.3s ease-in-out;
-  /* 2 */ }
-  input:not([type]):focus, input[type="color"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="tel"]:focus, input[type="url"]:focus, input[type="text"]:focus {
-    border: 1px solid #23709e;
-    /* 1 */ }
+  /* 2 */
+}
+input:not([type]):focus, input[type="color"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="tel"]:focus, input[type="url"]:focus, input[type="text"]:focus {
+  border: 1px solid #23709e;
+  /* 1 */
+}
 
 html input[disabled], textarea[disabled] {
   background: #e6e6e6;
   cursor: not-allowed;
-  color: #666666; }
+  color: #666666;
+}
 
 label {
   display: block;
-  cursor: pointer; }
+  cursor: pointer;
+}
 
 /* Form group class is used to wrap a label, text input and an error summary
  * .help-text is used to add supplemental information
  */
 .form-group {
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+}
 
 .has-error {
-  color: #f85d2c; }
-  .has-error input:not([type]), .has-error input[type="color"], .has-error input[type="email"], .has-error input[type="number"], .has-error input[type="password"], .has-error input[type="tel"], .has-error input[type="url"], .has-error input[type="text"] {
-    border-color: currentcolor; }
+  color: #f85d2c;
+}
+.has-error input:not([type]), .has-error input[type="color"], .has-error input[type="email"], .has-error input[type="number"], .has-error input[type="password"], .has-error input[type="tel"], .has-error input[type="url"], .has-error input[type="text"] {
+  border-color: currentcolor;
+}
 
 .has-success {
-  color: #1fae65; }
-  .has-success input:not([type]), .has-success input[type="color"], .has-success input[type="email"], .has-success input[type="number"], .has-success input[type="password"], .has-success input[type="tel"], .has-success input[type="url"], .has-success input[type="text"] {
-    border-color: currentcolor; }
+  color: #1fae65;
+}
+.has-success input:not([type]), .has-success input[type="color"], .has-success input[type="email"], .has-success input[type="number"], .has-success input[type="password"], .has-success input[type="tel"], .has-success input[type="url"], .has-success input[type="text"] {
+  border-color: currentcolor;
+}
 
 .has-info {
-  color: #23709e; }
-  .has-info input:not([type]), .has-info input[type="color"], .has-info input[type="email"], .has-info input[type="number"], .has-info input[type="password"], .has-info input[type="tel"], .has-info input[type="url"], .has-info input[type="text"] {
-    border-color: currentcolor; }
+  color: #23709e;
+}
+.has-info input:not([type]), .has-info input[type="color"], .has-info input[type="email"], .has-info input[type="number"], .has-info input[type="password"], .has-info input[type="tel"], .has-info input[type="url"], .has-info input[type="text"] {
+  border-color: currentcolor;
+}
 
 .has-warning {
-  color: #ff9902; }
-  .has-warning input:not([type]), .has-warning input[type="color"], .has-warning input[type="email"], .has-warning input[type="number"], .has-warning input[type="password"], .has-warning input[type="tel"], .has-warning input[type="url"], .has-warning input[type="text"] {
-    border-color: currentcolor; }
+  color: #ff9902;
+}
+.has-warning input:not([type]), .has-warning input[type="color"], .has-warning input[type="email"], .has-warning input[type="number"], .has-warning input[type="password"], .has-warning input[type="tel"], .has-warning input[type="url"], .has-warning input[type="text"] {
+  border-color: currentcolor;
+}
 
 /*
  * .help-text
@@ -1242,181 +1558,242 @@ label {
   display: none;
   /* 1 */
   margin-top: 0;
-  color: currentcolor; }
-  .has-feedback .help-text {
-    display: block;
-    /* 2 */ }
+  color: currentcolor;
+}
+.has-feedback .help-text {
+  display: block;
+  /* 2 */
+}
 
 .sg-h1, .sg-h2, .sg-h3 {
   font-family: "Raleway", sans-serif;
-  font-weight: 900; }
+  font-weight: 900;
+}
 
 .sg-font-primary {
   font-family: "Open Sans", sans-serif;
-  font-size: 1em; }
+  font-size: 1em;
+}
 
 .sg-font-primary-condensed {
   font-family: "Open Sans Condensed", sans-serif;
-  font-size: 1em; }
+  font-size: 1em;
+}
 
 .sg-font-secondary {
   font-family: "Raleway", sans-serif;
-  font-size: 2em; }
+  font-size: 2em;
+}
 
 .sg-font-secondary-condensed {
   font-family: "Raleway", sans-serif;
-  font-size: 2em; }
+  font-size: 2em;
+}
 
 .sg-font-supplementary {
   font-family: "Roboto", sans-serif;
-  font-size: 2em; }
+  font-size: 2em;
+}
 
 .sg-font-supplementary-condensed {
   font-family: "Roboto", sans-serif;
-  font-size: 2em; }
+  font-size: 2em;
+}
 
 .sg-anchor {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
-  font-size: 1.618em; }
+  font-size: 1.618em;
+}
 
 html {
-  font-size: 0.875em; }
+  font-size: 0.875em;
+}
 
 body {
   background-color: white;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   line-height: 1.45;
-  color: #333; }
+  color: #333;
+}
 
 p {
-  margin-bottom: 1.3em; }
+  margin-bottom: 1.3em;
+}
 
 h1, h2, h3, h4 {
   margin: 1.414em 0 0.5em;
   font-family: "Raleway", sans-serif;
   font-weight: inherit;
   line-height: 1.2;
-  font-weight: 900; }
+  font-weight: 900;
+}
 
 h1, .h1 {
   margin-top: 0;
-  font-size: 2.951em; }
+  font-size: 2.951em;
+}
 
 h2, .h2 {
-  font-size: 2.618em; }
+  font-size: 2.618em;
+}
 
 h3, .h3 {
-  font-size: 1.618em; }
+  font-size: 1.618em;
+}
 
 small, .text-small {
-  font-size: 0.697em; }
+  font-size: 0.697em;
+}
 
+/*
+
+Colors
+======
+
+Defines colors for use in the application
+
+*/
 .sg-color--green {
-  background: #1fae65; }
+  background: #1fae65;
+}
 
 .sg-color--green-1 {
-  background: #32835a; }
+  background: #32835a;
+}
 
 .sg-color--green-2 {
-  background: #0a713d; }
+  background: #0a713d;
+}
 
 .sg-color--green-3 {
-  background: #52d793; }
+  background: #52d793;
+}
 
 .sg-color--green-4 {
-  background: #76d7a5; }
+  background: #76d7a5;
+}
 
 .sg-color--black {
-  background: black; }
+  background: black;
+}
 
 .sg-color--black-1 {
-  background: #1a1a1a; }
+  background: #1a1a1a;
+}
 
 .sg-color--black-2 {
-  background: #333333; }
+  background: #333333;
+}
 
 .sg-color--black-3 {
-  background: #4d4d4d; }
+  background: #4d4d4d;
+}
 
 .sg-color--black-4 {
-  background: #666666; }
+  background: #666666;
+}
 
 .sg-color--white {
-  background: white; }
+  background: white;
+}
 
 .sg-color--white-1 {
-  background: #e6e6e6; }
+  background: #e6e6e6;
+}
 
 .sg-color--white-2 {
-  background: #cccccc; }
+  background: #cccccc;
+}
 
 .sg-color--white-3 {
-  background: #b3b3b3; }
+  background: #b3b3b3;
+}
 
 .sg-color--white-4 {
-  background: #999999; }
+  background: #999999;
+}
 
 .sg-color--yellow {
-  background: #ff9902; }
+  background: #ff9902;
+}
 
 .sg-color--yellow-1 {
-  background: #b78335; }
+  background: #b78335;
+}
 
 .sg-color--yellow-2 {
-  background: #9a5c01; }
+  background: #9a5c01;
+}
 
 .sg-color--yellow-3 {
-  background: #ffa41d; }
+  background: #ffa41d;
+}
 
 .sg-color--yellow-4 {
-  background: #ffad32; }
+  background: #ffad32;
+}
 
 .sg-color--blue {
-  background: #23709e; }
+  background: #23709e;
+}
 
 .sg-color--blue-1 {
-  background: #325d77; }
+  background: #325d77;
+}
 
 .sg-color--blue-2 {
-  background: #0c4567; }
+  background: #0c4567;
+}
 
 .sg-color--blue-3 {
-  background: #56a2cf; }
+  background: #56a2cf;
+}
 
 .sg-color--blue-4 {
-  background: #76aecf; }
+  background: #76aecf;
+}
 
 .sg-color--grey {
-  background: #666666; }
+  background: #666666;
+}
 
 .sg-color--grey-1 {
-  background: #1a1a1a; }
+  background: #1a1a1a;
+}
 
 .sg-color--grey-2 {
-  background: #333333; }
+  background: #333333;
+}
 
 .sg-color--grey-3 {
-  background: #4d4d4d; }
+  background: #4d4d4d;
+}
 
 .sg-color--grey-4 {
-  background: #666666; }
+  background: #666666;
+}
 
 .sg-color--red {
-  background: #f85d2c; }
+  background: #f85d2c;
+}
 
 .sg-color--red-1 {
-  background: #ba6347; }
+  background: #ba6347;
+}
 
 .sg-color--red-2 {
-  background: #a1320e; }
+  background: #a1320e;
+}
 
 .sg-color--red-3 {
-  background: #fc8660; }
+  background: #fc8660;
+}
 
 .sg-color--red-4 {
-  background: #fca58a; }
+  background: #fca58a;
+}
 
 /*
  * Prevent underline on links. Used for links styled as buttons, where underline is not preferable
@@ -1429,14 +1806,17 @@ small, .text-small {
  * 3. Invert colors for active/primary - white text on black bg
  */
 *, *:before, *:after {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 img, video {
   max-width: 100%;
-  height: auto; }
+  height: auto;
+}
 
 html, body, .sidebar {
-  height: 100%; }
+  height: 100%;
+}
 
 /**
  * Adapted from http://nicolasgallagher.com/micro-clearfix-hack/
@@ -1450,36 +1830,44 @@ html, body, .sidebar {
  */
 .sg-h1, .sg-h2, .sg-h3 {
   font-family: "Raleway", sans-serif;
-  font-weight: 900; }
+  font-weight: 900;
+}
 
 .sg-font-primary {
   font-family: "Open Sans", sans-serif;
-  font-size: 1em; }
+  font-size: 1em;
+}
 
 .sg-font-primary-condensed {
   font-family: "Open Sans Condensed", sans-serif;
-  font-size: 1em; }
+  font-size: 1em;
+}
 
 .sg-font-secondary {
   font-family: "Raleway", sans-serif;
-  font-size: 2em; }
+  font-size: 2em;
+}
 
 .sg-font-secondary-condensed {
   font-family: "Raleway", sans-serif;
-  font-size: 2em; }
+  font-size: 2em;
+}
 
 .sg-font-supplementary {
   font-family: "Roboto", sans-serif;
-  font-size: 2em; }
+  font-size: 2em;
+}
 
 .sg-font-supplementary-condensed {
   font-family: "Roboto", sans-serif;
-  font-size: 2em; }
+  font-size: 2em;
+}
 
 .sg-anchor {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
-  font-size: 1.618em; }
+  font-size: 1.618em;
+}
 
 /*
  * Create a fade out horizontal line
@@ -1490,46 +1878,57 @@ hr.soften {
   background-image: -moz-linear-gradient(left, transparent, rgba(0, 0, 0, 0.3), transparent);
   background-image: -ms-linear-gradient(left, transparent, rgba(0, 0, 0, 0.3), transparent);
   background-image: -o-linear-gradient(left, transparent, rgba(0, 0, 0, 0.3), transparent);
-  border: 0; }
+  border: 0;
+}
 
 .sg-h1, .sg-h2, .sg-h3 {
   font-family: "Raleway", sans-serif;
-  font-weight: 900; }
+  font-weight: 900;
+}
 
 .sg-font-primary {
   font-family: "Open Sans", sans-serif;
-  font-size: 1em; }
+  font-size: 1em;
+}
 
 .sg-font-primary-condensed {
   font-family: "Open Sans Condensed", sans-serif;
-  font-size: 1em; }
+  font-size: 1em;
+}
 
 .sg-font-secondary {
   font-family: "Raleway", sans-serif;
-  font-size: 2em; }
+  font-size: 2em;
+}
 
 .sg-font-secondary-condensed {
   font-family: "Raleway", sans-serif;
-  font-size: 2em; }
+  font-size: 2em;
+}
 
 .sg-font-supplementary {
   font-family: "Roboto", sans-serif;
-  font-size: 2em; }
+  font-size: 2em;
+}
 
 .sg-font-supplementary-condensed {
   font-family: "Roboto", sans-serif;
-  font-size: 2em; }
+  font-size: 2em;
+}
 
 .sg-anchor {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
-  font-size: 1.618em; }
+  font-size: 1.618em;
+}
 
 .no-bullet, .horizontal-list, .list-group {
-  list-style: none; }
+  list-style: none;
+}
 
 .horizontal-list > li, .horizontal-element {
-  display: inline-block; }
+  display: inline-block;
+}
 
 /*
  * 1. Add a border around all items
@@ -1550,147 +1949,201 @@ hr.soften {
   border: 1px solid #666666;
   /* 1 */
   border-bottom: 0;
-  /* 2 */ }
-  .list-group-item:hover {
-    text-decoration: none; }
-  .list-group-item:first-child {
-    border-top: 1px solid #666666;
-    /* 2 */ }
-  .list-group-item:last-child {
-    border-bottom: 1px solid #666666;
-    /* 2 */ }
+  /* 2 */
+}
+.list-group-item:hover {
+  text-decoration: none;
+}
+.list-group-item:first-child {
+  border-top: 1px solid #666666;
+  /* 2 */
+}
+.list-group-item:last-child {
+  border-bottom: 1px solid #666666;
+  /* 2 */
+}
 
 a.list-group-item {
   color: black;
-  /* 7 */ }
-  a.list-group-item > h4, a.list-group-item > p {
-    margin: 0; }
+  /* 7 */
+}
+a.list-group-item > h4, a.list-group-item > p {
+  margin: 0;
+}
 
 .th {
   border: 2px solid #999999;
-  padding: 0.9em; }
+  padding: 0.9em;
+}
 
 figure {
   margin: 0;
-  display: inline-block; }
+  display: inline-block;
+}
 
 address {
-  font-style: normal; }
+  font-style: normal;
+}
 
 blockquote {
   font-family: "Raleway", sans-serif;
   font-size: 1.618em;
   border-left: 2px solid;
   border-left-color: #666666;
-  padding-left: 1em; }
-  blockquote p {
-    color: #666666;
-    font-size: 1em; }
+  padding-left: 1em;
+}
+blockquote p {
+  color: #666666;
+  font-size: 1em;
+}
 
+/*
+
+Colors
+======
+
+Defines colors for use in the application
+
+*/
 .sg-color--green {
-  background: #1fae65; }
+  background: #1fae65;
+}
 
 .sg-color--green-1 {
-  background: #32835a; }
+  background: #32835a;
+}
 
 .sg-color--green-2 {
-  background: #0a713d; }
+  background: #0a713d;
+}
 
 .sg-color--green-3 {
-  background: #52d793; }
+  background: #52d793;
+}
 
 .sg-color--green-4 {
-  background: #76d7a5; }
+  background: #76d7a5;
+}
 
 .sg-color--black {
-  background: black; }
+  background: black;
+}
 
 .sg-color--black-1 {
-  background: #1a1a1a; }
+  background: #1a1a1a;
+}
 
 .sg-color--black-2 {
-  background: #333333; }
+  background: #333333;
+}
 
 .sg-color--black-3 {
-  background: #4d4d4d; }
+  background: #4d4d4d;
+}
 
 .sg-color--black-4 {
-  background: #666666; }
+  background: #666666;
+}
 
 .sg-color--white {
-  background: white; }
+  background: white;
+}
 
 .sg-color--white-1 {
-  background: #e6e6e6; }
+  background: #e6e6e6;
+}
 
 .sg-color--white-2 {
-  background: #cccccc; }
+  background: #cccccc;
+}
 
 .sg-color--white-3 {
-  background: #b3b3b3; }
+  background: #b3b3b3;
+}
 
 .sg-color--white-4 {
-  background: #999999; }
+  background: #999999;
+}
 
 .sg-color--yellow {
-  background: #ff9902; }
+  background: #ff9902;
+}
 
 .sg-color--yellow-1 {
-  background: #b78335; }
+  background: #b78335;
+}
 
 .sg-color--yellow-2 {
-  background: #9a5c01; }
+  background: #9a5c01;
+}
 
 .sg-color--yellow-3 {
-  background: #ffa41d; }
+  background: #ffa41d;
+}
 
 .sg-color--yellow-4 {
-  background: #ffad32; }
+  background: #ffad32;
+}
 
 .sg-color--blue {
-  background: #23709e; }
+  background: #23709e;
+}
 
 .sg-color--blue-1 {
-  background: #325d77; }
+  background: #325d77;
+}
 
 .sg-color--blue-2 {
-  background: #0c4567; }
+  background: #0c4567;
+}
 
 .sg-color--blue-3 {
-  background: #56a2cf; }
+  background: #56a2cf;
+}
 
 .sg-color--blue-4 {
-  background: #76aecf; }
+  background: #76aecf;
+}
 
 .sg-color--grey {
-  background: #666666; }
+  background: #666666;
+}
 
 .sg-color--grey-1 {
-  background: #1a1a1a; }
+  background: #1a1a1a;
+}
 
 .sg-color--grey-2 {
-  background: #333333; }
+  background: #333333;
+}
 
 .sg-color--grey-3 {
-  background: #4d4d4d; }
+  background: #4d4d4d;
+}
 
 .sg-color--grey-4 {
-  background: #666666; }
+  background: #666666;
+}
 
 .sg-color--red {
-  background: #f85d2c; }
+  background: #f85d2c;
+}
 
 .sg-color--red-1 {
-  background: #ba6347; }
+  background: #ba6347;
+}
 
 .sg-color--red-2 {
-  background: #a1320e; }
+  background: #a1320e;
+}
 
 .sg-color--red-3 {
-  background: #fc8660; }
+  background: #fc8660;
+}
 
 .sg-color--red-4 {
-  background: #fca58a; }
+  background: #fca58a;
+}
 
 /*
  * Prevent underline on links. Used for links styled as buttons, where underline is not preferable
@@ -1703,14 +2156,17 @@ blockquote {
  * 3. Invert colors for active/primary - white text on black bg
  */
 *, *:before, *:after {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 img, video {
   max-width: 100%;
-  height: auto; }
+  height: auto;
+}
 
 html, body, .sidebar {
-  height: 100%; }
+  height: 100%;
+}
 
 /**
  * Adapted from http://nicolasgallagher.com/micro-clearfix-hack/
@@ -1724,45 +2180,54 @@ html, body, .sidebar {
  */
 .sg-h1, .sg-h2, .sg-h3 {
   font-family: "Raleway", sans-serif;
-  font-weight: 900; }
+  font-weight: 900;
+}
 
 .sg-font-primary {
   font-family: "Open Sans", sans-serif;
-  font-size: 1em; }
+  font-size: 1em;
+}
 
 .sg-font-primary-condensed {
   font-family: "Open Sans Condensed", sans-serif;
-  font-size: 1em; }
+  font-size: 1em;
+}
 
 .sg-font-secondary {
   font-family: "Raleway", sans-serif;
-  font-size: 2em; }
+  font-size: 2em;
+}
 
 .sg-font-secondary-condensed {
   font-family: "Raleway", sans-serif;
-  font-size: 2em; }
+  font-size: 2em;
+}
 
 .sg-font-supplementary {
   font-family: "Roboto", sans-serif;
-  font-size: 2em; }
+  font-size: 2em;
+}
 
 .sg-font-supplementary-condensed {
   font-family: "Roboto", sans-serif;
-  font-size: 2em; }
+  font-size: 2em;
+}
 
 .sg-anchor {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
-  font-size: 1.618em; }
+  font-size: 1.618em;
+}
 
 .side-nav li a:not(.button) {
   color: #e6e6e6;
-  border-left: 4px solid transparent; }
-  .side-nav li a:not(.button):hover {
-    border-left: 4px solid #ff9902;
-    color: #ff9902; }
+  border-left: 4px solid transparent;
+}
+.side-nav li a:not(.button):hover {
+  border-left: 4px solid #ff9902;
+  color: #ff9902;
+}
 
 .dataTables_wrapper {
-  width: 98%; }
-
-/*# sourceMappingURL=style.css.map */
+  width: 98%;
+}
