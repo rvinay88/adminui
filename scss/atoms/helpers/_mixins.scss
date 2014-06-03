@@ -27,7 +27,7 @@ $animation-easing: ease-in-out;
  * 2. Returns the corresponding theme color
  * 3. Invert colors for active/primary - white text on black bg
  */
-@mixin themify($item, $theme) {
+@mixin themify($item, $theme, $scope: false) {
   $theme-color: $white;
 
   @if ($theme == "primary") {
@@ -59,7 +59,24 @@ $animation-easing: ease-in-out;
     @warn ("You called themeify with a theme that is not present")
   }
 
-  &.#{$theme}{
+  @if ($scope) {
+    &.#{$scope}-#{$theme}{
+      @if($item == "bg") {
+        background: $theme-color; /* 1 */
+        @if($theme == "secondary") {
+          color: $black;
+        }
+        @else {
+          color: $white; /* 3 */
+        }
+      }
+      @if($item == "text") {
+        color: $theme-color; /* 2 */
+      }
+    }
+  }
+  @else {
+    &.#{$theme}{
     @if($item == "bg") {
       background: $theme-color; /* 1 */
       @if($theme == "secondary") {
@@ -73,4 +90,6 @@ $animation-easing: ease-in-out;
       color: $theme-color; /* 2 */
     }
   }
+  }
+
 }
