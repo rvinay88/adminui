@@ -5,11 +5,10 @@
 $body-copy: 'Open Sans', sans-serif;
 $body-copy-condensed: 'Open Sans Condensed', sans-serif;
 
-$headings: 'Raleway', sans-serif;
-$headings-condensed: 'Roboto Condensed', sans-serif;
+$headings: 'Open Sans', sans-serif;
+$headings-condensed: 'Open Sans Condensed', sans-serif;
 
-$supplementary: 'Roboto', sans-serif;
-$supplementary-condensed: 'Roboto', sans-serif;
+$supplementary: arial, sans-serif;
 
 //////////////////////////
 //Font sizes
@@ -57,8 +56,8 @@ $font-size-xlarge: 2.951em; //35.412px
   font-size: 2em;
 }
 
-.sg-font-supplementary-condensed {
-  font-family: $supplementary-condensed;
+.sg-font-supplementary {
+  font-family: $supplementary;
   font-size: 2em;
 }
 

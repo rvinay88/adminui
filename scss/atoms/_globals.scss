@@ -1,9 +1,9 @@
-@import "atoms/colors/colors";
-@import "atoms/helpers/mixins";
-@import "atoms/helpers/functions";
-@import "atoms/helpers/utilities";
-@import "atoms/type/type";
+@import 'atoms/colors/colors';
+@import 'atoms/helpers/mixins';
+@import 'atoms/helpers/functions';
+@import 'atoms/helpers/utilities';
+@import 'atoms/type/type';
 
-$global-padding: 0.9em;
+$global-padding: 1em;
 $global-radius: 4px;
 $global-margin: 1em;

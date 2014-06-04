@@ -9,6 +9,14 @@
 }
 
 /*
+ * Ratios
+ */
+
+$ms: 1, 1.618,2.618, 4.236;
+$ms-sm: 0.875, 583, 0.362, 0.211, 0.115;
+
+
+/*
  * Common easing for the entire website
  */
 
@@ -27,7 +35,7 @@ $animation-easing: ease-in-out;
  * 2. Returns the corresponding theme color
  * 3. Invert colors for active/primary - white text on black bg
  */
-@mixin themify($theme, $item: "bg") {
+@mixin themify($theme, $item: "bg", $hover: false) {
   $theme-color: $white;
 
   @if ($theme == "primary") {
@@ -61,6 +69,10 @@ $animation-easing: ease-in-out;
       }
       @else {
         color: $white; /* 3 */
+      }
+
+      &:hover {
+        background: darken($theme-color, 8%);
       }
     }
     @if($item == "text") {

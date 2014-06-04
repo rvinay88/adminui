@@ -7,6 +7,7 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
+/* line 9, ../scss/atoms/reset/_normalize.scss */
 html {
   font-family: sans-serif;
   /* 1 */
@@ -19,6 +20,7 @@ html {
 /**
  * Remove default margin.
  */
+/* line 19, ../scss/atoms/reset/_normalize.scss */
 body {
   margin: 0;
 }
@@ -30,6 +32,7 @@ body {
  * Correct `block` display not defined for `details` or `summary` in IE 10/11 and Firefox.
  * Correct `block` display not defined for `main` in IE 11.
  */
+/* line 32, ../scss/atoms/reset/_normalize.scss */
 article,
 aside,
 details,
@@ -49,6 +52,7 @@ summary {
  * 1. Correct `inline-block` display not defined in IE 8/9.
  * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
  */
+/* line 52, ../scss/atoms/reset/_normalize.scss */
 audio,
 canvas,
 progress,
@@ -63,6 +67,7 @@ video {
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
+/* line 65, ../scss/atoms/reset/_normalize.scss */
 audio:not([controls]) {
   display: none;
   height: 0;
@@ -72,6 +77,7 @@ audio:not([controls]) {
  * Address `[hidden]` styling not present in IE 8/9/10.
  * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
  */
+/* line 75, ../scss/atoms/reset/_normalize.scss */
 [hidden],
 template {
   display: none;
@@ -82,6 +88,7 @@ template {
 /**
  * Remove the gray background color from active links in IE 10.
  */
+/* line 87, ../scss/atoms/reset/_normalize.scss */
 a {
   background: transparent;
 }
@@ -89,6 +96,7 @@ a {
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
+/* line 95, ../scss/atoms/reset/_normalize.scss */
 a:active,
 a:hover {
   outline: 0;
@@ -99,6 +107,7 @@ a:hover {
 /**
  * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
  */
+/* line 107, ../scss/atoms/reset/_normalize.scss */
 abbr[title] {
   border-bottom: 1px dotted;
 }
@@ -106,6 +115,7 @@ abbr[title] {
 /**
  * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
  */
+/* line 115, ../scss/atoms/reset/_normalize.scss */
 b,
 strong {
   font-weight: bold;
@@ -114,6 +124,7 @@ strong {
 /**
  * Address styling not present in Safari and Chrome.
  */
+/* line 124, ../scss/atoms/reset/_normalize.scss */
 dfn {
   font-style: italic;
 }
@@ -122,6 +133,7 @@ dfn {
  * Address variable `h1` font-size and margin within `section` and `article`
  * contexts in Firefox 4+, Safari, and Chrome.
  */
+/* line 133, ../scss/atoms/reset/_normalize.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
@@ -130,6 +142,7 @@ h1 {
 /**
  * Address styling not present in IE 8/9.
  */
+/* line 142, ../scss/atoms/reset/_normalize.scss */
 mark {
   background: #ff0;
   color: #000;
@@ -138,6 +151,7 @@ mark {
 /**
  * Address inconsistent and variable font size in all browsers.
  */
+/* line 151, ../scss/atoms/reset/_normalize.scss */
 small {
   font-size: 80%;
 }
@@ -145,6 +159,7 @@ small {
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
+/* line 159, ../scss/atoms/reset/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -153,10 +168,12 @@ sup {
   vertical-align: baseline;
 }
 
+/* line 167, ../scss/atoms/reset/_normalize.scss */
 sup {
   top: -0.5em;
 }
 
+/* line 171, ../scss/atoms/reset/_normalize.scss */
 sub {
   bottom: -0.25em;
 }
@@ -166,6 +183,7 @@ sub {
 /**
  * Remove border when inside `a` element in IE 8/9/10.
  */
+/* line 182, ../scss/atoms/reset/_normalize.scss */
 img {
   border: 0;
 }
@@ -173,6 +191,7 @@ img {
 /**
  * Correct overflow not hidden in IE 9/10/11.
  */
+/* line 190, ../scss/atoms/reset/_normalize.scss */
 svg:not(:root) {
   overflow: hidden;
 }
@@ -182,6 +201,7 @@ svg:not(:root) {
 /**
  * Address margin not present in IE 8/9 and Safari.
  */
+/* line 201, ../scss/atoms/reset/_normalize.scss */
 figure {
   margin: 1em 40px;
 }
@@ -189,15 +209,17 @@ figure {
 /**
  * Address differences between Firefox and other browsers.
  */
+/* line 209, ../scss/atoms/reset/_normalize.scss */
 hr {
   -moz-box-sizing: content-box;
-  box-sizing: content-box;
+       box-sizing: content-box;
   height: 0;
 }
 
 /**
  * Contain overflow in all browsers.
  */
+/* line 219, ../scss/atoms/reset/_normalize.scss */
 pre {
   overflow: auto;
 }
@@ -205,6 +227,7 @@ pre {
 /**
  * Address odd `em`-unit font size rendering in all browsers.
  */
+/* line 227, ../scss/atoms/reset/_normalize.scss */
 code,
 kbd,
 pre,
@@ -225,6 +248,7 @@ samp {
  * 2. Correct font properties not being inherited.
  * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
  */
+/* line 250, ../scss/atoms/reset/_normalize.scss */
 button,
 input,
 optgroup,
@@ -241,6 +265,7 @@ textarea {
 /**
  * Address `overflow` set to `hidden` in IE 8/9/10/11.
  */
+/* line 264, ../scss/atoms/reset/_normalize.scss */
 button {
   overflow: visible;
 }
@@ -251,6 +276,7 @@ button {
  * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
  * Correct `select` style inheritance in Firefox.
  */
+/* line 275, ../scss/atoms/reset/_normalize.scss */
 button,
 select {
   text-transform: none;
@@ -263,6 +289,7 @@ select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
+/* line 288, ../scss/atoms/reset/_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -276,6 +303,7 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
+/* line 300, ../scss/atoms/reset/_normalize.scss */
 button[disabled],
 html input[disabled] {
   cursor: default;
@@ -284,6 +312,7 @@ html input[disabled] {
 /**
  * Remove inner padding and border in Firefox 4+.
  */
+/* line 309, ../scss/atoms/reset/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -294,6 +323,7 @@ input::-moz-focus-inner {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
+/* line 320, ../scss/atoms/reset/_normalize.scss */
 input {
   line-height: normal;
 }
@@ -305,9 +335,11 @@ input {
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
  * 2. Remove excess padding in IE 8/9/10.
  */
+/* line 332, ../scss/atoms/reset/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
-  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
   /* 1 */
   padding: 0;
   /* 2 */
@@ -318,6 +350,7 @@ input[type="radio"] {
  * `font-size` values of the `input`, it causes the cursor style of the
  * decrement button to change from `default` to `text`.
  */
+/* line 344, ../scss/atoms/reset/_normalize.scss */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto;
@@ -328,13 +361,13 @@ input[type="number"]::-webkit-outer-spin-button {
  * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
  *    (include `-moz` to future-proof).
  */
+/* line 355, ../scss/atoms/reset/_normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
   -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box;
   /* 2 */
-  box-sizing: content-box;
+       box-sizing: content-box;
 }
 
 /**
@@ -342,6 +375,7 @@ input[type="search"] {
  * Safari (but not Chrome) clips the cancel button when the search input has
  * padding (and `textfield` appearance).
  */
+/* line 368, ../scss/atoms/reset/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -350,6 +384,7 @@ input[type="search"]::-webkit-search-decoration {
 /**
  * Define consistent border, margin, and padding.
  */
+/* line 377, ../scss/atoms/reset/_normalize.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -360,6 +395,7 @@ fieldset {
  * 1. Correct `color` not being inherited in IE 8/9/10/11.
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
+/* line 388, ../scss/atoms/reset/_normalize.scss */
 legend {
   border: 0;
   /* 1 */
@@ -370,6 +406,7 @@ legend {
 /**
  * Remove default vertical scrollbar in IE 8/9/10/11.
  */
+/* line 397, ../scss/atoms/reset/_normalize.scss */
 textarea {
   overflow: auto;
 }
@@ -378,6 +415,7 @@ textarea {
  * Don't inherit the `font-weight` (applied by a rule above).
  * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
  */
+/* line 406, ../scss/atoms/reset/_normalize.scss */
 optgroup {
   font-weight: bold;
 }
@@ -387,162 +425,28 @@ optgroup {
 /**
  * Remove most spacing between table cells.
  */
+/* line 417, ../scss/atoms/reset/_normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
+/* line 422, ../scss/atoms/reset/_normalize.scss */
 td,
 th {
   padding: 0;
 }
 
-/*
-
-Colors
-======
-
-Defines colors for use in the application
-
-*/
-.sg-color--green {
-  background: #1fae65;
+/* line 1, ../scss/atoms/reset/_reset.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
 }
 
-.sg-color--green-1 {
-  background: #32835a;
-}
-
-.sg-color--green-2 {
-  background: #0a713d;
-}
-
-.sg-color--green-3 {
-  background: #52d793;
-}
-
-.sg-color--green-4 {
-  background: #76d7a5;
-}
-
-.sg-color--black {
-  background: black;
-}
-
-.sg-color--black-1 {
-  background: #1a1a1a;
-}
-
-.sg-color--black-2 {
-  background: #333333;
-}
-
-.sg-color--black-3 {
-  background: #4d4d4d;
-}
-
-.sg-color--black-4 {
-  background: #666666;
-}
-
-.sg-color--white {
-  background: white;
-}
-
-.sg-color--white-1 {
-  background: #e6e6e6;
-}
-
-.sg-color--white-2 {
-  background: #cccccc;
-}
-
-.sg-color--white-3 {
-  background: #b3b3b3;
-}
-
-.sg-color--white-4 {
-  background: #999999;
-}
-
-.sg-color--yellow {
-  background: #ff9902;
-}
-
-.sg-color--yellow-1 {
-  background: #b78335;
-}
-
-.sg-color--yellow-2 {
-  background: #9a5c01;
-}
-
-.sg-color--yellow-3 {
-  background: #ffa41d;
-}
-
-.sg-color--yellow-4 {
-  background: #ffad32;
-}
-
-.sg-color--blue {
-  background: #23709e;
-}
-
-.sg-color--blue-1 {
-  background: #325d77;
-}
-
-.sg-color--blue-2 {
-  background: #0c4567;
-}
-
-.sg-color--blue-3 {
-  background: #56a2cf;
-}
-
-.sg-color--blue-4 {
-  background: #76aecf;
-}
-
-.sg-color--grey {
-  background: #666666;
-}
-
-.sg-color--grey-1 {
-  background: #1a1a1a;
-}
-
-.sg-color--grey-2 {
-  background: #333333;
-}
-
-.sg-color--grey-3 {
-  background: #4d4d4d;
-}
-
-.sg-color--grey-4 {
-  background: #666666;
-}
-
-.sg-color--red {
-  background: #f85d2c;
-}
-
-.sg-color--red-1 {
-  background: #ba6347;
-}
-
-.sg-color--red-2 {
-  background: #a1320e;
-}
-
-.sg-color--red-3 {
-  background: #fc8660;
-}
-
-.sg-color--red-4 {
-  background: #fca58a;
+/* line 9, ../scss/atoms/reset/_reset.scss */
+img, video {
+  max-width: 100%;
+  height: auto;
 }
 
 /*
@@ -553,148 +457,19 @@ Colors
 Defines colors for use in the application
 
 */
-.sg-color--green {
-  background: #1fae65;
-}
+/*
 
-.sg-color--green-1 {
-  background: #32835a;
-}
+Colors
+======
 
-.sg-color--green-2 {
-  background: #0a713d;
-}
+Defines colors for use in the application
 
-.sg-color--green-3 {
-  background: #52d793;
-}
-
-.sg-color--green-4 {
-  background: #76d7a5;
-}
-
-.sg-color--black {
-  background: black;
-}
-
-.sg-color--black-1 {
-  background: #1a1a1a;
-}
-
-.sg-color--black-2 {
-  background: #333333;
-}
-
-.sg-color--black-3 {
-  background: #4d4d4d;
-}
-
-.sg-color--black-4 {
-  background: #666666;
-}
-
-.sg-color--white {
-  background: white;
-}
-
-.sg-color--white-1 {
-  background: #e6e6e6;
-}
-
-.sg-color--white-2 {
-  background: #cccccc;
-}
-
-.sg-color--white-3 {
-  background: #b3b3b3;
-}
-
-.sg-color--white-4 {
-  background: #999999;
-}
-
-.sg-color--yellow {
-  background: #ff9902;
-}
-
-.sg-color--yellow-1 {
-  background: #b78335;
-}
-
-.sg-color--yellow-2 {
-  background: #9a5c01;
-}
-
-.sg-color--yellow-3 {
-  background: #ffa41d;
-}
-
-.sg-color--yellow-4 {
-  background: #ffad32;
-}
-
-.sg-color--blue {
-  background: #23709e;
-}
-
-.sg-color--blue-1 {
-  background: #325d77;
-}
-
-.sg-color--blue-2 {
-  background: #0c4567;
-}
-
-.sg-color--blue-3 {
-  background: #56a2cf;
-}
-
-.sg-color--blue-4 {
-  background: #76aecf;
-}
-
-.sg-color--grey {
-  background: #666666;
-}
-
-.sg-color--grey-1 {
-  background: #1a1a1a;
-}
-
-.sg-color--grey-2 {
-  background: #333333;
-}
-
-.sg-color--grey-3 {
-  background: #4d4d4d;
-}
-
-.sg-color--grey-4 {
-  background: #666666;
-}
-
-.sg-color--red {
-  background: #f85d2c;
-}
-
-.sg-color--red-1 {
-  background: #ba6347;
-}
-
-.sg-color--red-2 {
-  background: #a1320e;
-}
-
-.sg-color--red-3 {
-  background: #fc8660;
-}
-
-.sg-color--red-4 {
-  background: #fca58a;
-}
-
+*/
 /*
  * Prevent underline on links. Used for links styled as buttons, where underline is not preferable
+ */
+/*
+ * Ratios
  */
 /*
  * Common easing for the entire website
@@ -703,15 +478,7 @@ Defines colors for use in the application
  * 2. Returns the corresponding theme color
  * 3. Invert colors for active/primary - white text on black bg
  */
-*, *:before, *:after {
-  box-sizing: border-box;
-}
-
-img, video {
-  max-width: 100%;
-  height: auto;
-}
-
+/* line 6, c:\wamp\www\adminui\scss\atoms\helpers\_utilities.scss */
 html, body, .sidebar {
   height: 100%;
 }
@@ -726,66 +493,91 @@ html, body, .sidebar {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
+/* line 29, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
 .sg-h1, .sg-h2, .sg-h3 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 900;
 }
 
+/* line 34, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
 .sg-font-primary {
   font-family: "Open Sans", sans-serif;
   font-size: 1em;
 }
 
+/* line 39, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
 .sg-font-primary-condensed {
   font-family: "Open Sans Condensed", sans-serif;
   font-size: 1em;
 }
 
+/* line 44, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
 .sg-font-secondary {
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 2em;
 }
 
+/* line 49, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
 .sg-font-secondary-condensed {
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 2em;
 }
 
+/* line 54, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
 .sg-font-supplementary {
-  font-family: "Roboto", sans-serif;
+  font-family: arial, sans-serif;
   font-size: 2em;
 }
 
-.sg-font-supplementary-condensed {
-  font-family: "Roboto", sans-serif;
+/* line 59, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
+.sg-font-supplementary {
+  font-family: arial, sans-serif;
   font-size: 2em;
 }
 
+/* line 66, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
 .sg-anchor {
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 500;
   font-size: 1.618em;
 }
 
+/*
+
+Grids
+======
+
+Grids for this application are built using Singularity Grid System. We use a generic 12 column grid that comes with foundation for rapid prototyping.
+Once the design is frozen, we refactor those into semantic grid classes.
+
+We also have a responsive 12 column grid for laying out items in float span order. All other items are laid out using isolation span.
+
+http://sassmeister.com/gist/f13878ea080877ed727c
+
+
+*/
+/* line 17, ../scss/atoms/grids/_grids.scss */
 .sidebar {
-  width: 150px;
   float: left;
+  width: 150px;
   margin-right: -100%;
   margin-left: 0;
-  background: #333333;
+  background: #333;
 }
 
+/* line 29, ../scss/atoms/grids/_grids.scss */
 .content-wrapper {
-  height: 100%;
   overflow: visible;
+  height: 100%;
 }
 
+/* line 36, ../scss/atoms/grids/_grids.scss */
 .content-area {
+  float: right;
   width: -webkit-calc((((100% - (150px)) / (1))) * 1);
   width: calc((((100% - (150px)) / (1))) * 1);
-  float: right;
-  margin-left: 0;
   margin-right: 0;
+  margin-left: 0;
   padding: 1em;
 }
 
@@ -793,21 +585,16 @@ html, body, .sidebar {
  * Prevent underline on links. Used for links styled as buttons, where underline is not preferable
  */
 /*
+ * Ratios
+ */
+/*
  * Common easing for the entire website
  */
 /* 1. Set background / text to theme color
  * 2. Returns the corresponding theme color
  * 3. Invert colors for active/primary - white text on black bg
  */
-*, *:before, *:after {
-  box-sizing: border-box;
-}
-
-img, video {
-  max-width: 100%;
-  height: auto;
-}
-
+/* line 6, ../scss/atoms/helpers/_utilities.scss */
 html, body, .sidebar {
   height: 100%;
 }
@@ -822,43 +609,51 @@ html, body, .sidebar {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
+/* line 29, ../scss/atoms/type/_type.scss */
 .sg-h1, .sg-h2, .sg-h3 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 900;
 }
 
+/* line 34, ../scss/atoms/type/_type.scss */
 .sg-font-primary {
   font-family: "Open Sans", sans-serif;
   font-size: 1em;
 }
 
+/* line 39, ../scss/atoms/type/_type.scss */
 .sg-font-primary-condensed {
   font-family: "Open Sans Condensed", sans-serif;
   font-size: 1em;
 }
 
+/* line 44, ../scss/atoms/type/_type.scss */
 .sg-font-secondary {
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 2em;
 }
 
+/* line 49, ../scss/atoms/type/_type.scss */
 .sg-font-secondary-condensed {
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 2em;
 }
 
+/* line 54, ../scss/atoms/type/_type.scss */
 .sg-font-supplementary {
-  font-family: "Roboto", sans-serif;
+  font-family: arial, sans-serif;
   font-size: 2em;
 }
 
-.sg-font-supplementary-condensed {
-  font-family: "Roboto", sans-serif;
+/* line 59, ../scss/atoms/type/_type.scss */
+.sg-font-supplementary {
+  font-family: arial, sans-serif;
   font-size: 2em;
 }
 
+/* line 66, ../scss/atoms/type/_type.scss */
 .sg-anchor {
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 500;
   font-size: 1.618em;
 }
@@ -870,99 +665,168 @@ Badges
 
 We have 5 variations of badges
 
-    <span class="badge.badge-primary">
-    <span class="badge.badge-secondary">
-    <span class="badge.badge-alert">
-    <span class="badge.badge-info">
-    <span class="badge.badge-success">
-    <span class="badge.badge-warning">
+```
+  <span class="badge badge-primary">Primary</span>
+  <span class="badge badge-secondary">Secondary</span>
+  <span class="badge badge-alert">Alert</span>
+  <span class="badge badge-info">Info</span>
+  <span class="badge badge-success">Success</span>
+  <span class="badge badge-warning">Warning</span>
+````
 
 */
+/* line 29, ../scss/atoms/type/_type.scss */
 .sg-h1, .sg-h2, .sg-h3 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 900;
 }
 
+/* line 34, ../scss/atoms/type/_type.scss */
 .sg-font-primary {
   font-family: "Open Sans", sans-serif;
   font-size: 1em;
 }
 
+/* line 39, ../scss/atoms/type/_type.scss */
 .sg-font-primary-condensed {
   font-family: "Open Sans Condensed", sans-serif;
   font-size: 1em;
 }
 
+/* line 44, ../scss/atoms/type/_type.scss */
 .sg-font-secondary {
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 2em;
 }
 
+/* line 49, ../scss/atoms/type/_type.scss */
 .sg-font-secondary-condensed {
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 2em;
 }
 
+/* line 54, ../scss/atoms/type/_type.scss */
 .sg-font-supplementary {
-  font-family: "Roboto", sans-serif;
+  font-family: arial, sans-serif;
   font-size: 2em;
 }
 
-.sg-font-supplementary-condensed {
-  font-family: "Roboto", sans-serif;
+/* line 59, ../scss/atoms/type/_type.scss */
+.sg-font-supplementary {
+  font-family: arial, sans-serif;
   font-size: 2em;
 }
 
+/* line 66, ../scss/atoms/type/_type.scss */
 .sg-anchor {
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 500;
   font-size: 1.618em;
 }
 
+/* line 21, ../scss/molecules/badges/_badges.scss */
 .badge {
+  font-size: .8em;
+  padding: .3em  .5em;
   text-decoration: none;
-  padding: 0.3em  0.5em;
-  font-size: 0.8em;
 }
+/* line 6, ../scss/atoms/helpers/_mixins.scss */
 .badge:hover {
   text-decoration: none;
 }
+/* line 63, ../scss/atoms/helpers/_mixins.scss */
 .badge-primary {
   background: #1a1a1a;
   /* 1 */
   color: white;
   /* 3 */
 }
+/* line 74, ../scss/atoms/helpers/_mixins.scss */
+.badge-primary:hover {
+  background: #050505;
+}
+/* line 63, ../scss/atoms/helpers/_mixins.scss */
 .badge-secondary {
   background: #cccccc;
   /* 1 */
   color: black;
 }
+/* line 74, ../scss/atoms/helpers/_mixins.scss */
+.badge-secondary:hover {
+  background: #b8b8b8;
+}
+/* line 63, ../scss/atoms/helpers/_mixins.scss */
 .badge-alert {
   background: #f85d2c;
   /* 1 */
   color: white;
   /* 3 */
 }
+/* line 74, ../scss/atoms/helpers/_mixins.scss */
+.badge-alert:hover {
+  background: #f34108;
+}
+/* line 63, ../scss/atoms/helpers/_mixins.scss */
 .badge-info {
   background: #23709e;
   /* 1 */
   color: white;
   /* 3 */
 }
+/* line 74, ../scss/atoms/helpers/_mixins.scss */
+.badge-info:hover {
+  background: #1c587d;
+}
+/* line 63, ../scss/atoms/helpers/_mixins.scss */
 .badge-success {
   background: #1fae65;
   /* 1 */
   color: white;
   /* 3 */
 }
+/* line 74, ../scss/atoms/helpers/_mixins.scss */
+.badge-success:hover {
+  background: #198b51;
+}
+/* line 63, ../scss/atoms/helpers/_mixins.scss */
 .badge-warning {
   background: #ff9902;
   /* 1 */
   color: white;
   /* 3 */
 }
+/* line 74, ../scss/atoms/helpers/_mixins.scss */
+.badge-warning:hover {
+  background: #d88100;
+}
 
+/*
+
+Buttons
+======
+
+We have 5 variations of buttons
+
+```
+<a class="btn btn-primary" href="#">Button</a>
+<a class="btn btn-secondary" href="#">Button</a>
+<a class="btn btn-alert" href="#">Button</a>
+<a class="btn btn-info" href="#">Button</a>
+<a class="btn btn-success" href="#">Button</a>
+<a class="btn btn-warning" href="#">Button</a>
+```
+
+We have 5 variations of sizes
+```
+<a class="btn btn-primary" href="#">Default Button</a>
+<a class="btn btn-primary btn-small" href="#">Small Button</a>
+<a class="btn btn-primary btn-medium" href="#">Medium Button</a>
+<a class="btn btn-primary btn-large" href="#">Large Button</a>
+<a class="btn btn-primary btn-expand" href="#">Full width Button</a>
+
+```
+
+*/
 /*
 
 Colors
@@ -971,148 +835,11 @@ Colors
 Defines colors for use in the application
 
 */
-.sg-color--green {
-  background: #1fae65;
-}
-
-.sg-color--green-1 {
-  background: #32835a;
-}
-
-.sg-color--green-2 {
-  background: #0a713d;
-}
-
-.sg-color--green-3 {
-  background: #52d793;
-}
-
-.sg-color--green-4 {
-  background: #76d7a5;
-}
-
-.sg-color--black {
-  background: black;
-}
-
-.sg-color--black-1 {
-  background: #1a1a1a;
-}
-
-.sg-color--black-2 {
-  background: #333333;
-}
-
-.sg-color--black-3 {
-  background: #4d4d4d;
-}
-
-.sg-color--black-4 {
-  background: #666666;
-}
-
-.sg-color--white {
-  background: white;
-}
-
-.sg-color--white-1 {
-  background: #e6e6e6;
-}
-
-.sg-color--white-2 {
-  background: #cccccc;
-}
-
-.sg-color--white-3 {
-  background: #b3b3b3;
-}
-
-.sg-color--white-4 {
-  background: #999999;
-}
-
-.sg-color--yellow {
-  background: #ff9902;
-}
-
-.sg-color--yellow-1 {
-  background: #b78335;
-}
-
-.sg-color--yellow-2 {
-  background: #9a5c01;
-}
-
-.sg-color--yellow-3 {
-  background: #ffa41d;
-}
-
-.sg-color--yellow-4 {
-  background: #ffad32;
-}
-
-.sg-color--blue {
-  background: #23709e;
-}
-
-.sg-color--blue-1 {
-  background: #325d77;
-}
-
-.sg-color--blue-2 {
-  background: #0c4567;
-}
-
-.sg-color--blue-3 {
-  background: #56a2cf;
-}
-
-.sg-color--blue-4 {
-  background: #76aecf;
-}
-
-.sg-color--grey {
-  background: #666666;
-}
-
-.sg-color--grey-1 {
-  background: #1a1a1a;
-}
-
-.sg-color--grey-2 {
-  background: #333333;
-}
-
-.sg-color--grey-3 {
-  background: #4d4d4d;
-}
-
-.sg-color--grey-4 {
-  background: #666666;
-}
-
-.sg-color--red {
-  background: #f85d2c;
-}
-
-.sg-color--red-1 {
-  background: #ba6347;
-}
-
-.sg-color--red-2 {
-  background: #a1320e;
-}
-
-.sg-color--red-3 {
-  background: #fc8660;
-}
-
-.sg-color--red-4 {
-  background: #fca58a;
-}
-
 /*
  * Prevent underline on links. Used for links styled as buttons, where underline is not preferable
+ */
+/*
+ * Ratios
  */
 /*
  * Common easing for the entire website
@@ -1121,15 +848,7 @@ Defines colors for use in the application
  * 2. Returns the corresponding theme color
  * 3. Invert colors for active/primary - white text on black bg
  */
-*, *:before, *:after {
-  box-sizing: border-box;
-}
-
-img, video {
-  max-width: 100%;
-  height: auto;
-}
-
+/* line 6, c:\wamp\www\adminui\scss\atoms\helpers\_utilities.scss */
 html, body, .sidebar {
   height: 100%;
 }
@@ -1144,123 +863,189 @@ html, body, .sidebar {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
+/* line 29, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
 .sg-h1, .sg-h2, .sg-h3 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 900;
 }
 
+/* line 34, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
 .sg-font-primary {
   font-family: "Open Sans", sans-serif;
   font-size: 1em;
 }
 
+/* line 39, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
 .sg-font-primary-condensed {
   font-family: "Open Sans Condensed", sans-serif;
   font-size: 1em;
 }
 
+/* line 44, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
 .sg-font-secondary {
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 2em;
 }
 
+/* line 49, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
 .sg-font-secondary-condensed {
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 2em;
 }
 
+/* line 54, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
 .sg-font-supplementary {
-  font-family: "Roboto", sans-serif;
+  font-family: arial, sans-serif;
   font-size: 2em;
 }
 
-.sg-font-supplementary-condensed {
-  font-family: "Roboto", sans-serif;
+/* line 59, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
+.sg-font-supplementary {
+  font-family: arial, sans-serif;
   font-size: 2em;
 }
 
+/* line 66, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
 .sg-anchor {
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 500;
   font-size: 1.618em;
 }
 
 /*
-* 1. Remove borders
-* 2. Always have a cursor irrespective of whether link/button/input tag
+ 1. Remove borders
+ 2. Always have a cursor irrespective of whether link/button/input tag
 */
+/*
+
+Button Extends
+======
+1. Maintain consistent behaviour for `<a>`, `<button>` and `<input>` tags. Encourage devs to use `<button>` tag as much as possible
+#### Default Size
+#### Small
+#### Medium
+#### Large
+#### Expand
+```
+  <button class="btn btn-primary">Default</button>
+
+  <button class="btn btn-info btn-small">Small</button>
+
+  <button class="btn btn-warning btn-medium">Medium</button>
+
+  <button class="btn btn-success btn-large">Large</button>
+
+  <button class="btn btn-alert btn-expand">Expand</button>
+```
+*/
+/* line 25, ../scss/molecules/buttons/_extends.scss */
 .btn {
   text-decoration: none;
-  padding: 0.5em;
+  -webkit-transition: all 0.3s ease-in-out;
+          transition: all 0.3s ease-in-out;
+  display: inline-block;
+  border: none;
+  padding: 1em 1.618em;
+  vertical-align: top;
   cursor: pointer;
-  /* 2 */
-  color: white;
-  border: none;
-  /* 1 */
-  background: #1a1a1a;
-  border: none;
-  outline: none;
+  font-family: arial, sans-serif;
+  font-size: 1em;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
 }
+/* line 6, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
 .btn:hover {
   text-decoration: none;
 }
-.btn:hover {
-  background: #333333;
-}
+/* line 63, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
 .btn-primary {
   background: #1a1a1a;
   /* 1 */
   color: white;
   /* 3 */
 }
+/* line 74, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
+.btn-primary:hover {
+  background: #050505;
+}
+/* line 63, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
 .btn-secondary {
   background: #cccccc;
   /* 1 */
   color: black;
 }
+/* line 74, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
+.btn-secondary:hover {
+  background: #b8b8b8;
+}
+/* line 63, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
 .btn-alert {
   background: #f85d2c;
   /* 1 */
   color: white;
   /* 3 */
 }
+/* line 74, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
+.btn-alert:hover {
+  background: #f34108;
+}
+/* line 63, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
 .btn-info {
   background: #23709e;
   /* 1 */
   color: white;
   /* 3 */
 }
+/* line 74, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
+.btn-info:hover {
+  background: #1c587d;
+}
+/* line 63, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
 .btn-success {
   background: #1fae65;
   /* 1 */
   color: white;
   /* 3 */
 }
+/* line 74, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
+.btn-success:hover {
+  background: #198b51;
+}
+/* line 63, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
 .btn-warning {
   background: #ff9902;
   /* 1 */
   color: white;
   /* 3 */
 }
+/* line 74, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
+.btn-warning:hover {
+  background: #d88100;
+}
 
+/* line 32, ../scss/molecules/buttons/_mixins.scss */
 .btn-small {
   font-size: 0.9em;
-  padding: 0.5em;
+  line-height: 20px;
 }
 
+/* line 32, ../scss/molecules/buttons/_mixins.scss */
 .btn-medium {
   font-size: 1em;
-  padding: 1em;
+  line-height: 30px;
 }
 
+/* line 32, ../scss/molecules/buttons/_mixins.scss */
 .btn-large {
   font-size: 1.2em;
-  padding: 1em 1.6em;
+  line-height: 45px;
 }
 
+/* line 32, ../scss/molecules/buttons/_mixins.scss */
 .btn-expand {
   width: 100%;
-  padding: 1em;
+  line-height: 45px;
 }
 
 /*
@@ -1271,148 +1056,11 @@ Colors
 Defines colors for use in the application
 
 */
-.sg-color--green {
-  background: #1fae65;
-}
-
-.sg-color--green-1 {
-  background: #32835a;
-}
-
-.sg-color--green-2 {
-  background: #0a713d;
-}
-
-.sg-color--green-3 {
-  background: #52d793;
-}
-
-.sg-color--green-4 {
-  background: #76d7a5;
-}
-
-.sg-color--black {
-  background: black;
-}
-
-.sg-color--black-1 {
-  background: #1a1a1a;
-}
-
-.sg-color--black-2 {
-  background: #333333;
-}
-
-.sg-color--black-3 {
-  background: #4d4d4d;
-}
-
-.sg-color--black-4 {
-  background: #666666;
-}
-
-.sg-color--white {
-  background: white;
-}
-
-.sg-color--white-1 {
-  background: #e6e6e6;
-}
-
-.sg-color--white-2 {
-  background: #cccccc;
-}
-
-.sg-color--white-3 {
-  background: #b3b3b3;
-}
-
-.sg-color--white-4 {
-  background: #999999;
-}
-
-.sg-color--yellow {
-  background: #ff9902;
-}
-
-.sg-color--yellow-1 {
-  background: #b78335;
-}
-
-.sg-color--yellow-2 {
-  background: #9a5c01;
-}
-
-.sg-color--yellow-3 {
-  background: #ffa41d;
-}
-
-.sg-color--yellow-4 {
-  background: #ffad32;
-}
-
-.sg-color--blue {
-  background: #23709e;
-}
-
-.sg-color--blue-1 {
-  background: #325d77;
-}
-
-.sg-color--blue-2 {
-  background: #0c4567;
-}
-
-.sg-color--blue-3 {
-  background: #56a2cf;
-}
-
-.sg-color--blue-4 {
-  background: #76aecf;
-}
-
-.sg-color--grey {
-  background: #666666;
-}
-
-.sg-color--grey-1 {
-  background: #1a1a1a;
-}
-
-.sg-color--grey-2 {
-  background: #333333;
-}
-
-.sg-color--grey-3 {
-  background: #4d4d4d;
-}
-
-.sg-color--grey-4 {
-  background: #666666;
-}
-
-.sg-color--red {
-  background: #f85d2c;
-}
-
-.sg-color--red-1 {
-  background: #ba6347;
-}
-
-.sg-color--red-2 {
-  background: #a1320e;
-}
-
-.sg-color--red-3 {
-  background: #fc8660;
-}
-
-.sg-color--red-4 {
-  background: #fca58a;
-}
-
 /*
  * Prevent underline on links. Used for links styled as buttons, where underline is not preferable
+ */
+/*
+ * Ratios
  */
 /*
  * Common easing for the entire website
@@ -1421,15 +1069,7 @@ Defines colors for use in the application
  * 2. Returns the corresponding theme color
  * 3. Invert colors for active/primary - white text on black bg
  */
-*, *:before, *:after {
-  box-sizing: border-box;
-}
-
-img, video {
-  max-width: 100%;
-  height: auto;
-}
-
+/* line 6, c:\wamp\www\adminui\scss\atoms\helpers\_utilities.scss */
 html, body, .sidebar {
   height: 100%;
 }
@@ -1444,43 +1084,51 @@ html, body, .sidebar {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
+/* line 29, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
 .sg-h1, .sg-h2, .sg-h3 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 900;
 }
 
+/* line 34, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
 .sg-font-primary {
   font-family: "Open Sans", sans-serif;
   font-size: 1em;
 }
 
+/* line 39, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
 .sg-font-primary-condensed {
   font-family: "Open Sans Condensed", sans-serif;
   font-size: 1em;
 }
 
+/* line 44, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
 .sg-font-secondary {
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 2em;
 }
 
+/* line 49, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
 .sg-font-secondary-condensed {
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 2em;
 }
 
+/* line 54, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
 .sg-font-supplementary {
-  font-family: "Roboto", sans-serif;
+  font-family: arial, sans-serif;
   font-size: 2em;
 }
 
-.sg-font-supplementary-condensed {
-  font-family: "Roboto", sans-serif;
+/* line 59, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
+.sg-font-supplementary {
+  font-family: arial, sans-serif;
   font-size: 2em;
 }
 
+/* line 66, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
 .sg-anchor {
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 500;
   font-size: 1.618em;
 }
@@ -1489,26 +1137,31 @@ html, body, .sidebar {
  * 1. Add a blue border on focus
  * 2. Animate state changes between focus, error etc.
  */
+/* line 3, ../scss/molecules/forms/_extends.scss */
 input:not([type]), input[type="color"], input[type="email"], input[type="number"], input[type="password"], input[type="tel"], input[type="url"], input[type="text"] {
   width: 100%;
-  padding: 0.45em 0.45em;
+  padding: 0.5em 0.5em;
   border: 1px solid #b3b3b3;
   outline: none;
   background: white;
-  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+          transition: all 0.3s ease-in-out;
   /* 2 */
 }
+/* line 17, ../scss/molecules/forms/_mixins.scss */
 input:not([type]):focus, input[type="color"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="tel"]:focus, input[type="url"]:focus, input[type="text"]:focus {
   border: 1px solid #23709e;
   /* 1 */
 }
 
+/* line 7, ../scss/molecules/forms/_extends.scss */
 html input[disabled], textarea[disabled] {
   background: #e6e6e6;
   cursor: not-allowed;
   color: #666666;
 }
 
+/* line 13, ../scss/molecules/forms/_extends.scss */
 label {
   display: block;
   cursor: pointer;
@@ -1517,34 +1170,43 @@ label {
 /* Form group class is used to wrap a label, text input and an error summary
  * .help-text is used to add supplemental information
  */
+/* line 21, ../scss/molecules/forms/_extends.scss */
 .form-group {
   margin-bottom: 1em;
 }
 
+/* line 25, ../scss/molecules/forms/_extends.scss */
 .has-error {
   color: #f85d2c;
 }
+/* line 27, ../scss/molecules/forms/_extends.scss */
 .has-error input:not([type]), .has-error input[type="color"], .has-error input[type="email"], .has-error input[type="number"], .has-error input[type="password"], .has-error input[type="tel"], .has-error input[type="url"], .has-error input[type="text"] {
   border-color: currentcolor;
 }
 
+/* line 31, ../scss/molecules/forms/_extends.scss */
 .has-success {
   color: #1fae65;
 }
+/* line 33, ../scss/molecules/forms/_extends.scss */
 .has-success input:not([type]), .has-success input[type="color"], .has-success input[type="email"], .has-success input[type="number"], .has-success input[type="password"], .has-success input[type="tel"], .has-success input[type="url"], .has-success input[type="text"] {
   border-color: currentcolor;
 }
 
+/* line 37, ../scss/molecules/forms/_extends.scss */
 .has-info {
   color: #23709e;
 }
+/* line 39, ../scss/molecules/forms/_extends.scss */
 .has-info input:not([type]), .has-info input[type="color"], .has-info input[type="email"], .has-info input[type="number"], .has-info input[type="password"], .has-info input[type="tel"], .has-info input[type="url"], .has-info input[type="text"] {
   border-color: currentcolor;
 }
 
+/* line 43, ../scss/molecules/forms/_extends.scss */
 .has-warning {
   color: #ff9902;
 }
+/* line 45, ../scss/molecules/forms/_extends.scss */
 .has-warning input:not([type]), .has-warning input[type="color"], .has-warning input[type="email"], .has-warning input[type="number"], .has-warning input[type="password"], .has-warning input[type="tel"], .has-warning input[type="url"], .has-warning input[type="text"] {
   border-color: currentcolor;
 }
@@ -1554,62 +1216,74 @@ label {
  * 1. Hidden by default
  * 2. Display when the form-group has any feedback
  */
+/* line 56, ../scss/molecules/forms/_extends.scss */
 .help-text {
   display: none;
   /* 1 */
   margin-top: 0;
   color: currentcolor;
 }
+/* line 60, ../scss/molecules/forms/_extends.scss */
 .has-feedback .help-text {
   display: block;
   /* 2 */
 }
 
+/* line 29, ../scss/atoms/type/_type.scss */
 .sg-h1, .sg-h2, .sg-h3 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 900;
 }
 
+/* line 34, ../scss/atoms/type/_type.scss */
 .sg-font-primary {
   font-family: "Open Sans", sans-serif;
   font-size: 1em;
 }
 
+/* line 39, ../scss/atoms/type/_type.scss */
 .sg-font-primary-condensed {
   font-family: "Open Sans Condensed", sans-serif;
   font-size: 1em;
 }
 
+/* line 44, ../scss/atoms/type/_type.scss */
 .sg-font-secondary {
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 2em;
 }
 
+/* line 49, ../scss/atoms/type/_type.scss */
 .sg-font-secondary-condensed {
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 2em;
 }
 
+/* line 54, ../scss/atoms/type/_type.scss */
 .sg-font-supplementary {
-  font-family: "Roboto", sans-serif;
+  font-family: arial, sans-serif;
   font-size: 2em;
 }
 
-.sg-font-supplementary-condensed {
-  font-family: "Roboto", sans-serif;
+/* line 59, ../scss/atoms/type/_type.scss */
+.sg-font-supplementary {
+  font-family: arial, sans-serif;
   font-size: 2em;
 }
 
+/* line 66, ../scss/atoms/type/_type.scss */
 .sg-anchor {
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 500;
   font-size: 1.618em;
 }
 
+/* line 4, ../scss/molecules/headings/_variables.scss */
 html {
   font-size: 0.875em;
 }
 
+/* line 6, ../scss/molecules/headings/_variables.scss */
 body {
   background-color: white;
   font-family: "Open Sans", sans-serif;
@@ -1618,31 +1292,37 @@ body {
   color: #333;
 }
 
+/* line 14, ../scss/molecules/headings/_variables.scss */
 p {
   margin-bottom: 1.3em;
 }
 
+/* line 16, ../scss/molecules/headings/_variables.scss */
 h1, h2, h3, h4 {
   margin: 1.414em 0 0.5em;
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: inherit;
   line-height: 1.2;
   font-weight: 900;
 }
 
+/* line 24, ../scss/molecules/headings/_variables.scss */
 h1, .h1 {
   margin-top: 0;
   font-size: 2.951em;
 }
 
+/* line 29, ../scss/molecules/headings/_variables.scss */
 h2, .h2 {
   font-size: 2.618em;
 }
 
+/* line 31, ../scss/molecules/headings/_variables.scss */
 h3, .h3 {
   font-size: 1.618em;
 }
 
+/* line 33, ../scss/molecules/headings/_variables.scss */
 small, .text-small {
   font-size: 0.697em;
 }
@@ -1655,148 +1335,11 @@ Colors
 Defines colors for use in the application
 
 */
-.sg-color--green {
-  background: #1fae65;
-}
-
-.sg-color--green-1 {
-  background: #32835a;
-}
-
-.sg-color--green-2 {
-  background: #0a713d;
-}
-
-.sg-color--green-3 {
-  background: #52d793;
-}
-
-.sg-color--green-4 {
-  background: #76d7a5;
-}
-
-.sg-color--black {
-  background: black;
-}
-
-.sg-color--black-1 {
-  background: #1a1a1a;
-}
-
-.sg-color--black-2 {
-  background: #333333;
-}
-
-.sg-color--black-3 {
-  background: #4d4d4d;
-}
-
-.sg-color--black-4 {
-  background: #666666;
-}
-
-.sg-color--white {
-  background: white;
-}
-
-.sg-color--white-1 {
-  background: #e6e6e6;
-}
-
-.sg-color--white-2 {
-  background: #cccccc;
-}
-
-.sg-color--white-3 {
-  background: #b3b3b3;
-}
-
-.sg-color--white-4 {
-  background: #999999;
-}
-
-.sg-color--yellow {
-  background: #ff9902;
-}
-
-.sg-color--yellow-1 {
-  background: #b78335;
-}
-
-.sg-color--yellow-2 {
-  background: #9a5c01;
-}
-
-.sg-color--yellow-3 {
-  background: #ffa41d;
-}
-
-.sg-color--yellow-4 {
-  background: #ffad32;
-}
-
-.sg-color--blue {
-  background: #23709e;
-}
-
-.sg-color--blue-1 {
-  background: #325d77;
-}
-
-.sg-color--blue-2 {
-  background: #0c4567;
-}
-
-.sg-color--blue-3 {
-  background: #56a2cf;
-}
-
-.sg-color--blue-4 {
-  background: #76aecf;
-}
-
-.sg-color--grey {
-  background: #666666;
-}
-
-.sg-color--grey-1 {
-  background: #1a1a1a;
-}
-
-.sg-color--grey-2 {
-  background: #333333;
-}
-
-.sg-color--grey-3 {
-  background: #4d4d4d;
-}
-
-.sg-color--grey-4 {
-  background: #666666;
-}
-
-.sg-color--red {
-  background: #f85d2c;
-}
-
-.sg-color--red-1 {
-  background: #ba6347;
-}
-
-.sg-color--red-2 {
-  background: #a1320e;
-}
-
-.sg-color--red-3 {
-  background: #fc8660;
-}
-
-.sg-color--red-4 {
-  background: #fca58a;
-}
-
 /*
  * Prevent underline on links. Used for links styled as buttons, where underline is not preferable
+ */
+/*
+ * Ratios
  */
 /*
  * Common easing for the entire website
@@ -1805,15 +1348,7 @@ Defines colors for use in the application
  * 2. Returns the corresponding theme color
  * 3. Invert colors for active/primary - white text on black bg
  */
-*, *:before, *:after {
-  box-sizing: border-box;
-}
-
-img, video {
-  max-width: 100%;
-  height: auto;
-}
-
+/* line 6, c:\wamp\www\adminui\scss\atoms\helpers\_utilities.scss */
 html, body, .sidebar {
   height: 100%;
 }
@@ -1828,43 +1363,51 @@ html, body, .sidebar {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
+/* line 29, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
 .sg-h1, .sg-h2, .sg-h3 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 900;
 }
 
+/* line 34, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
 .sg-font-primary {
   font-family: "Open Sans", sans-serif;
   font-size: 1em;
 }
 
+/* line 39, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
 .sg-font-primary-condensed {
   font-family: "Open Sans Condensed", sans-serif;
   font-size: 1em;
 }
 
+/* line 44, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
 .sg-font-secondary {
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 2em;
 }
 
+/* line 49, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
 .sg-font-secondary-condensed {
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 2em;
 }
 
+/* line 54, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
 .sg-font-supplementary {
-  font-family: "Roboto", sans-serif;
+  font-family: arial, sans-serif;
   font-size: 2em;
 }
 
-.sg-font-supplementary-condensed {
-  font-family: "Roboto", sans-serif;
+/* line 59, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
+.sg-font-supplementary {
+  font-family: arial, sans-serif;
   font-size: 2em;
 }
 
+/* line 66, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
 .sg-anchor {
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 500;
   font-size: 1.618em;
 }
@@ -1872,60 +1415,68 @@ html, body, .sidebar {
 /*
  * Create a fade out horizontal line
  */
+/* line 6, ../scss/molecules/dividers/_dividers.scss */
 hr.soften {
   height: 1px;
   background-image: -webkit-linear-gradient(left, transparent, rgba(0, 0, 0, 0.3), transparent);
-  background-image: -moz-linear-gradient(left, transparent, rgba(0, 0, 0, 0.3), transparent);
-  background-image: -ms-linear-gradient(left, transparent, rgba(0, 0, 0, 0.3), transparent);
-  background-image: -o-linear-gradient(left, transparent, rgba(0, 0, 0, 0.3), transparent);
   border: 0;
 }
 
+/* line 29, ../scss/atoms/type/_type.scss */
 .sg-h1, .sg-h2, .sg-h3 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 900;
 }
 
+/* line 34, ../scss/atoms/type/_type.scss */
 .sg-font-primary {
   font-family: "Open Sans", sans-serif;
   font-size: 1em;
 }
 
+/* line 39, ../scss/atoms/type/_type.scss */
 .sg-font-primary-condensed {
   font-family: "Open Sans Condensed", sans-serif;
   font-size: 1em;
 }
 
+/* line 44, ../scss/atoms/type/_type.scss */
 .sg-font-secondary {
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 2em;
 }
 
+/* line 49, ../scss/atoms/type/_type.scss */
 .sg-font-secondary-condensed {
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 2em;
 }
 
+/* line 54, ../scss/atoms/type/_type.scss */
 .sg-font-supplementary {
-  font-family: "Roboto", sans-serif;
+  font-family: arial, sans-serif;
   font-size: 2em;
 }
 
-.sg-font-supplementary-condensed {
-  font-family: "Roboto", sans-serif;
+/* line 59, ../scss/atoms/type/_type.scss */
+.sg-font-supplementary {
+  font-family: arial, sans-serif;
   font-size: 2em;
 }
 
+/* line 66, ../scss/atoms/type/_type.scss */
 .sg-anchor {
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 500;
   font-size: 1.618em;
 }
 
+/* line 3, ../scss/molecules/lists/_extends.scss */
 .no-bullet, .horizontal-list, .list-group {
   list-style: none;
 }
 
+/* line 7, ../scss/molecules/lists/_extends.scss */
 .horizontal-list > li, .horizontal-element {
   display: inline-block;
 }
@@ -1940,58 +1491,69 @@ hr.soften {
  * 7. Links to be black in color
  * 8. Reset margins when using heading / p tag inside list item
  */
+/* line 34, ../scss/molecules/lists/_lists.scss */
 .list-group-item {
   text-decoration: none;
   /* 6 */
   display: block;
   /* 3 */
-  padding: 0.9em;
+  padding: 1em;
   border: 1px solid #666666;
   /* 1 */
   border-bottom: 0;
   /* 2 */
 }
+/* line 6, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
 .list-group-item:hover {
   text-decoration: none;
 }
+/* line 41, ../scss/molecules/lists/_lists.scss */
 .list-group-item:first-child {
   border-top: 1px solid #666666;
   /* 2 */
 }
+/* line 44, ../scss/molecules/lists/_lists.scss */
 .list-group-item:last-child {
   border-bottom: 1px solid #666666;
   /* 2 */
 }
 
+/* line 56, ../scss/molecules/lists/_lists.scss */
 a.list-group-item {
   color: black;
   /* 7 */
 }
+/* line 58, ../scss/molecules/lists/_lists.scss */
 a.list-group-item > h4, a.list-group-item > p {
   margin: 0;
 }
 
+/* line 3, ../scss/molecules/media/_extends.scss */
 .th {
   border: 2px solid #999999;
-  padding: 0.9em;
+  padding: 1em;
 }
 
+/* line 3, ../scss/molecules/media/_media.scss */
 figure {
   margin: 0;
   display: inline-block;
 }
 
+/* line 3, ../scss/molecules/typography/_typography.scss */
 address {
   font-style: normal;
 }
 
+/* line 7, ../scss/molecules/typography/_typography.scss */
 blockquote {
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1.618em;
   border-left: 2px solid;
   border-left-color: #666666;
   padding-left: 1em;
 }
+/* line 13, ../scss/molecules/typography/_typography.scss */
 blockquote p {
   color: #666666;
   font-size: 1em;
@@ -2005,148 +1567,11 @@ Colors
 Defines colors for use in the application
 
 */
-.sg-color--green {
-  background: #1fae65;
-}
-
-.sg-color--green-1 {
-  background: #32835a;
-}
-
-.sg-color--green-2 {
-  background: #0a713d;
-}
-
-.sg-color--green-3 {
-  background: #52d793;
-}
-
-.sg-color--green-4 {
-  background: #76d7a5;
-}
-
-.sg-color--black {
-  background: black;
-}
-
-.sg-color--black-1 {
-  background: #1a1a1a;
-}
-
-.sg-color--black-2 {
-  background: #333333;
-}
-
-.sg-color--black-3 {
-  background: #4d4d4d;
-}
-
-.sg-color--black-4 {
-  background: #666666;
-}
-
-.sg-color--white {
-  background: white;
-}
-
-.sg-color--white-1 {
-  background: #e6e6e6;
-}
-
-.sg-color--white-2 {
-  background: #cccccc;
-}
-
-.sg-color--white-3 {
-  background: #b3b3b3;
-}
-
-.sg-color--white-4 {
-  background: #999999;
-}
-
-.sg-color--yellow {
-  background: #ff9902;
-}
-
-.sg-color--yellow-1 {
-  background: #b78335;
-}
-
-.sg-color--yellow-2 {
-  background: #9a5c01;
-}
-
-.sg-color--yellow-3 {
-  background: #ffa41d;
-}
-
-.sg-color--yellow-4 {
-  background: #ffad32;
-}
-
-.sg-color--blue {
-  background: #23709e;
-}
-
-.sg-color--blue-1 {
-  background: #325d77;
-}
-
-.sg-color--blue-2 {
-  background: #0c4567;
-}
-
-.sg-color--blue-3 {
-  background: #56a2cf;
-}
-
-.sg-color--blue-4 {
-  background: #76aecf;
-}
-
-.sg-color--grey {
-  background: #666666;
-}
-
-.sg-color--grey-1 {
-  background: #1a1a1a;
-}
-
-.sg-color--grey-2 {
-  background: #333333;
-}
-
-.sg-color--grey-3 {
-  background: #4d4d4d;
-}
-
-.sg-color--grey-4 {
-  background: #666666;
-}
-
-.sg-color--red {
-  background: #f85d2c;
-}
-
-.sg-color--red-1 {
-  background: #ba6347;
-}
-
-.sg-color--red-2 {
-  background: #a1320e;
-}
-
-.sg-color--red-3 {
-  background: #fc8660;
-}
-
-.sg-color--red-4 {
-  background: #fca58a;
-}
-
 /*
  * Prevent underline on links. Used for links styled as buttons, where underline is not preferable
+ */
+/*
+ * Ratios
  */
 /*
  * Common easing for the entire website
@@ -2155,15 +1580,7 @@ Defines colors for use in the application
  * 2. Returns the corresponding theme color
  * 3. Invert colors for active/primary - white text on black bg
  */
-*, *:before, *:after {
-  box-sizing: border-box;
-}
-
-img, video {
-  max-width: 100%;
-  height: auto;
-}
-
+/* line 6, c:\wamp\www\adminui\scss\atoms\helpers\_utilities.scss */
 html, body, .sidebar {
   height: 100%;
 }
@@ -2178,56 +1595,69 @@ html, body, .sidebar {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
+/* line 29, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
 .sg-h1, .sg-h2, .sg-h3 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 900;
 }
 
+/* line 34, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
 .sg-font-primary {
   font-family: "Open Sans", sans-serif;
   font-size: 1em;
 }
 
+/* line 39, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
 .sg-font-primary-condensed {
   font-family: "Open Sans Condensed", sans-serif;
   font-size: 1em;
 }
 
+/* line 44, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
 .sg-font-secondary {
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 2em;
 }
 
+/* line 49, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
 .sg-font-secondary-condensed {
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 2em;
 }
 
+/* line 54, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
 .sg-font-supplementary {
-  font-family: "Roboto", sans-serif;
+  font-family: arial, sans-serif;
   font-size: 2em;
 }
 
-.sg-font-supplementary-condensed {
-  font-family: "Roboto", sans-serif;
+/* line 59, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
+.sg-font-supplementary {
+  font-family: arial, sans-serif;
   font-size: 2em;
 }
 
+/* line 66, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
 .sg-anchor {
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 500;
   font-size: 1.618em;
 }
 
+/* line 3, ../scss/organisms/_organisms.scss */
 .side-nav li a:not(.button) {
   color: #e6e6e6;
   border-left: 4px solid transparent;
 }
+/* line 6, ../scss/organisms/_organisms.scss */
 .side-nav li a:not(.button):hover {
-  border-left: 4px solid #ff9902;
   color: #ff9902;
+  border-left: 4px solid #ff9902;
 }
 
+/* line 14, ../scss/organisms/_organisms.scss */
 .dataTables_wrapper {
   width: 98%;
 }
+
+/*# sourceMappingURL=style.css.map */

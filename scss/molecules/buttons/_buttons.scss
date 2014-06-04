@@ -1,3 +1,29 @@
-@import "extends";
+/*
 
+Buttons
+======
 
+We have 5 variations of buttons
+
+```
+<a class="btn btn-primary" href="#">Button</a>
+<a class="btn btn-secondary" href="#">Button</a>
+<a class="btn btn-alert" href="#">Button</a>
+<a class="btn btn-info" href="#">Button</a>
+<a class="btn btn-success" href="#">Button</a>
+<a class="btn btn-warning" href="#">Button</a>
+```
+
+We have 5 variations of sizes
+```
+<a class="btn btn-primary" href="#">Default Button</a>
+<a class="btn btn-primary btn-small" href="#">Small Button</a>
+<a class="btn btn-primary btn-medium" href="#">Medium Button</a>
+<a class="btn btn-primary btn-large" href="#">Large Button</a>
+<a class="btn btn-primary btn-expand" href="#">Full width Button</a>
+
+```
+
+*/
+
+@import 'extends';

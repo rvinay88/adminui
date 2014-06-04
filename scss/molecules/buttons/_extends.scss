@@ -1,16 +1,36 @@
-@import "mixins";
+@import 'mixins';
 
+/*
+
+Button Extends
+======
+1. Maintain consistent behaviour for `<a>`, `<button>` and `<input>` tags. Encourage devs to use `<button>` tag as much as possible
+#### Default Size
+#### Small
+#### Medium
+#### Large
+#### Expand
+```
+  <button class="btn btn-primary">Default</button>
+
+  <button class="btn btn-info btn-small">Small</button>
+
+  <button class="btn btn-warning btn-medium">Medium</button>
+
+  <button class="btn btn-success btn-large">Large</button>
+
+  <button class="btn btn-alert btn-expand">Expand</button>
+```
+*/
 .btn {
-  @include btn($button-settings);
-  border: none;
-  outline: none;
+  @include btn();
 
-  @include themify($theme: "primary");
-  @include themify($theme: "secondary");
-  @include themify($theme: "alert");
-  @include themify($theme: "info");
-  @include themify($theme: "success");
-  @include themify($theme: "warning");
+  @include themify($theme: 'primary', $hover: true);
+  @include themify($theme: 'secondary', $hover: true);
+  @include themify($theme: 'alert', $hover: true);
+  @include themify($theme: 'info', $hover: true);
+  @include themify($theme: 'success', $hover: true);
+  @include themify($theme: 'warning', $hover: true);
 }
 
 @include btn-sizes($button-size-variations, small);

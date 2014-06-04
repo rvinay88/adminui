@@ -1,43 +1,5 @@
 // Variables
 @import "../../atoms/globals";
-
-$button-settings: (
-  "button-background": $black-1,
-  "button-padding": 0.5em,
-);
-
-//////////////////
-//Button colors
-//////////////////
-
-$button-primary-settings: map-merge($button-settings,
-  ("button-background": $primary-color)
-);
-
-$button-secondary-settings: map-merge($button-settings,
-  ("button-background": $info-color)
-);
-
-$button-info-settings: map-merge($button-settings,
-  ("button-background": $info-color)
-);
-
-$button-success-settings: map-merge($button-settings,
-  ("button-background": $success-color)
-);
-
-$button-alert-settings: map-merge($button-settings,
-  ("button-background": $alert-color)
-);
-
-$button-success-settings: map-merge($button-settings,
-  ("button-background": $success-color)
-);
-
-$button-warning-settings: map-merge($button-settings,
-  ("button-background": $warning-color)
-);
-
 //////////////////
 //Button Size variations
 //////////////////
@@ -45,18 +7,18 @@ $button-warning-settings: map-merge($button-settings,
 $button-size-variations: (
   "small": (
           font-size: 0.9em,
-          padding: 0.5em
+          line-height: 20px
             ),
   "medium": (
           font-size: 1em,
-          padding: 1em
+          line-height: 30px
             ),
   "large": (
           font-size: 1.2em,
-          padding: 1em 1.6em
+          line-height: 45px
             ),
   "expand": (
           width: 100%,
-          padding: 1em
+          line-height: 45px
             )
 )

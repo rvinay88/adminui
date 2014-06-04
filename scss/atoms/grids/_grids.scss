@@ -1,28 +1,44 @@
-@import "../globals";
-// http://sassmeister.com/gist/f13878ea080877ed727c
+@import '../globals';
+/*
+
+Grids
+======
+
+Grids for this application are built using Singularity Grid System. We use a generic 12 column grid that comes with foundation for rapid prototyping.
+Once the design is frozen, we refactor those into semantic grid classes.
+
+We also have a responsive 12 column grid for laying out items in float span order. All other items are laid out using isolation span.
+
+http://sassmeister.com/gist/f13878ea080877ed727c
+
+
+*/
 
 .sidebar {
-  width: 150px;
   float: left;
+
+  width: 150px;
   margin-right: -100%;
   margin-left: 0;
 
-  background: #333333;
-  @extend %full-height;
+  background: #333;
 
+  @extend %full-height;
 }
 
 .content-wrapper {
-  height: 100%;
   overflow: visible;
+
+  height: 100%;
 }
 
 
 .content-area {
-  width: -webkit-calc((((100% - (150px)) / (1))) * 1);
-  width: calc((((100% - (150px)) / (1))) * 1);
   float: right;
-  margin-left: 0;
+
+  width: -webkit-calc((((100% - (150px)) / (1))) * 1);
+  width:         calc((((100% - (150px)) / (1))) * 1);
   margin-right: 0;
+  margin-left: 0;
   padding: 1em;
 }

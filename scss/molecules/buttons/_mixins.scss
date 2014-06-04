@@ -1,25 +1,30 @@
 @import 'variables';
 
 /*
-* 1. Remove borders
-* 2. Always have a cursor irrespective of whether link/button/input tag
+ 1. Remove borders
+ 2. Always have a cursor irrespective of whether link/button/input tag
 */
-@mixin btn($button-settings) {
+
+@mixin btn() {
 
     @include no-dec;
-    padding: map-get($button-settings, button-padding);
+    @include transition-effect();
 
-    cursor: pointer; /* 2 */
+    display: inline-block; // 1
+    border: none;
 
-    color: $white;
-    border: none; /* 1 */
+    padding: ms(1) ms(2);
 
-    background: map-get($button-settings, button-background);
+    vertical-align: top;
 
-  &:hover
-  {
-    background: lighten(map-get($button-settings, button-background), 10%);
-  }
+    cursor: pointer; //1
+
+    font-family: $supplementary;
+    font-size: 1em;
+    line-height: 16px;
+
+    text-align: center;
+    text-transform: uppercase;
 }
 
 @mixin btn-sizes($button-size-variations, $size) {
