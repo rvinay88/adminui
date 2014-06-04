@@ -1,0 +1,23 @@
+@import "variables";
+
+@mixin panel($theme) {
+  border: 2px solid;
+  border-radius: $global-radius;
+
+  @include themify($theme: 'primary', $border: true);
+  @include themify($theme: 'success', $border: true);
+
+  .panel-heading {
+    padding: $panel-padding;
+    h1, h2, h3, h4 {margin: 0};
+  }
+
+  .panel-body {
+    padding: $panel-padding;
+    background: transparent;
+  }
+
+  .panel-footer {
+    padding: $panel-padding;
+  }
+}

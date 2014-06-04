@@ -594,19 +594,11 @@ We have 5 variations of badges
   color: white;
   /* 3 */
 }
-/* line 74, ../scss/atoms/helpers/_mixins.scss */
-.badge-primary:hover {
-  background: #050505;
-}
 /* line 63, ../scss/atoms/helpers/_mixins.scss */
 .badge-secondary {
   background: #cccccc;
   /* 1 */
   color: black;
-}
-/* line 74, ../scss/atoms/helpers/_mixins.scss */
-.badge-secondary:hover {
-  background: #b8b8b8;
 }
 /* line 63, ../scss/atoms/helpers/_mixins.scss */
 .badge-alert {
@@ -615,20 +607,12 @@ We have 5 variations of badges
   color: white;
   /* 3 */
 }
-/* line 74, ../scss/atoms/helpers/_mixins.scss */
-.badge-alert:hover {
-  background: #f34108;
-}
 /* line 63, ../scss/atoms/helpers/_mixins.scss */
 .badge-info {
   background: #23709e;
   /* 1 */
   color: white;
   /* 3 */
-}
-/* line 74, ../scss/atoms/helpers/_mixins.scss */
-.badge-info:hover {
-  background: #1c587d;
 }
 /* line 63, ../scss/atoms/helpers/_mixins.scss */
 .badge-success {
@@ -637,20 +621,12 @@ We have 5 variations of badges
   color: white;
   /* 3 */
 }
-/* line 74, ../scss/atoms/helpers/_mixins.scss */
-.badge-success:hover {
-  background: #198b51;
-}
 /* line 63, ../scss/atoms/helpers/_mixins.scss */
 .badge-warning {
   background: #ff9902;
   /* 1 */
   color: white;
   /* 3 */
-}
-/* line 74, ../scss/atoms/helpers/_mixins.scss */
-.badge-warning:hover {
-  background: #d88100;
 }
 
 /*
@@ -769,7 +745,7 @@ Button Extends
   color: white;
   /* 3 */
 }
-/* line 74, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
+/* line 78, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
 .btn-primary:hover {
   background: #050505;
 }
@@ -779,7 +755,7 @@ Button Extends
   /* 1 */
   color: black;
 }
-/* line 74, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
+/* line 78, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
 .btn-secondary:hover {
   background: #b8b8b8;
 }
@@ -790,7 +766,7 @@ Button Extends
   color: white;
   /* 3 */
 }
-/* line 74, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
+/* line 78, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
 .btn-alert:hover {
   background: #f34108;
 }
@@ -801,7 +777,7 @@ Button Extends
   color: white;
   /* 3 */
 }
-/* line 74, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
+/* line 78, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
 .btn-info:hover {
   background: #1c587d;
 }
@@ -812,7 +788,7 @@ Button Extends
   color: white;
   /* 3 */
 }
-/* line 74, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
+/* line 78, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
 .btn-success:hover {
   background: #198b51;
 }
@@ -823,7 +799,7 @@ Button Extends
   color: white;
   /* 3 */
 }
-/* line 74, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
+/* line 78, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
 .btn-warning:hover {
   background: #d88100;
 }
@@ -1136,7 +1112,7 @@ hr.soften {
   color: white;
   /* 3 */
 }
-/* line 74, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
+/* line 78, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
 .list-group-item-primary:hover {
   background: #050505;
 }
@@ -1146,7 +1122,7 @@ hr.soften {
   /* 1 */
   color: black;
 }
-/* line 74, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
+/* line 78, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
 .list-group-item-secondary:hover {
   background: #b8b8b8;
 }
@@ -1157,7 +1133,7 @@ hr.soften {
   color: white;
   /* 3 */
 }
-/* line 74, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
+/* line 78, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
 .list-group-item-alert:hover {
   background: #f34108;
 }
@@ -1168,7 +1144,7 @@ hr.soften {
   color: white;
   /* 3 */
 }
-/* line 74, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
+/* line 78, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
 .list-group-item-info:hover {
   background: #1c587d;
 }
@@ -1179,7 +1155,7 @@ hr.soften {
   color: white;
   /* 3 */
 }
-/* line 74, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
+/* line 78, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
 .list-group-item-success:hover {
   background: #198b51;
 }
@@ -1190,7 +1166,7 @@ hr.soften {
   color: white;
   /* 3 */
 }
-/* line 74, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
+/* line 78, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
 .list-group-item-warning:hover {
   background: #d88100;
 }
@@ -1217,15 +1193,242 @@ figure {
   display: inline-block;
 }
 
+/* line 3, ../scss/molecules/panels/_panels.scss */
+.panel {
+  border: 2px solid;
+  border-radius: 4px;
+}
+/* line 63, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
+.panel-primary {
+  border-color: #1a1a1a;
+  background: #1a1a1a;
+  /* 1 */
+  color: white;
+  /* 3 */
+}
+/* line 63, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
+.panel-success {
+  border-color: #1fae65;
+  background: #1fae65;
+  /* 1 */
+  color: white;
+  /* 3 */
+}
+/* line 10, ../scss/molecules/panels/_mixins.scss */
+.panel .panel-heading {
+  padding: 1em;
+}
+/* line 12, ../scss/molecules/panels/_mixins.scss */
+.panel .panel-heading h1, .panel .panel-heading h2, .panel .panel-heading h3, .panel .panel-heading h4 {
+  margin: 0;
+}
+/* line 15, ../scss/molecules/panels/_mixins.scss */
+.panel .panel-body {
+  padding: 1em;
+  background: white;
+}
+/* line 20, ../scss/molecules/panels/_mixins.scss */
+.panel .panel-footer {
+  padding: 1em;
+  background: white;
+}
+/* line 63, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
+.panel-primary {
+  background: #1a1a1a;
+  /* 1 */
+  color: white;
+  /* 3 */
+}
+/* line 63, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
+.panel-secondary {
+  background: #cccccc;
+  /* 1 */
+  color: black;
+}
+/* line 63, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
+.panel-alert {
+  background: #f85d2c;
+  /* 1 */
+  color: white;
+  /* 3 */
+}
+/* line 63, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
+.panel-info {
+  background: #23709e;
+  /* 1 */
+  color: white;
+  /* 3 */
+}
+/* line 63, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
+.panel-success {
+  background: #1fae65;
+  /* 1 */
+  color: white;
+  /* 3 */
+}
+/* line 63, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
+.panel-warning {
+  background: #ff9902;
+  /* 1 */
+  color: white;
+  /* 3 */
+}
+
 /*
 
 Tables
 ======
 
+We have four variations of tables `table`, `table-bordered`, `table-striped` and `table-hover`
 
+```
+<h3>Default Table</h3>
+<table class="table">
+  <caption>Table Caption</caption>
+  <thead>
+    <tr>
+      <th>thead th</th>
+      <th>thead th</th>
+      <th>thead th</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>tbody td</td>
+      <td>tbody td</td>
+      <td>tbody td</td>
+    </tr>
+    <tr>
+      <td>tbody td</td>
+      <td>tbody td</td>
+      <td>tbody td</td>
+    </tr>
+    <tr>
+      <td>tbody td</td>
+      <td>tbody td</td>
+      <td>tbody td</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <th>tfoot th</th>
+      <th>tfoot th</th>
+      <th>tfoot th</th>
+    </tr>
+  </tfoot>
+</table>
+
+<h3>Bordered Table</h3>
+<table class="table table-bordered">
+  <caption>Table Caption</caption>
+  <thead>
+    <tr>
+      <th>thead th</th>
+      <th>thead th</th>
+      <th>thead th</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>tbody td</td>
+      <td>tbody td</td>
+      <td>tbody td</td>
+    </tr>
+    <tr>
+      <td>tbody td</td>
+      <td>tbody td</td>
+      <td>tbody td</td>
+    </tr>
+    <tr>
+      <td>tbody td</td>
+      <td>tbody td</td>
+      <td>tbody td</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <th>tfoot th</th>
+      <th>tfoot th</th>
+      <th>tfoot th</th>
+    </tr>
+  </tfoot>
+</table>
+
+<h3>Striped</h3>
+<table class="table table-striped">
+  <caption>Table Caption</caption>
+  <thead>
+    <tr>
+      <th>thead th</th>
+      <th>thead th</th>
+      <th>thead th</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>tbody td</td>
+      <td>tbody td</td>
+      <td>tbody td</td>
+    </tr>
+    <tr>
+      <td>tbody td</td>
+      <td>tbody td</td>
+      <td>tbody td</td>
+    </tr>
+    <tr>
+      <td>tbody td</td>
+      <td>tbody td</td>
+      <td>tbody td</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <th>tfoot th</th>
+      <th>tfoot th</th>
+      <th>tfoot th</th>
+    </tr>
+  </tfoot>
+</table>
+
+<h3>Hover</h3>
+<table class="table table-hover">
+  <caption>Table Caption</caption>
+  <thead>
+    <tr>
+      <th>thead th</th>
+      <th>thead th</th>
+      <th>thead th</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>tbody td</td>
+      <td>tbody td</td>
+      <td>tbody td</td>
+    </tr>
+    <tr>
+      <td>tbody td</td>
+      <td>tbody td</td>
+      <td>tbody td</td>
+    </tr>
+    <tr>
+      <td>tbody td</td>
+      <td>tbody td</td>
+      <td>tbody td</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <th>tfoot th</th>
+      <th>tfoot th</th>
+      <th>tfoot th</th>
+    </tr>
+  </tfoot>
+</table>
+```
 
 */
-/* line 11, ../scss/molecules/tables/_tables.scss */
+/* line 157, ../scss/molecules/tables/_tables.scss */
 .table {
   width: 100%;
   margin-bottom: 1em;
@@ -1257,7 +1460,7 @@ Tables
   border-width: 0 0 2px 0;
 }
 
-/* line 15, ../scss/molecules/tables/_tables.scss */
+/* line 161, ../scss/molecules/tables/_tables.scss */
 .table-bordered {
   width: 100%;
   margin-bottom: 1em;
@@ -1287,7 +1490,7 @@ Tables
   border: 1px solid #b3b3b3;
 }
 
-/* line 19, ../scss/molecules/tables/_tables.scss */
+/* line 165, ../scss/molecules/tables/_tables.scss */
 .table-striped {
   width: 100%;
   margin-bottom: 1em;
@@ -1323,7 +1526,7 @@ Tables
   border-width: 0 0 2px 0;
 }
 
-/* line 23, ../scss/molecules/tables/_tables.scss */
+/* line 169, ../scss/molecules/tables/_tables.scss */
 .table-hover {
   width: 100%;
   margin-bottom: 1em;
