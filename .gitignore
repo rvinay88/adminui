@@ -37,3 +37,4 @@ bower_components
 
 css/style.css.map
 public/styleguide/*
+*.css.map

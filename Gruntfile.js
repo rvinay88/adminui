@@ -23,17 +23,23 @@ module.exports = function(grunt) {
     sass: {
       dist: {
         options: {
-          style: 'expanded'
+          style: 'expanded',
+          sourcemap: true,
+          lineNumbers: true,
+          noCache: true
         },
         files: {
-          'css/style.css': 'scss/style.scss'
-        }
+          'css/style.css': 'scss/style.scss',
+          'css/foundation.css': 'bower_components/foundation/scss/foundation.scss',
+          'css/styleguide.css': 'scss/styleguide.scss'
+        },
       }
     },
     sassdown: {
       styleguide: {
         options: {
-          assets: ['css/style.css']
+          assets: ['css/style.css'],
+          highlight: 'monokai'
         },
         files: [{
           expand: true,
@@ -43,9 +49,27 @@ module.exports = function(grunt) {
         }]
       }
     },
+    autoprefixer: {
+      css: {
+        options: {
+          browsers: ['last 2 version'],
+          cascade: true,
+        },
+        src: 'css/style.css',
+        dest: 'css/style.css'
+      },
+    },
+    csscomb: {
+        options: {
+            config: 'csscomb.json'
+        },
+        files: {
+          'css/style.css': 'css/style.css'
+        },
+    },
     watch: {
-      files: ['scss/**/*.scss'],
-      tasks: ['sass', 'sassdown'],
+      files: ['scss/**/*.scss', 'bower_components/foundation/scss/**/*.scss'],
+      tasks: ['sass', 'autoprefixer', 'csscomb', 'sassdown', 'watch'],
       options: {
         livereload: 1337,
       }
@@ -57,7 +81,9 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-autoprefixer');
+  grunt.loadNpmTasks('grunt-csscomb');
 
-  grunt.registerTask('styleguide', ['sass', 'sassdown', 'watch'])
+  grunt.registerTask('styleguide', ['sass', 'autoprefixer', 'csscomb', 'sassdown', 'watch'])
 };
 
