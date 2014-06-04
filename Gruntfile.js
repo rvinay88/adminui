@@ -68,12 +68,20 @@ module.exports = function(grunt) {
         },
     },
     watch: {
-      files: ['scss/**/*.scss', 'bower_components/foundation/scss/**/*.scss'],
-      tasks: ['sass', 'autoprefixer', 'csscomb', 'sassdown', 'watch'],
-      options: {
-        livereload: 1337,
+      styleguide: {
+        files: ['scss/**/*.scss'],
+        tasks: ['sass', 'autoprefixer', 'csscomb', 'sassdown', 'watch'],
+        options: {
+         livereload: 1337,
+        }
+      },
+      foundation: {
+        files: ['bower_components/foundation/scss/**/*.scss'],
+        tasks: ['sass', 'watch'],
       }
+
     }
+
   });
 
   grunt.loadNpmTasks('grunt-contrib-concat');
