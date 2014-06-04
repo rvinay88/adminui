@@ -120,3 +120,51 @@
 .sg-color--red-4 {
   background: $red-4;
 }
+
+
+//////////////////////////
+//Styleguide specific
+//////////////////////////
+
+.sg-h1, .sg-h2, .sg-h3 {
+  font-family: $headings;
+  font-weight: 900;
+}
+
+.sg-font-primary {
+  font-family: $body-copy;
+  font-size: 1em;
+}
+
+.sg-font-primary-condensed {
+  font-family: $body-copy-condensed;
+  font-size: 1em;
+}
+
+.sg-font-secondary {
+  font-family: $headings;
+  font-size: 2em;
+}
+
+.sg-font-secondary-condensed {
+  font-family: $headings;
+  font-size: 2em;
+}
+
+.sg-font-supplementary {
+  font-family: $supplementary;
+  font-size: 2em;
+}
+
+.sg-font-supplementary {
+  font-family: $supplementary;
+  font-size: 2em;
+}
+
+
+
+.sg-anchor {
+  font-family: $headings;
+  font-weight: 500;
+  font-size: 1.618em;
+}

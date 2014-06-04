@@ -493,55 +493,6 @@ html, body, .sidebar {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 29, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
-.sg-h1, .sg-h2, .sg-h3 {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 900;
-}
-
-/* line 34, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
-.sg-font-primary {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1em;
-}
-
-/* line 39, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
-.sg-font-primary-condensed {
-  font-family: "Open Sans Condensed", sans-serif;
-  font-size: 1em;
-}
-
-/* line 44, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
-.sg-font-secondary {
-  font-family: "Open Sans", sans-serif;
-  font-size: 2em;
-}
-
-/* line 49, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
-.sg-font-secondary-condensed {
-  font-family: "Open Sans", sans-serif;
-  font-size: 2em;
-}
-
-/* line 54, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
-.sg-font-supplementary {
-  font-family: arial, sans-serif;
-  font-size: 2em;
-}
-
-/* line 59, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
-.sg-font-supplementary {
-  font-family: arial, sans-serif;
-  font-size: 2em;
-}
-
-/* line 66, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
-.sg-anchor {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 500;
-  font-size: 1.618em;
-}
-
 /*
 
 Grids
@@ -609,55 +560,6 @@ html, body, .sidebar {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 29, ../scss/atoms/type/_type.scss */
-.sg-h1, .sg-h2, .sg-h3 {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 900;
-}
-
-/* line 34, ../scss/atoms/type/_type.scss */
-.sg-font-primary {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1em;
-}
-
-/* line 39, ../scss/atoms/type/_type.scss */
-.sg-font-primary-condensed {
-  font-family: "Open Sans Condensed", sans-serif;
-  font-size: 1em;
-}
-
-/* line 44, ../scss/atoms/type/_type.scss */
-.sg-font-secondary {
-  font-family: "Open Sans", sans-serif;
-  font-size: 2em;
-}
-
-/* line 49, ../scss/atoms/type/_type.scss */
-.sg-font-secondary-condensed {
-  font-family: "Open Sans", sans-serif;
-  font-size: 2em;
-}
-
-/* line 54, ../scss/atoms/type/_type.scss */
-.sg-font-supplementary {
-  font-family: arial, sans-serif;
-  font-size: 2em;
-}
-
-/* line 59, ../scss/atoms/type/_type.scss */
-.sg-font-supplementary {
-  font-family: arial, sans-serif;
-  font-size: 2em;
-}
-
-/* line 66, ../scss/atoms/type/_type.scss */
-.sg-anchor {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 500;
-  font-size: 1.618em;
-}
-
 /*
 
 Badges
@@ -675,55 +577,6 @@ We have 5 variations of badges
 ````
 
 */
-/* line 29, ../scss/atoms/type/_type.scss */
-.sg-h1, .sg-h2, .sg-h3 {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 900;
-}
-
-/* line 34, ../scss/atoms/type/_type.scss */
-.sg-font-primary {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1em;
-}
-
-/* line 39, ../scss/atoms/type/_type.scss */
-.sg-font-primary-condensed {
-  font-family: "Open Sans Condensed", sans-serif;
-  font-size: 1em;
-}
-
-/* line 44, ../scss/atoms/type/_type.scss */
-.sg-font-secondary {
-  font-family: "Open Sans", sans-serif;
-  font-size: 2em;
-}
-
-/* line 49, ../scss/atoms/type/_type.scss */
-.sg-font-secondary-condensed {
-  font-family: "Open Sans", sans-serif;
-  font-size: 2em;
-}
-
-/* line 54, ../scss/atoms/type/_type.scss */
-.sg-font-supplementary {
-  font-family: arial, sans-serif;
-  font-size: 2em;
-}
-
-/* line 59, ../scss/atoms/type/_type.scss */
-.sg-font-supplementary {
-  font-family: arial, sans-serif;
-  font-size: 2em;
-}
-
-/* line 66, ../scss/atoms/type/_type.scss */
-.sg-anchor {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 500;
-  font-size: 1.618em;
-}
-
 /* line 21, ../scss/molecules/badges/_badges.scss */
 .badge {
   font-size: .8em;
@@ -863,55 +716,6 @@ html, body, .sidebar {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 29, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
-.sg-h1, .sg-h2, .sg-h3 {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 900;
-}
-
-/* line 34, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
-.sg-font-primary {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1em;
-}
-
-/* line 39, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
-.sg-font-primary-condensed {
-  font-family: "Open Sans Condensed", sans-serif;
-  font-size: 1em;
-}
-
-/* line 44, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
-.sg-font-secondary {
-  font-family: "Open Sans", sans-serif;
-  font-size: 2em;
-}
-
-/* line 49, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
-.sg-font-secondary-condensed {
-  font-family: "Open Sans", sans-serif;
-  font-size: 2em;
-}
-
-/* line 54, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
-.sg-font-supplementary {
-  font-family: arial, sans-serif;
-  font-size: 2em;
-}
-
-/* line 59, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
-.sg-font-supplementary {
-  font-family: arial, sans-serif;
-  font-size: 2em;
-}
-
-/* line 66, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
-.sg-anchor {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 500;
-  font-size: 1.618em;
-}
-
 /*
  1. Remove borders
  2. Always have a cursor irrespective of whether link/button/input tag
@@ -1084,55 +888,6 @@ html, body, .sidebar {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 29, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
-.sg-h1, .sg-h2, .sg-h3 {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 900;
-}
-
-/* line 34, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
-.sg-font-primary {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1em;
-}
-
-/* line 39, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
-.sg-font-primary-condensed {
-  font-family: "Open Sans Condensed", sans-serif;
-  font-size: 1em;
-}
-
-/* line 44, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
-.sg-font-secondary {
-  font-family: "Open Sans", sans-serif;
-  font-size: 2em;
-}
-
-/* line 49, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
-.sg-font-secondary-condensed {
-  font-family: "Open Sans", sans-serif;
-  font-size: 2em;
-}
-
-/* line 54, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
-.sg-font-supplementary {
-  font-family: arial, sans-serif;
-  font-size: 2em;
-}
-
-/* line 59, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
-.sg-font-supplementary {
-  font-family: arial, sans-serif;
-  font-size: 2em;
-}
-
-/* line 66, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
-.sg-anchor {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 500;
-  font-size: 1.618em;
-}
-
 /*
  * 1. Add a blue border on focus
  * 2. Animate state changes between focus, error etc.
@@ -1229,61 +984,12 @@ label {
   /* 2 */
 }
 
-/* line 29, ../scss/atoms/type/_type.scss */
-.sg-h1, .sg-h2, .sg-h3 {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 900;
-}
-
-/* line 34, ../scss/atoms/type/_type.scss */
-.sg-font-primary {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1em;
-}
-
-/* line 39, ../scss/atoms/type/_type.scss */
-.sg-font-primary-condensed {
-  font-family: "Open Sans Condensed", sans-serif;
-  font-size: 1em;
-}
-
-/* line 44, ../scss/atoms/type/_type.scss */
-.sg-font-secondary {
-  font-family: "Open Sans", sans-serif;
-  font-size: 2em;
-}
-
-/* line 49, ../scss/atoms/type/_type.scss */
-.sg-font-secondary-condensed {
-  font-family: "Open Sans", sans-serif;
-  font-size: 2em;
-}
-
-/* line 54, ../scss/atoms/type/_type.scss */
-.sg-font-supplementary {
-  font-family: arial, sans-serif;
-  font-size: 2em;
-}
-
-/* line 59, ../scss/atoms/type/_type.scss */
-.sg-font-supplementary {
-  font-family: arial, sans-serif;
-  font-size: 2em;
-}
-
-/* line 66, ../scss/atoms/type/_type.scss */
-.sg-anchor {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 500;
-  font-size: 1.618em;
-}
-
-/* line 4, ../scss/molecules/headings/_variables.scss */
+/* line 4, ../scss/molecules/headings/_headings.scss */
 html {
-  font-size: 0.875em;
+  font-size: 0.8125em;
 }
 
-/* line 6, ../scss/molecules/headings/_variables.scss */
+/* line 6, ../scss/molecules/headings/_headings.scss */
 body {
   background-color: white;
   font-family: "Open Sans", sans-serif;
@@ -1292,37 +998,41 @@ body {
   color: #333;
 }
 
-/* line 14, ../scss/molecules/headings/_variables.scss */
+/* line 14, ../scss/molecules/headings/_headings.scss */
 p {
   margin-bottom: 1.3em;
 }
 
-/* line 16, ../scss/molecules/headings/_variables.scss */
+/* line 16, ../scss/molecules/headings/_headings.scss */
 h1, h2, h3, h4 {
   margin: 1.414em 0 0.5em;
   font-family: "Open Sans", sans-serif;
   font-weight: inherit;
   line-height: 1.2;
-  font-weight: 900;
 }
 
-/* line 24, ../scss/molecules/headings/_variables.scss */
+/* line 23, ../scss/molecules/headings/_headings.scss */
 h1, .h1 {
   margin-top: 0;
   font-size: 2.951em;
 }
 
-/* line 29, ../scss/molecules/headings/_variables.scss */
+/* line 28, ../scss/molecules/headings/_headings.scss */
 h2, .h2 {
   font-size: 2.618em;
 }
 
-/* line 31, ../scss/molecules/headings/_variables.scss */
+/* line 30, ../scss/molecules/headings/_headings.scss */
 h3, .h3 {
   font-size: 1.618em;
 }
 
-/* line 33, ../scss/molecules/headings/_variables.scss */
+/* line 32, ../scss/molecules/headings/_headings.scss */
+h4, .h4 {
+  font-weight: bold;
+}
+
+/* line 34, ../scss/molecules/headings/_headings.scss */
 small, .text-small {
   font-size: 0.697em;
 }
@@ -1363,55 +1073,6 @@ html, body, .sidebar {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 29, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
-.sg-h1, .sg-h2, .sg-h3 {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 900;
-}
-
-/* line 34, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
-.sg-font-primary {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1em;
-}
-
-/* line 39, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
-.sg-font-primary-condensed {
-  font-family: "Open Sans Condensed", sans-serif;
-  font-size: 1em;
-}
-
-/* line 44, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
-.sg-font-secondary {
-  font-family: "Open Sans", sans-serif;
-  font-size: 2em;
-}
-
-/* line 49, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
-.sg-font-secondary-condensed {
-  font-family: "Open Sans", sans-serif;
-  font-size: 2em;
-}
-
-/* line 54, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
-.sg-font-supplementary {
-  font-family: arial, sans-serif;
-  font-size: 2em;
-}
-
-/* line 59, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
-.sg-font-supplementary {
-  font-family: arial, sans-serif;
-  font-size: 2em;
-}
-
-/* line 66, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
-.sg-anchor {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 500;
-  font-size: 1.618em;
-}
-
 /*
  * Create a fade out horizontal line
  */
@@ -1420,55 +1081,6 @@ hr.soften {
   height: 1px;
   background-image: -webkit-linear-gradient(left, transparent, rgba(0, 0, 0, 0.3), transparent);
   border: 0;
-}
-
-/* line 29, ../scss/atoms/type/_type.scss */
-.sg-h1, .sg-h2, .sg-h3 {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 900;
-}
-
-/* line 34, ../scss/atoms/type/_type.scss */
-.sg-font-primary {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1em;
-}
-
-/* line 39, ../scss/atoms/type/_type.scss */
-.sg-font-primary-condensed {
-  font-family: "Open Sans Condensed", sans-serif;
-  font-size: 1em;
-}
-
-/* line 44, ../scss/atoms/type/_type.scss */
-.sg-font-secondary {
-  font-family: "Open Sans", sans-serif;
-  font-size: 2em;
-}
-
-/* line 49, ../scss/atoms/type/_type.scss */
-.sg-font-secondary-condensed {
-  font-family: "Open Sans", sans-serif;
-  font-size: 2em;
-}
-
-/* line 54, ../scss/atoms/type/_type.scss */
-.sg-font-supplementary {
-  font-family: arial, sans-serif;
-  font-size: 2em;
-}
-
-/* line 59, ../scss/atoms/type/_type.scss */
-.sg-font-supplementary {
-  font-family: arial, sans-serif;
-  font-size: 2em;
-}
-
-/* line 66, ../scss/atoms/type/_type.scss */
-.sg-anchor {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 500;
-  font-size: 1.618em;
 }
 
 /* line 3, ../scss/molecules/lists/_extends.scss */
@@ -1517,13 +1129,78 @@ hr.soften {
   border-bottom: 1px solid #666666;
   /* 2 */
 }
+/* line 63, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
+.list-group-item-primary {
+  background: #1a1a1a;
+  /* 1 */
+  color: white;
+  /* 3 */
+}
+/* line 74, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
+.list-group-item-primary:hover {
+  background: #050505;
+}
+/* line 63, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
+.list-group-item-secondary {
+  background: #cccccc;
+  /* 1 */
+  color: black;
+}
+/* line 74, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
+.list-group-item-secondary:hover {
+  background: #b8b8b8;
+}
+/* line 63, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
+.list-group-item-alert {
+  background: #f85d2c;
+  /* 1 */
+  color: white;
+  /* 3 */
+}
+/* line 74, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
+.list-group-item-alert:hover {
+  background: #f34108;
+}
+/* line 63, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
+.list-group-item-info {
+  background: #23709e;
+  /* 1 */
+  color: white;
+  /* 3 */
+}
+/* line 74, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
+.list-group-item-info:hover {
+  background: #1c587d;
+}
+/* line 63, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
+.list-group-item-success {
+  background: #1fae65;
+  /* 1 */
+  color: white;
+  /* 3 */
+}
+/* line 74, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
+.list-group-item-success:hover {
+  background: #198b51;
+}
+/* line 63, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
+.list-group-item-warning {
+  background: #ff9902;
+  /* 1 */
+  color: white;
+  /* 3 */
+}
+/* line 74, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
+.list-group-item-warning:hover {
+  background: #d88100;
+}
 
-/* line 56, ../scss/molecules/lists/_lists.scss */
+/* line 57, ../scss/molecules/lists/_lists.scss */
 a.list-group-item {
   color: black;
   /* 7 */
 }
-/* line 58, ../scss/molecules/lists/_lists.scss */
+/* line 59, ../scss/molecules/lists/_lists.scss */
 a.list-group-item > h4, a.list-group-item > p {
   margin: 0;
 }
@@ -1538,6 +1215,148 @@ a.list-group-item > h4, a.list-group-item > p {
 figure {
   margin: 0;
   display: inline-block;
+}
+
+/*
+
+Tables
+======
+
+
+
+*/
+/* line 11, ../scss/molecules/tables/_tables.scss */
+.table {
+  width: 100%;
+  margin-bottom: 1em;
+  border-spacing: 0;
+  border-collapse: collapse;
+  background: transparent;
+}
+/* line 15, ../scss/molecules/tables/_mixins.scss */
+.table thead {
+  border-bottom: 2px solid #b3b3b3;
+  border-width: 0 0 2px 0;
+}
+/* line 38, ../scss/molecules/tables/_mixins.scss */
+.table th {
+  padding: 0.7em;
+  border-width: 0 0 2px 0;
+  font-weight: bold;
+  text-align: left;
+}
+/* line 52, ../scss/molecules/tables/_mixins.scss */
+.table td {
+  padding: 0.7em;
+  border: 1px solid #b3b3b3;
+  border-width: 0 0 1px 0;
+}
+/* line 63, ../scss/molecules/tables/_mixins.scss */
+.table tfoot {
+  border: 1px solid #b3b3b3;
+  border-width: 0 0 2px 0;
+}
+
+/* line 15, ../scss/molecules/tables/_tables.scss */
+.table-bordered {
+  width: 100%;
+  margin-bottom: 1em;
+  border-spacing: 0;
+  border-collapse: collapse;
+  border: 1px solid #b3b3b3;
+  background: transparent;
+}
+/* line 15, ../scss/molecules/tables/_mixins.scss */
+.table-bordered thead {
+  border-bottom: 2px solid #b3b3b3;
+}
+/* line 38, ../scss/molecules/tables/_mixins.scss */
+.table-bordered th {
+  padding: 0.7em;
+  border: 1px solid #b3b3b3;
+  font-weight: bold;
+  text-align: left;
+}
+/* line 52, ../scss/molecules/tables/_mixins.scss */
+.table-bordered td {
+  padding: 0.7em;
+  border: 1px solid #b3b3b3;
+}
+/* line 63, ../scss/molecules/tables/_mixins.scss */
+.table-bordered tfoot {
+  border: 1px solid #b3b3b3;
+}
+
+/* line 19, ../scss/molecules/tables/_tables.scss */
+.table-striped {
+  width: 100%;
+  margin-bottom: 1em;
+  border-spacing: 0;
+  border-collapse: collapse;
+  background: transparent;
+}
+/* line 15, ../scss/molecules/tables/_mixins.scss */
+.table-striped thead {
+  border-bottom: 2px solid #b3b3b3;
+  border-width: 0 0 2px 0;
+}
+/* line 24, ../scss/molecules/tables/_mixins.scss */
+.table-striped tbody tr:nth-child(odd) {
+  background: #e6e6e6;
+}
+/* line 38, ../scss/molecules/tables/_mixins.scss */
+.table-striped th {
+  padding: 0.7em;
+  border-width: 0 0 2px 0;
+  font-weight: bold;
+  text-align: left;
+}
+/* line 52, ../scss/molecules/tables/_mixins.scss */
+.table-striped td {
+  padding: 0.7em;
+  border: 1px solid #b3b3b3;
+  border-width: 0 0 1px 0;
+}
+/* line 63, ../scss/molecules/tables/_mixins.scss */
+.table-striped tfoot {
+  border: 1px solid #b3b3b3;
+  border-width: 0 0 2px 0;
+}
+
+/* line 23, ../scss/molecules/tables/_tables.scss */
+.table-hover {
+  width: 100%;
+  margin-bottom: 1em;
+  border-spacing: 0;
+  border-collapse: collapse;
+  background: transparent;
+}
+/* line 15, ../scss/molecules/tables/_mixins.scss */
+.table-hover thead {
+  border-bottom: 2px solid #b3b3b3;
+  border-width: 0 0 2px 0;
+}
+/* line 32, ../scss/molecules/tables/_mixins.scss */
+.table-hover tbody tr:hover {
+  background: #f2f2f2;
+}
+/* line 38, ../scss/molecules/tables/_mixins.scss */
+.table-hover th {
+  padding: 0.7em;
+  border-width: 0 0 2px 0;
+  font-weight: bold;
+  text-align: left;
+}
+/* line 52, ../scss/molecules/tables/_mixins.scss */
+.table-hover td {
+  padding: 0.7em;
+  border: 1px solid #b3b3b3;
+  border-width: 0 0 1px 0;
+}
+/* line 63, ../scss/molecules/tables/_mixins.scss */
+.table-hover tfoot {
+  border: 1px solid #b3b3b3;
+  border-width: 0 0 2px 0;
 }
 
 /* line 3, ../scss/molecules/typography/_typography.scss */
@@ -1595,55 +1414,6 @@ html, body, .sidebar {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 29, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
-.sg-h1, .sg-h2, .sg-h3 {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 900;
-}
-
-/* line 34, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
-.sg-font-primary {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1em;
-}
-
-/* line 39, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
-.sg-font-primary-condensed {
-  font-family: "Open Sans Condensed", sans-serif;
-  font-size: 1em;
-}
-
-/* line 44, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
-.sg-font-secondary {
-  font-family: "Open Sans", sans-serif;
-  font-size: 2em;
-}
-
-/* line 49, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
-.sg-font-secondary-condensed {
-  font-family: "Open Sans", sans-serif;
-  font-size: 2em;
-}
-
-/* line 54, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
-.sg-font-supplementary {
-  font-family: arial, sans-serif;
-  font-size: 2em;
-}
-
-/* line 59, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
-.sg-font-supplementary {
-  font-family: arial, sans-serif;
-  font-size: 2em;
-}
-
-/* line 66, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
-.sg-anchor {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 500;
-  font-size: 1.618em;
-}
-
 /* line 3, ../scss/organisms/_organisms.scss */
 .side-nav li a:not(.button) {
   color: #e6e6e6;

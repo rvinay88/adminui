@@ -1,33 +1,14 @@
 // Variables
 @import "../../atoms/type/type";
 
-html {font-size: 0.875em;} // Reset base font to 14px
+//////////////////////////
+//Font sizes
+//////////////////////////
 
-body {
-  background-color: white;
-  font-family: $body-copy;
-  font-weight: 400;
-  line-height: 1.45;
-  color: #333;
-}
+// Modular Scale ---------------------- 12px @ 1:1.618   150px @ 1:1.618   ----------------------
 
-p {margin-bottom: 1.3em;}
-
-h1, h2, h3, h4 {
-  margin: 1.414em 0 0.5em;
-  font-family: $headings;
-  font-weight: inherit;
-  line-height: 1.2;
-  font-weight: 900;
-}
-
-h1, .h1 {
-  margin-top: 0;
-  font-size: $font-size-xlarge;
-}
-
-h2, .h2 {font-size: $font-size-large;}
-
-h3, .h3 {font-size: $font-size-medium;}
-
-small, .text-small {font-size: $font-size-small;}
+$font-size-regular: 1em; //12.000px
+$font-size-small: 0.697em; //8.36px
+$font-size-medium: 1.618em; //19.416px
+$font-size-large: 2.618em; //31.415px
+$font-size-xlarge: 2.951em; //35.412px

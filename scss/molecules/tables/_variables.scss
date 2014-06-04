@@ -1,1 +1,13 @@
 // Variables
+
+$table-padding: 0.7em;
+$table-border: $white-3;
+
+$table-hover-color: $white-3;
+
+$table-striped-color: $white-1;
+
+$table-settings: (
+  "border-color": $white-3,
+  "padding": 0.5em,
+);

@@ -29,55 +29,6 @@ Defines colors for use in the application
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 29, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
-.sg-h1, .sg-h2, .sg-h3 {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 900;
-}
-
-/* line 34, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
-.sg-font-primary {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1em;
-}
-
-/* line 39, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
-.sg-font-primary-condensed {
-  font-family: "Open Sans Condensed", sans-serif;
-  font-size: 1em;
-}
-
-/* line 44, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
-.sg-font-secondary {
-  font-family: "Open Sans", sans-serif;
-  font-size: 2em;
-}
-
-/* line 49, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
-.sg-font-secondary-condensed {
-  font-family: "Open Sans", sans-serif;
-  font-size: 2em;
-}
-
-/* line 54, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
-.sg-font-supplementary {
-  font-family: arial, sans-serif;
-  font-size: 2em;
-}
-
-/* line 59, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
-.sg-font-supplementary {
-  font-family: arial, sans-serif;
-  font-size: 2em;
-}
-
-/* line 66, c:\wamp\www\adminui\scss\atoms\type\_type.scss */
-.sg-anchor {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 500;
-  font-size: 1.618em;
-}
-
 /* line 5, ../scss/styleguide.scss */
 .sg-color--green {
   background: #1fae65;
@@ -251,6 +202,55 @@ Defines colors for use in the application
 /* line 120, ../scss/styleguide.scss */
 .sg-color--red-4 {
   background: #fca58a;
+}
+
+/* line 129, ../scss/styleguide.scss */
+.sg-h1, .sg-h2, .sg-h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 900;
+}
+
+/* line 134, ../scss/styleguide.scss */
+.sg-font-primary {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+}
+
+/* line 139, ../scss/styleguide.scss */
+.sg-font-primary-condensed {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 1em;
+}
+
+/* line 144, ../scss/styleguide.scss */
+.sg-font-secondary {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2em;
+}
+
+/* line 149, ../scss/styleguide.scss */
+.sg-font-secondary-condensed {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2em;
+}
+
+/* line 154, ../scss/styleguide.scss */
+.sg-font-supplementary {
+  font-family: arial, sans-serif;
+  font-size: 2em;
+}
+
+/* line 159, ../scss/styleguide.scss */
+.sg-font-supplementary {
+  font-family: arial, sans-serif;
+  font-size: 2em;
+}
+
+/* line 166, ../scss/styleguide.scss */
+.sg-anchor {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 1.618em;
 }
 
 /*# sourceMappingURL=styleguide.css.map */

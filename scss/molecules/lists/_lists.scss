@@ -45,12 +45,13 @@
     border-bottom: map-get($list-group-settings, border); /* 2 */
   }
 
-  // @include themify($item: bg, $theme: primary, $scope: list-group-item);
-  // @include themify($item: bg, $theme: secondary, $scope: list-group-item);
-  // @include themify($item: bg, $theme: info, $scope: list-group-item);
-  // @include themify($item: bg, $theme: alert, $scope: list-group-item);
-  // @include themify($item: bg, $theme: warning, $scope: list-group-item);
-  // @include themify($item: bg, $theme: success, $scope: list-group-item);
+  @include themify($theme: 'primary', $hover: true);
+  @include themify($theme: 'secondary', $hover: true);
+  @include themify($theme: 'alert', $hover: true);
+  @include themify($theme: 'info', $hover: true);
+  @include themify($theme: 'success', $hover: true);
+  @include themify($theme: 'warning', $hover: true);
+
 }
 
 a.list-group-item {
