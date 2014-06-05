@@ -1,16 +1,1 @@
 @import '../atoms/globals';
-.side-nav {
-    li a:not(.button) {
-  color: $white-1;
-  border-left: 4px solid transparent;
-      &:hover {
-  color: $yellow;
-  border-left: 4px solid $yellow;
-}
-}
-}
-
-
-.dataTables_wrapper {
-  width: 98%;
-}

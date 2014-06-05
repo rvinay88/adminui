@@ -3,9 +3,9 @@
 $table-padding: 0.7em;
 $table-border: $white-3;
 
-$table-hover-color: $white-3;
+$table-hover-color: darken(#f5f5f5, 10%);
 
-$table-striped-color: $white-1;
+$table-striped-color: #f5f5f5;
 
 $table-settings: (
   "border-color": $white-3,

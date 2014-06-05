@@ -1,3 +1,4 @@
+@charset "IBM437";
 /* Admin UI for runway2street.com
 *   Author: Vinay Raghu
 */
@@ -479,7 +480,7 @@ Defines colors for use in the application
  * 3. Invert colors for active/primary - white text on black bg
  */
 /* line 6, c:\wamp\www\adminui\scss\atoms\helpers\_utilities.scss */
-html, body, .sidebar {
+html, body {
   height: 100%;
 }
 
@@ -530,6 +531,8 @@ http://sassmeister.com/gist/f13878ea080877ed727c
   margin-right: 0;
   margin-left: 0;
   padding: 1em;
+  padding-top: -webkit-calc(45px + 1em);
+  padding-top: calc(45px + 1em);
 }
 
 /*
@@ -546,7 +549,7 @@ http://sassmeister.com/gist/f13878ea080877ed727c
  * 3. Invert colors for active/primary - white text on black bg
  */
 /* line 6, ../scss/atoms/helpers/_utilities.scss */
-html, body, .sidebar {
+html, body {
   height: 100%;
 }
 
@@ -678,7 +681,7 @@ Defines colors for use in the application
  * 3. Invert colors for active/primary - white text on black bg
  */
 /* line 6, c:\wamp\www\adminui\scss\atoms\helpers\_utilities.scss */
-html, body, .sidebar {
+html, body {
   height: 100%;
 }
 
@@ -807,25 +810,36 @@ Button Extends
 /* line 32, ../scss/molecules/buttons/_mixins.scss */
 .btn-small {
   font-size: 0.9em;
-  line-height: 20px;
+  line-height: 5px;
 }
 
 /* line 32, ../scss/molecules/buttons/_mixins.scss */
 .btn-medium {
   font-size: 1em;
-  line-height: 30px;
+  line-height: 20px;
 }
 
 /* line 32, ../scss/molecules/buttons/_mixins.scss */
 .btn-large {
   font-size: 1.2em;
-  line-height: 45px;
+  line-height: 25px;
 }
 
 /* line 32, ../scss/molecules/buttons/_mixins.scss */
 .btn-expand {
   width: 100%;
-  line-height: 45px;
+  line-height: 25px;
+}
+
+/* line 31, ../scss/molecules/buttons/_buttons.scss */
+.btn + .btn {
+  margin-left: 1em;
+}
+
+/* line 36, ../scss/molecules/buttons/_buttons.scss */
+.inline-buttons > .btn {
+  margin: 1em;
+  float: left;
 }
 
 /*
@@ -850,7 +864,7 @@ Defines colors for use in the application
  * 3. Invert colors for active/primary - white text on black bg
  */
 /* line 6, c:\wamp\www\adminui\scss\atoms\helpers\_utilities.scss */
-html, body, .sidebar {
+html, body {
   height: 100%;
 }
 
@@ -1035,7 +1049,7 @@ Defines colors for use in the application
  * 3. Invert colors for active/primary - white text on black bg
  */
 /* line 6, c:\wamp\www\adminui\scss\atoms\helpers\_utilities.scss */
-html, body, .sidebar {
+html, body {
   height: 100%;
 }
 
@@ -1225,12 +1239,11 @@ figure {
 /* line 15, ../scss/molecules/panels/_mixins.scss */
 .panel .panel-body {
   padding: 1em;
-  background: white;
+  background: transparent;
 }
 /* line 20, ../scss/molecules/panels/_mixins.scss */
 .panel .panel-footer {
   padding: 1em;
-  background: white;
 }
 /* line 63, c:\wamp\www\adminui\scss\atoms\helpers\_mixins.scss */
 .panel-primary {
@@ -1505,7 +1518,7 @@ We have four variations of tables `table`, `table-bordered`, `table-striped` and
 }
 /* line 24, ../scss/molecules/tables/_mixins.scss */
 .table-striped tbody tr:nth-child(odd) {
-  background: #e6e6e6;
+  background: whitesmoke;
 }
 /* line 38, ../scss/molecules/tables/_mixins.scss */
 .table-striped th {
@@ -1541,7 +1554,7 @@ We have four variations of tables `table`, `table-bordered`, `table-striped` and
 }
 /* line 32, ../scss/molecules/tables/_mixins.scss */
 .table-hover tbody tr:hover {
-  background: #f2f2f2;
+  background: gainsboro;
 }
 /* line 38, ../scss/molecules/tables/_mixins.scss */
 .table-hover th {
@@ -1583,6 +1596,63 @@ blockquote p {
 
 /*
 
+Pagination
+====
+
+```
+<div>
+  <ul class="pagination">
+    <li class="disabled"><a href="#">«</a></li>
+    <li class="active"><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+    <li><a href="#">»</a></li>
+  </ul>
+</div>
+```
+
+*/
+/* line 23, ../scss/organisms/pagination/_pagination.scss */
+.pagination ul {
+  display: inline-block;
+  list-style: none;
+}
+/* line 27, ../scss/organisms/pagination/_pagination.scss */
+.pagination > li {
+  display: inline;
+}
+/* line 29, ../scss/organisms/pagination/_pagination.scss */
+.pagination > li.disabled > a {
+  cursor: not-allowed;
+}
+/* line 32, ../scss/organisms/pagination/_pagination.scss */
+.pagination > li > a {
+  position: relative;
+  float: left;
+  margin-right: .5em;
+  border: 1px solid #e4e4e4;
+  border-radius: 2px;
+  background-color: transparent;
+  color: #7b7b7b;
+  padding: .6em .9em;
+  line-height: 1.42857143;
+  text-decoration: none;
+}
+/* line 43, ../scss/organisms/pagination/_pagination.scss */
+.pagination > li > a:hover {
+  background: #23709e;
+  color: white;
+}
+
+/* line 1, ../scss/organisms/data-tables/_data-tables.scss */
+.dataTables_filter [type="search"] {
+  width: auto;
+}
+
+/*
+
 Colors
 ======
 
@@ -1603,7 +1673,7 @@ Defines colors for use in the application
  * 3. Invert colors for active/primary - white text on black bg
  */
 /* line 6, c:\wamp\www\adminui\scss\atoms\helpers\_utilities.scss */
-html, body, .sidebar {
+html, body {
   height: 100%;
 }
 
@@ -1617,20 +1687,71 @@ html, body, .sidebar {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 3, ../scss/organisms/_organisms.scss */
+/* line 1, ../scss/templates/header/_header.scss */
+.header-body {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+
+/* line 1, ../scss/templates/navigation/_navigation.scss */
+.title-area {
+  width: 150px;
+}
+
+/*
+
+Colors
+======
+
+Defines colors for use in the application
+
+*/
+/*
+ * Prevent underline on links. Used for links styled as buttons, where underline is not preferable
+ */
+/*
+ * Ratios
+ */
+/*
+ * Common easing for the entire website
+ */
+/* 1. Set background / text to theme color
+ * 2. Returns the corresponding theme color
+ * 3. Invert colors for active/primary - white text on black bg
+ */
+/* line 6, c:\wamp\www\adminui\scss\atoms\helpers\_utilities.scss */
+html, body {
+  height: 100%;
+}
+
+/**
+ * Adapted from http://nicolasgallagher.com/micro-clearfix-hack/
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+/* line 3, ../scss/templates/sidenav/_sidenav.scss */
 .side-nav li a:not(.button) {
   color: #e6e6e6;
   border-left: 4px solid transparent;
 }
-/* line 6, ../scss/organisms/_organisms.scss */
+/* line 6, ../scss/templates/sidenav/_sidenav.scss */
 .side-nav li a:not(.button):hover {
   color: #ff9902;
   border-left: 4px solid #ff9902;
 }
 
-/* line 14, ../scss/organisms/_organisms.scss */
-.dataTables_wrapper {
-  width: 98%;
+/* line 13, ../scss/templates/sidenav/_sidenav.scss */
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  margin-top: 45px;
 }
 
 /*# sourceMappingURL=style.css.map */

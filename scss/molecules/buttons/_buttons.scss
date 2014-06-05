@@ -27,3 +27,10 @@ We have 5 variations of sizes
 */
 
 @import 'extends';
+
+.inline-buttons {
+  > .btn {
+    margin: 1em;
+    float: left;
+  }
+}

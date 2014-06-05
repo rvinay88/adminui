@@ -23,7 +23,7 @@ http://sassmeister.com/gist/f13878ea080877ed727c
 
   background: #333;
 
-  @extend %full-height;
+  // @extend %full-height;
 }
 
 .content-wrapper {
@@ -35,10 +35,9 @@ http://sassmeister.com/gist/f13878ea080877ed727c
 
 .content-area {
   float: right;
-
-  width: -webkit-calc((((100% - (150px)) / (1))) * 1);
   width:         calc((((100% - (150px)) / (1))) * 1);
   margin-right: 0;
   margin-left: 0;
   padding: 1em;
+  padding-top: calc(45px + 1em);
 }

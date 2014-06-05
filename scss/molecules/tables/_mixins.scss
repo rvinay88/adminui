@@ -30,7 +30,7 @@
   @if($feature == "hover") {
     tbody tr {
       &:hover {
-        background: lighten($table-striped-color, 5%);
+        background: $table-hover-color;
       }
     }
   }
