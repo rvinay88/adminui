@@ -3,11 +3,11 @@
 .panel {
   @include panel($theme: $white-2);
 
-  @include themify($theme: 'primary');
-  @include themify($theme: 'secondary');
-  @include themify($theme: 'alert');
-  @include themify($theme: 'info');
-  @include themify($theme: 'success');
-  @include themify($theme: 'warning');
+  // @include themify($theme: 'primary');
+  // @include themify($theme: 'secondary');
+  // @include themify($theme: 'alert');
+  // @include themify($theme: 'info');
+  // @include themify($theme: 'success');
+  // @include themify($theme: 'warning');
 }
 
